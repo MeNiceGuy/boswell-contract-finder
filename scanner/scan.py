@@ -7,6 +7,9 @@ GitHub Pages viewer.
 
 Run locally:  python scanner/scan.py
 Optional env: SAM_API_KEY (used if SAM.gov blocks the public search endpoint)
+              SAM_SOURCE=connector (fetch SAM.gov through Muse's registered
+              SAM connector helper instead of the key/public paths; the
+              GitHub Actions run leaves it unset and is unaffected)
 """
 import base64
 import datetime as dt
@@ -14,6 +17,7 @@ import html
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -215,6 +219,135 @@ def sam_detail_official(it, key):
     except ValueError:
         body = strip_html(r.text)
     return body, it.get("set_aside", ""), it.get("naics", [])
+
+
+# ------------------------------------------------------- SAM via connector
+# Alternate SAM source, selected with SAM_SOURCE=connector: Muse's
+# registered SAM connector helper runs the same Opportunities API with the
+# credential swapped in by the runtime, so this process never holds a key.
+# The default (env unset) public/official paths above are untouched.
+SAM_HELPER = Path(os.environ.get(
+    "SAM_CONNECTOR_HELPER",
+    str(Path.home() / "workspace/custom-connectors/custom.sam-gov/bin/sam_api.py")))
+SAM_DESC_HELPER = Path(os.environ.get(
+    "SAM_CONNECTOR_DESC_HELPER",
+    str(Path.home() / "workspace/custom-connectors/custom.sam-gov/bin/sam_desc.py")))
+
+
+def _sam_connector_desc(nid):
+    """Notice description body via the connector's noticedesc companion
+    script (same registered credential pattern, api.sam.gov host). Any
+    failure returns empty, which fails closed: no body, no orals verdict
+    beyond what the title text earned."""
+    try:
+        r = subprocess.run([sys.executable, str(SAM_DESC_HELPER), "--noticeid", nid],
+                           capture_output=True, text=True, timeout=120)
+        if r.returncode != 0:
+            return ""
+        return strip_html(json.loads(r.stdout).get("description", ""))
+    except Exception:
+        return ""
+
+
+def _sam_helper(params, full=False):
+    cmd = [sys.executable, str(SAM_HELPER), "opportunities"]
+    for k, v in params.items():
+        cmd += ["--param", f"{k}={v}"]
+    if full:
+        cmd.append("--full")
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+    if r.returncode != 0:
+        raise RuntimeError(((r.stderr or "") + (r.stdout or "")).strip()[:300] or "SAM helper failed")
+    return json.loads(r.stdout)
+
+
+def _sam_connector_pull(params, full=False):
+    """One helper search, paged with offset until totalRecords is covered.
+    The helper prints opportunitiesData when --full, opportunities when not."""
+    out, offset, total = [], 0, None
+    while total is None or len(out) < total:
+        q = dict(params)
+        q["limit"] = "1000"
+        q["offset"] = str(offset)
+        data = _sam_helper(q, full=full)
+        recs = data.get("opportunitiesData") or data.get("opportunities") or []
+        total = data.get("totalRecords") or 0
+        out += recs
+        if len(recs) < 1000:
+            break
+        offset += 1000
+    return out
+
+
+def _sam_connector_queries():
+    frm = (NOW - dt.timedelta(days=120)).strftime("%m/%d/%Y")
+    to = NOW.strftime("%m/%d/%Y")
+    qs = [{"postedFrom": frm, "postedTo": to, "ncode": n["code"]} for n in PROFILE["naics"]]
+    qs += [{"postedFrom": frm, "postedTo": to, "title": q} for q in PROFILE["federal_searches"]]
+    return qs
+
+
+def scan_sam_connector():
+    found = {}
+    allowed = set(PROFILE["notice_types"])
+
+    def norm(o, naics=None):
+        t = TYPE_FROM_NAME.get((o.get("type") or "").strip().lower(), "")
+        path = (o.get("fullParentPathName") or "").split(".")
+        nid = o.get("noticeId") or ""
+        return {"id": f"SAM-{nid}", "src": "SAM", "title": o.get("title") or "Untitled notice",
+                "sol": o.get("solicitationNumber") or "", "type": t, "dept": path[0] if path else "",
+                "agency": path[1] if len(path) > 1 else "", "office": path[-1] if len(path) > 2 else "",
+                "posted": o.get("postedDate") or "", "due": o.get("responseDeadLine") or "",
+                "snippet": "", "desc": "", "naics": [naics or o.get("naicsCode") or ""],
+                "set_aside": "", "category": "",
+                "url": o.get("uiLink") or f"https://sam.gov/opp/{nid}/view"}
+
+    for q in _sam_connector_queries():
+        for o in _sam_connector_pull(q):
+            if (o.get("active") or "").lower() != "yes":
+                continue
+            it = norm(o, q.get("ncode"))
+            if it["type"] in allowed and it["id"] not in found:
+                found[it["id"]] = it
+    return list(found.values())
+
+
+SAM_FULL_CACHE = None
+
+
+def _sam_full_cache():
+    """noticeId -> full record, built lazily by re-running the connector
+    queries with --full (the search API ignores a noticeId filter, so a
+    per-item detail query is not possible). A build error leaves whatever
+    accumulated and is reported on stderr once; lookups then miss and the
+    detail read fails closed."""
+    global SAM_FULL_CACHE
+    if SAM_FULL_CACHE is None:
+        SAM_FULL_CACHE = {}
+        try:
+            for q in _sam_connector_queries():
+                for o in _sam_connector_pull(q, full=True):
+                    nid = o.get("noticeId")
+                    if nid and nid not in SAM_FULL_CACHE:
+                        SAM_FULL_CACHE[nid] = o
+        except Exception as e:
+            print(f"SAM connector detail cache incomplete: {e}", file=sys.stderr)
+    return SAM_FULL_CACHE
+
+
+def sam_detail_connector(it):
+    """Detail read for connector mode. The --full records supply the real
+    set-aside and the NAICS list; the description body comes from the
+    noticedesc companion script, so the gates screen the full notice text
+    exactly as in the other modes. A failed description fetch returns an
+    empty body (fail closed)."""
+    nid = it["id"][4:] if (it.get("id") or "").startswith("SAM-") else (it.get("id") or "")
+    rec = _sam_full_cache().get(nid)
+    if not rec:
+        return "", it.get("set_aside", ""), it.get("naics", [])
+    naics = rec.get("naicsCodes") or ([rec["naicsCode"]] if rec.get("naicsCode") else [])
+    return _sam_connector_desc(nid), rec.get("typeOfSetAside") or "", naics
 
 
 # ---------------------------------------------------------------- states
@@ -472,20 +605,28 @@ def build_worklist(items):
 def main():
     results, counts, failures = [], {}, []
     key = os.environ.get("SAM_API_KEY", "").strip()
+    sam_source = os.environ.get("SAM_SOURCE", "").strip().lower()
     sam_mode = None
     runners = {"VA": scan_va, "SC": scan_sc, "NC": scan_nc, "NV": scan_nv}
     if "SAM" in PROFILE["sources"]:
-        try:
-            items = scan_sam_public(); sam_mode = "public"
-        except Exception as e:
-            if key:
-                try:
-                    items = scan_sam_official(key); sam_mode = "official"
-                except Exception as e2:
-                    items = []; failures.append({"source": "SAM", "message": f"SAM.gov API failed: {e2}"})
-            else:
+        if sam_source == "connector":
+            try:
+                items = scan_sam_connector(); sam_mode = "api"
+            except Exception as e:
                 items = []
-                failures.append({"source": "SAM", "message": f"SAM.gov blocked the public search ({e}). Add a free SAM.gov API key as the SAM_API_KEY repository secret."})
+                failures.append({"source": "SAM", "message": f"SAM connector failed: {e}"})
+        else:
+            try:
+                items = scan_sam_public(); sam_mode = "public"
+            except Exception as e:
+                if key:
+                    try:
+                        items = scan_sam_official(key); sam_mode = "official"
+                    except Exception as e2:
+                        items = []; failures.append({"source": "SAM", "message": f"SAM.gov API failed: {e2}"})
+                else:
+                    items = []
+                    failures.append({"source": "SAM", "message": f"SAM.gov blocked the public search ({e}). Add a free SAM.gov API key as the SAM_API_KEY repository secret."})
         counts["SAM"] = len(items); results += items
         print(f"SAM ({sam_mode}): {len(items)}", file=sys.stderr)
     for code in ("VA", "SC", "NC", "NV"):
@@ -514,7 +655,12 @@ def main():
     top = sorted((i for i in results if i["src"] == "SAM" and not i["out"]), key=lambda i: -i["score"])
     for it in top:
         try:
-            body, sa, naics = sam_detail_public(it) if sam_mode == "public" else sam_detail_official(it, key)
+            if sam_mode == "public":
+                body, sa, naics = sam_detail_public(it)
+            elif sam_mode == "api":
+                body, sa, naics = sam_detail_connector(it)
+            else:
+                body, sa, naics = sam_detail_official(it, key)
             if sa and not it.get("set_aside"):
                 it["set_aside"] = sa
             if naics:
