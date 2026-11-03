@@ -247,21 +247,36 @@ def scan_sc():
     return out
 
 
+def _evp_token(page_text):
+    """Power Pages no longer renders the anti-forgery token into the page HTML;
+    the portal's own shell fetches it as a fragment from /_layout/tokenhtml.
+    Try the page first (older layout), then that endpoint, same session."""
+    m = re.search(r'name="__RequestVerificationToken"[^>]*value="([^"]+)"', page_text) or \
+        re.search(r'value="([^"]+)"[^>]*name="__RequestVerificationToken"', page_text)
+    if m:
+        return m.group(1)
+    frag = get("https://evp.nc.gov/_layout/tokenhtml",
+               headers={"X-Requested-With": "XMLHttpRequest", "Referer": "https://evp.nc.gov/solicitations/"}).text
+    m = re.search(r'name="__RequestVerificationToken"[^>]*value="([^"]+)"', frag) or \
+        re.search(r'value="([^"]+)"[^>]*name="__RequestVerificationToken"', frag)
+    if not m:
+        raise RuntimeError("eVP anti-forgery token not found (page and /_layout/tokenhtml)")
+    return m.group(1)
+
+
 def scan_nc():
-    page = S.get("https://evp.nc.gov/solicitations/", timeout=60)
-    page.raise_for_status()
-    t = page.text
-    tok = re.search(r'name="__RequestVerificationToken"[^>]*value="([^"]+)"', t) or re.search(r'value="([^"]+)"[^>]*name="__RequestVerificationToken"', t)
+    t = get("https://evp.nc.gov/solicitations/").text
+    tok = _evp_token(t)
     lay_attr = re.search(r'data-view-layouts="([^"]+)"', t)
     get_url = re.search(r'data-get-url="([^"]+)"', t)
-    if not (tok and lay_attr and get_url):
+    if not (lay_attr and get_url):
         raise RuntimeError("eVP page layout changed; search grid not found")
     lay = json.loads(base64.b64decode(html.unescape(lay_attr.group(1))))[0]
     body = {"base64SecureConfiguration": lay["Base64SecureConfiguration"], "sortExpression": lay.get("SortExpression", ""),
             "search": "", "page": 1, "pageSize": 1000, "pagingCookie": "", "filter": None, "metaFilter": "3=0",
             "nlSearchFilter": "", "timezoneOffset": 300, "customParameters": [], "entityName": None, "entityId": None}
     r = S.post("https://evp.nc.gov" + html.unescape(get_url.group(1)), json=body, timeout=90,
-               headers={"__RequestVerificationToken": html.unescape(tok.group(1)), "X-Requested-With": "XMLHttpRequest"})
+               headers={"__RequestVerificationToken": html.unescape(tok), "X-Requested-With": "XMLHttpRequest"})
     r.raise_for_status()
     out = []
     for rec in r.json().get("Records") or []:
