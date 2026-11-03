@@ -26,6 +26,22 @@ ROOT = Path(__file__).resolve().parent.parent
 PROFILE = json.loads((ROOT / "config" / "profile.json").read_text())
 OUT = ROOT / "docs" / "data" / "results.json"
 
+
+def _load_stage_exclusions():
+    """Verdicts handed back by the human verified-draft stage (attachments read,
+    item closed). Missing or unreadable file means no exclusions, never a crash."""
+    f = ROOT / "config" / "stage-exclusions.json"
+    if not f.exists():
+        return []
+    try:
+        rows = json.loads(f.read_text()).get("exclusions", [])
+    except (ValueError, OSError):
+        return []
+    return [r for r in rows if isinstance(r, dict) and (r.get("match") or "").strip()]
+
+
+STAGE_EXCLUSIONS = _load_stage_exclusions()
+
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/130.0 Safari/537.36")
 S = requests.Session()
@@ -313,6 +329,18 @@ def scan_nv():
 
 
 # ---------------------------------------------------------------- scoring
+def stage_exclusion_for(it):
+    """The stage exclusion whose match value equals this item's solicitation
+    number or item id (case-insensitive, exact), or None."""
+    sol = (it.get("sol") or "").strip().lower()
+    iid = (it.get("id") or "").strip().lower()
+    for ex in STAGE_EXCLUSIONS:
+        m = (ex.get("match") or "").strip().lower()
+        if m and (m == sol or m == iid):
+            return ex
+    return None
+
+
 def score(it):
     p = PROFILE
     why = []
@@ -373,6 +401,15 @@ def score(it):
     hay = (it.get("title", "") + " " + it.get("sol", "")).lower()
     if any(h and h.lower() in hay for h in p.get("handled", [])):
         fails.append("Already handled")
+    # Stage exclusions close the loop: the verified-draft stage already
+    # read this item's attachments and closed it, so it screens out no
+    # matter how the notice text scores. Only an item that would
+    # otherwise display picks up the stage reason; an item already out
+    # for another reason keeps that original reason.
+    if not fails:
+        ex = stage_exclusion_for(it)
+        if ex:
+            fails.append("Closed by verified-draft stage: " + (ex.get("reason") or "closed on document read"))
     if g["orals"] == "guaranteed":
         s += 10; why.append("Notice states no oral presentations")
     if g["remote"]:
@@ -397,6 +434,38 @@ def score(it):
     it["why"] = why
     it["relevant"] = relevant
     return it
+
+
+def _due_sort(it):
+    """(0, timestamp) for a parseable due date; (1, 0.0) so items with no
+    usable due date sort last within their worklist tier."""
+    iso = to_iso(it.get("due"))
+    if not iso:
+        return (1, 0.0)
+    try:
+        return (0, dt.datetime.fromisoformat(iso).timestamp())
+    except ValueError:
+        return (1, 0.0)
+
+
+def build_worklist(items):
+    """"Closest to confirmed" queue: unconfirmed items that are not out,
+    ordered by (a) fewest unconfirmed reasons, (b) soonest due date
+    (no due date last in the tier), (c) highest score. Ordering only:
+    this never promotes an item into Matches or changes a gate outcome."""
+    cand = [i for i in items if i.get("unconfirmed") and not i["out"]]
+
+    def key(i):
+        reasons = (i.get("view") or {}).get("unconfirmed") or []
+        no_due, ts = _due_sort(i)
+        return (len(reasons), no_due, ts, -i.get("score", 0))
+
+    cand.sort(key=key)
+    return [{"id": i["id"], "title": i.get("title", ""), "src": i.get("src", ""),
+             "agency": i.get("agency") or i.get("dept") or "", "due": i.get("due") or "",
+             "score": i.get("score", 0), "url": i.get("url", ""),
+             "reasons": list((i.get("view") or {}).get("unconfirmed") or [])}
+            for i in cand[:25]]
 
 
 # ---------------------------------------------------------------- main
@@ -464,11 +533,13 @@ def main():
         i.pop("gate", None); i.pop("desc_url", None)
         i["desc"] = (i.get("desc") or "")[:1500]
     keep.sort(key=lambda i: (i["out"], i.get("unconfirmed", False), -i["score"]))
+    worklist = build_worklist(keep)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
         "generated_at": NOW.isoformat(), "company": PROFILE["company"], "counts": counts,
         "sam_mode": sam_mode, "failures": failures, "min_days": PROFILE["min_days"],
         "set_asides": PROFILE["set_asides"], "manual_portals": PROFILE["manual_portals"],
+        "worklist": worklist,
         "items": keep}, indent=1))
     live = [i for i in keep if not i["out"] and not i.get("unconfirmed")]
     unc = [i for i in keep if i.get("unconfirmed") and not i["out"]]
