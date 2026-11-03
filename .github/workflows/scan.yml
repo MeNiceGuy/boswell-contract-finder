@@ -1,0 +1,45 @@
+name: Daily contract scan
+
+on:
+  schedule:
+    # 12:37 UTC on weekdays = 7:37 AM Eastern Standard Time (8:37 AM during daylight saving)
+    - cron: "37 12 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contract-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scan
+        env:
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+        run: python scanner/scan.py
+
+      - name: Publish results
+        run: |
+          git config user.name "contract-scan-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/results.json
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "Daily scan results $(date -u +%Y-%m-%d)"
+            git push
+          fi
