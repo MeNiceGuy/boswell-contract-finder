@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-03T00:45:02.603651+00:00",
+ "generated_at": "2026-11-03T01:04:18.701664+00:00",
  "company": "Boswell Consulting Agency LLC",
  "counts": {
   "SAM": 0,
   "VA": 519,
-  "SC": 0,
-  "NC": 0,
+  "SC": 128,
+  "NC": 269,
   "NV": 21
  },
  "sam_mode": null,
@@ -13,14 +13,6 @@
   {
    "source": "SAM",
    "message": "SAM.gov blocked the public search (HTTP 406). Add a free SAM.gov API key as the SAM_API_KEY repository secret."
-  },
-  {
-   "source": "SC",
-   "message": "HTTPSConnectionPool(host='scbo.sc.gov', port=443): Max retries exceeded with url: /online-edition?c=4-2026-11-02 (Caused by ConnectTimeoutError(<HTTPSConnection(host='scbo.sc.gov', port=443) at 0x7f9719f38c20>, 'Connection to scbo.sc.gov timed out. (connect timeout=60)'))"
-  },
-  {
-   "source": "NC",
-   "message": "eVP page layout changed; search grid not found"
   }
  ],
  "min_days": 7,
@@ -318,6 +310,43 @@
    "why": [
     "Keywords: research, survey, analysis",
     "Category: Professional Services"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-5400030281-Department of Education",
+   "src": "SC",
+   "title": "Student Transportation Assessment and Review",
+   "sol": "5400030281",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Department of Education",
+   "office": "",
+   "posted": "2026-10-14T00:00:00-05:00",
+   "due": "2027-01-07T11:00:00-05:00",
+   "snippet": "The purpose of this Request for Proposals (RFP) is to obtain expert consulting services to evaluate the effectiveness, efficiency, compliance, and sustainability of current student transportation programs and to identify opportunities for operational improveme",
+   "desc": "The purpose of this Request for Proposals (RFP) is to obtain expert consulting services to evaluate the effectiveness, efficiency, compliance, and sustainability of current student transportation programs and to identify opportunities for operational improvements, cost savings, enhanced service delivery, and alignment with the practices of the state and South Carolina Department of Education.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://apps.sceis.sc.gov/SCSolicitationWeb/solicitationAttachment.do?solicitnumber=5400030281",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 38,
+   "why": [
+    "Keywords: assessment, consulting",
+    "Category: Consultant/Professional"
    ],
    "relevant": true
   },
@@ -664,6 +693,190 @@
    "relevant": true
   },
   {
+   "id": "SC-3062-York County",
+   "src": "SC",
+   "title": "Consulting Services for the Development and Implementation of a Dry Weather Screening Program",
+   "sol": "3062",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "York County",
+   "office": "",
+   "posted": "2026-10-30T00:00:00-05:00",
+   "due": "2026-12-10T11:00:00-05:00",
+   "snippet": "York County is seeking proposals from qualified consulting firms to develop and implement a Dry Weather Field Screening and Analytical Monitoring (Dry Weather Screening) Program for areas within the State-designated Small Municipal Separate Storm Sewer System ",
+   "desc": "York County is seeking proposals from qualified consulting firms to develop and implement a Dry Weather Field Screening and Analytical Monitoring (Dry Weather Screening) Program for areas within the State-designated Small Municipal Separate Storm Sewer System (SMS4) boundary of York County.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://www.yorkcountygov.com/437/Active-Bids",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 34,
+   "why": [
+    "Keywords: consulting",
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-3060-York County",
+   "src": "SC",
+   "title": "Consulting Services for the Development of an Adequate Public Facilities/Concurrency Ordinance",
+   "sol": "3060",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "York County",
+   "office": "",
+   "posted": "2026-10-27T00:00:00-05:00",
+   "due": "2026-11-20T11:00:00-05:00",
+   "snippet": "York County is seeking proposals from qualified consulting firms to develop an \u201cAdequate Public Facilities Ordinance\u201d (APFO), also considered \u201cconcurrency\u201d regulation.",
+   "desc": "York County is seeking proposals from qualified consulting firms to develop an \u201cAdequate Public Facilities Ordinance\u201d (APFO), also considered \u201cconcurrency\u201d regulation.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://www.yorkcountygov.com/437/Active-Bids",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 34,
+   "why": [
+    "Keywords: consulting",
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-n/a-City of West Columbia",
+   "src": "SC",
+   "title": "Request for Qualifications- City of West Columbia: Comprehensive Plan Update",
+   "sol": "n/a",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "City of West Columbia",
+   "office": "",
+   "posted": "2026-10-05T00:00:00-05:00",
+   "due": "2026-11-20T16:00:00-05:00",
+   "snippet": "The City of West Columbia, SC, seeks qualified planning consultants to update its 2018 Comprehensive Plan. The selected firm will develop a creative, dynamic policy guide balancing growth with economic vitality, resiliency, equitable development, infrastructur",
+   "desc": "The City of West Columbia, SC, seeks qualified planning consultants to update its 2018 Comprehensive Plan. The selected firm will develop a creative, dynamic policy guide balancing growth with economic vitality, resiliency, equitable development, infrastructure capacity, and community character. Driven by robust public engagement and modern best practices, the plan will establish actionable short-, mid-, and long-term goals to guide the city\u2019s future development decisions.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://westcolumbiasc.gov/procurement-bid-opportunities/",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 34,
+   "why": [
+    "Keywords: plan update",
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-n/a-City of Folly Beach",
+   "src": "SC",
+   "title": "REQUEST FOR PROPOSALS (RFP 03-26) CITY OF FOLLY BEACH SHORT-TERM RENTAL ORDINANCE STUDY",
+   "sol": "n/a",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "City of Folly Beach",
+   "office": "",
+   "posted": "2026-08-19T00:00:00-05:00",
+   "due": "2027-09-28T14:00:00-05:00",
+   "snippet": "The City of Folly Beach seeks proposals for a Short-Term Rental Ordinance Study to evaluate the impacts of proposed ordinance amendments. The selected vendor will meet with City Council before and after the study to define amendments, establish data sources, a",
+   "desc": "The City of Folly Beach seeks proposals for a Short-Term Rental Ordinance Study to evaluate the impacts of proposed ordinance amendments. The selected vendor will meet with City Council before and after the study to define amendments, establish data sources, and review findings. The project also includes consultation with City staff and review of the City\u2019s short-term rental regulatory history.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://cityoffollybeach.com/departments/finance/rfp___rfq.php",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 34,
+   "why": [
+    "Keywords: study",
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-677-TM27-02",
+   "src": "NC",
+   "title": "Facility Use and Needs Assessment RFP",
+   "sol": "677-TM27-02",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "TOWN OF WENDELL",
+   "office": "",
+   "posted": "2026-10-23T00:00:00-05:00",
+   "due": "2026-11-20T15:00:00-05:00",
+   "snippet": "The Town of Wendell is issuing this Request for Proposals (RFP) to solicit qualified firms to provide a comprehensive facility use and needs assessment that evaluates all Town-owned properties. As Wendell experiences rapid and sustained growth, the Town seeks ",
+   "desc": "The Town of Wendell is issuing this Request for Proposals (RFP) to solicit qualified firms to provide a comprehensive facility use and needs assessment that evaluates all Town-owned properties. As Wendell experiences rapid and sustained growth, the Town seeks a consultant capable of examining current space utilization, departmental adjacencies, workflow relationships, and opportunities for operational optimization across its facilities. This assessment will help the Town develop a strategic and scalable approach to managing its physical assets in alignment with anticipated community and organizational expansion. The selected firm should demonstrate strong experience supporting municipalities through similar assessments and delivering clear, actionable recommendations that guide long\u2011term planning and investment.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=e1f7643a-03cf-f111-a05c-001dd80d92a5",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 34,
+   "why": [
+    "Keywords: organizational, needs assessment, strategic, assessment"
+   ],
+   "relevant": true
+  },
+  {
    "id": "VA-IV107592",
    "src": "VA",
    "title": "VCCS 2025-2026 Small Purchase Procurement for AE Services",
@@ -969,6 +1182,78 @@
    "relevant": true
   },
   {
+   "id": "SC-2627-19LB-Horry County Schools",
+   "src": "SC",
+   "title": "Fine Arts Facilities Audit and Needs Assessment",
+   "sol": "2627-19LB",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Horry County Schools",
+   "office": "",
+   "posted": "2026-10-21T00:00:00-05:00",
+   "due": "2026-11-20T13:30:00-05:00",
+   "snippet": "The School District seeks qualified consultants to conduct a comprehensive Fine Arts Facilities Audit and Needs Assessment for designated schools. The study will evaluate existing facilities, equipment, instructional spaces, accessibility, and long-term facili",
+   "desc": "The School District seeks qualified consultants to conduct a comprehensive Fine Arts Facilities Audit and Needs Assessment for designated schools. The study will evaluate existing facilities, equipment, instructional spaces, accessibility, and long-term facility needs for all Fine Arts programs.",
+   "category": "Services",
+   "naics": [],
+   "set_aside": "",
+   "url": "http://www.bidnetdirect.com//horrycountyschools",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 30,
+   "why": [
+    "Keywords: study, needs assessment, assessment"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-5400030350-Department of Transportation",
+   "src": "SC",
+   "title": "SCDOT Strategic Plan",
+   "sol": "5400030350",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Department of Transportation",
+   "office": "",
+   "posted": "2026-10-20T00:00:00-05:00",
+   "due": "2026-12-02T11:00:00-05:00",
+   "snippet": "The South Carolina Department of Transportation is seeking proposals from qualified consulting firms to develop a comprehensive Agency Strategic Plan. The Department's current strategic framework requires updating to reflect evolving transportation technologie",
+   "desc": "The South Carolina Department of Transportation is seeking proposals from qualified consulting firms to develop a comprehensive Agency Strategic Plan. The Department's current strategic framework requires updating to reflect evolving transportation technologies, federal and state policy priorities, funding realities, and changing travel patterns. Specifically, the new plan needs to integrate the South Carolina Modernization legislation (Act 177) passed in 2026.",
+   "category": "Services",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://apps.sceis.sc.gov/SCSolicitationWeb/solicitationAttachment.do?solicitnumber=5400030350",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 30,
+   "why": [
+    "Keywords: strategic plan, strategic, consulting"
+   ],
+   "relevant": true
+  },
+  {
    "id": "VA-IV130867",
    "src": "VA",
    "title": "Floyd County Seeking Professional Engineering for Infrastructure for Workforce Housing",
@@ -1004,6 +1289,43 @@
     "Keywords: economic development",
     "Category: Professional Services - Construction Related",
     "Summary mentions construction",
+    "Mentions remote or virtual work"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-65-09252026-HGM",
+   "src": "NC",
+   "title": "UNC at Chapel Hill Study Abroad 2.0",
+   "sol": "65-09252026-HGM",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "UNC - CHAPEL HILL",
+   "office": "",
+   "posted": "2026-09-30T00:00:00-05:00",
+   "due": "2026-11-13T13:00:00-05:00",
+   "snippet": "The purpose of this RFP is to establish a convenience contract with multiple bidders to be used as a directory of pre-approved suppliers by the Study Abroad Office (SAO) and/or Kenan-Flagler Business School. UNC System: Any affiliate, current or future, within",
+   "desc": "The purpose of this RFP is to establish a convenience contract with multiple bidders to be used as a directory of pre-approved suppliers by the Study Abroad Office (SAO) and/or Kenan-Flagler Business School. UNC System: Any affiliate, current or future, within the UNC System shall be allowed to participate in this agreement for the life of the contract. University seeks experienced and qualified study abroad program providers that specialize in one or more of the following program types: \n\n\u2022Custom faculty-led\n\u2022Standard/Core direct enroll and study center\n\u2022Internship, Research, and Service-Learning/Community Engagement\n\u2022Virtual\n\nThe intent of this RFP is to award a convenience contract to multiple bidders whose bid proposal, conforming to this RFP, are most advantageous to the University based upon price, geographic expertise/resources, academic discipline expertise or other factors considered. It also provides Suppliers with a fair opportunity for its goods and services to be considered.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=fa3f8a9e-0bbd-f111-aaad-001dd80b8734",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": true,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 28,
+   "why": [
+    "Keywords: research, study",
     "Mentions remote or virtual work"
    ],
    "relevant": true
@@ -5116,6 +5438,258 @@
    "relevant": true
   },
   {
+   "id": "SC-BLEC 2026 01-Readvertised-Brookland-Lakeview Empowerment",
+   "src": "SC",
+   "title": "Four Exterior Metal Doors",
+   "sol": "BLEC 2026 01-Readvertised",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Brookland-Lakeview Empowerment Center",
+   "office": "",
+   "posted": "2026-11-02T00:00:00-05:00",
+   "due": "2026-11-16T17:00:00-05:00",
+   "snippet": "Brookland-Lakeview Empowerment Center (BLEC) requests proposals from qualified contractors for the following work at 1218 Batchelor Street West Columbia SC 29169. Removal and replacement of four exterior wooden doors with secure metal door assemblies, includin",
+   "desc": "Brookland-Lakeview Empowerment Center (BLEC) requests proposals from qualified contractors for the following work at 1218 Batchelor Street West Columbia SC 29169. Removal and replacement of four exterior wooden doors with secure metal door assemblies, including hardware, installation, finishing and testing.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://brooklandlakeview.org/bid-opportunities/",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-2025U03-SF-City of North Augusta",
+   "src": "SC",
+   "title": "Tree Canopy Mapping Service",
+   "sol": "2025U03-SF",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "City of North Augusta",
+   "office": "",
+   "posted": "2026-10-12T00:00:00-05:00",
+   "due": "2026-11-12T02:30:00-05:00",
+   "snippet": "The City of North Augusta (City) is requesting for proposals (RFP) from qualified businesses (Respondent) to perform Tree Canopy Mapping Services. Bids will be received by the Department of Public Services located at 61 Claypit Road North Augusta, SC 29841, un",
+   "desc": "The City of North Augusta (City) is requesting for proposals (RFP) from qualified businesses (Respondent) to perform Tree Canopy Mapping Services. Bids will be received by the Department of Public Services located at 61 Claypit Road North Augusta, SC 29841, until 2:30 p.m. on November 12, 2026, at which time the bids received will be opened and read publicly aloud.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://www.northaugustasc.gov/Home/Components/RFP/RFP/822/215",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-n/a-Sri Dasavathara Venkateshwara ",
+   "src": "SC",
+   "title": "front door vandalism protection",
+   "sol": "n/a",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Sri Dasavathara Venkateshwara Temple",
+   "office": "",
+   "posted": "2026-10-10T00:00:00-05:00",
+   "due": "2026-11-10T17:00:00-05:00",
+   "snippet": "Remove existing front door and install bullet proof resistant door & vandalism resistant glass.\r\n\nInstall vandalism resistant rolling shutter in front of door",
+   "desc": "Remove existing front door and install bullet proof resistant door & vandalism resistant glass.\r\n\nInstall vandalism resistant rolling shutter in front of door",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-02",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-2027-RFP-011-Beaufort - Jasper Water & Sewe",
+   "src": "SC",
+   "title": "Great Swamp Wetlands Monitoring Services",
+   "sol": "2027-RFP-011",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Beaufort - Jasper Water & Sewer Authority",
+   "office": "",
+   "posted": "2026-10-09T00:00:00-05:00",
+   "due": "2026-11-19T14:00:00-05:00",
+   "snippet": "Beaufort-Jasper Water & Sewer Authority discharges reclaimed water to the Great Swamp Effluent Management Area from its Cherry Point Water Reclamation Facility under a permit which requires monitoring of the wetlands to document the environmental condition in ",
+   "desc": "Beaufort-Jasper Water & Sewer Authority discharges reclaimed water to the Great Swamp Effluent Management Area from its Cherry Point Water Reclamation Facility under a permit which requires monitoring of the wetlands to document the environmental condition in response to the discharge, and to provide reporting of the results to the South Carolina Department of Environmental Services. The selected firm will conduct all quarterly and annual monitoring.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://bjwsa.bonfirehub.com/portal/?tab=openOpportunities",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-n/a-City of Folly Beach",
+   "src": "SC",
+   "title": "LOBBYING SERVICES",
+   "sol": "n/a",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "City of Folly Beach",
+   "office": "",
+   "posted": "2026-10-02T00:00:00-05:00",
+   "due": "2026-11-18T02:00:00-05:00",
+   "snippet": "The City of Folly Beach seeks to contract with a qualified firm to conduct state-level legislative monitoring and lobbying services.",
+   "desc": "The City of Folly Beach seeks to contract with a qualified firm to conduct state-level legislative monitoring and lobbying services.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://cityoffollybeach.com/index.php?section=current-bids-rfps",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-n/a-City of Orangeburg",
+   "src": "SC",
+   "title": "Comprehensive Plan for the City of Orangeburg",
+   "sol": "n/a",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "City of Orangeburg",
+   "office": "",
+   "posted": "2026-10-01T00:00:00-05:00",
+   "due": "2026-11-30T13:00:00-05:00",
+   "snippet": "The City of Orangeburg, South Carolina, is seeking proposals from qualified professional consultants to update its 2017 Comprehensive Plan. The selected consultant will assess existing and future conditions, facilitate public and stakeholder engagement, and de",
+   "desc": "The City of Orangeburg, South Carolina, is seeking proposals from qualified professional consultants to update its 2017 Comprehensive Plan. The selected consultant will assess existing and future conditions, facilitate public and stakeholder engagement, and develop recommendations that reflect the City\u2019s vision, goals, and priorities. The consultant will work closely with City staff, the Planning Commission, and City Council to prepare a user-friendly Comprehensive Plan.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://www.beaconbid.com/agency/solicitations/5abf8f20-2785-47fa-8dcf-f3f29bbdd315",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-Proposal No: 2627-11-10-01-City of Spartanburg",
+   "src": "SC",
+   "title": "Full-Service Transit Operations and Management of Fixed-Route and Microtransit Services",
+   "sol": "Proposal No: 2627-11-10-01",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "City of Spartanburg",
+   "office": "",
+   "posted": "2026-09-23T00:00:00-05:00",
+   "due": "2026-11-10T15:00:00-05:00",
+   "snippet": "The City of Spartanburg is seeking qualified firms to provide professional services in support of transit operations and management for SPARTA (fixed-route bus service) and SpartaGo (microtransit service), ensuring safe, reliable, and efficient public transpor",
+   "desc": "The City of Spartanburg is seeking qualified firms to provide professional services in support of transit operations and management for SPARTA (fixed-route bus service) and SpartaGo (microtransit service), ensuring safe, reliable, and efficient public transportation for the community.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://vrapp.vendorregistry.com/Vendor/Register/Index/spartanburg-sc-vendor-registration",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
    "id": "VA-IV122624",
    "src": "VA",
    "title": "FY27 Generation NEXT - Focused Funding",
@@ -5195,6 +5769,42 @@
    "relevant": true
   },
   {
+   "id": "NC-281-RFP2789",
+   "src": "NC",
+   "title": "Medical and Drug Screenings / Psychological Evaluation Services",
+   "sol": "281-RFP2789",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "CITY OF WINSTON-SALEM",
+   "office": "",
+   "posted": "2026-10-16T00:00:00-05:00",
+   "due": "2026-11-17T13:00:00-05:00",
+   "snippet": "The Forsyth County Sheriff's Office is seeking proposals from qualified firms to provide comprehensive medical and drug screenings, and psychological evaluations services for the Forsyth County Sheriff\u2019s Office. Services may include pre-employment medical/drug",
+   "desc": "The Forsyth County Sheriff's Office is seeking proposals from qualified firms to provide comprehensive medical and drug screenings, and psychological evaluations services for the Forsyth County Sheriff\u2019s Office. Services may include pre-employment medical/drug screenings and psychological evaluations; post-offer-of-employment psychological evaluations; random and suspected drug screening; fitness-for-duty evaluations; critical incident screenings and evaluations; critical incident and trauma peer training; risk-of-violence assessments; special team suitability evaluations; supervisory consultation and training; and other post-hire medical and psychological services as requested by the Sheriff\u2019s Office.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=baf2f8c9-57c9-f111-aaae-001dd803db57",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 23,
+   "why": [
+    "Keywords: evaluation, assessment"
+   ],
+   "relevant": true
+  },
+  {
    "id": "VA-IV130592",
    "src": "VA",
    "title": "I-81 CIP Ironto Widening Segment M",
@@ -5266,6 +5876,42 @@
    "score": 20,
    "why": [
     "Keywords: research, strategy"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-70020348",
+   "src": "NC",
+   "title": "ERP Transformation Journey Partner",
+   "sol": "70020348",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "COUNTY OF GUILFORD",
+   "office": "",
+   "posted": "2026-10-20T00:00:00-05:00",
+   "due": "2026-11-12T14:00:00-05:00",
+   "snippet": "The Guilford County Purchasing Department is soliciting proposals from qualified consulting firms to serve as its Strategic Enterprise Resource Planning (ERP) Journey Partner for a comprehensive, multi-year ERP transformation initiative. The selected Journey P",
+   "desc": "The Guilford County Purchasing Department is soliciting proposals from qualified consulting firms to serve as its Strategic Enterprise Resource Planning (ERP) Journey Partner for a comprehensive, multi-year ERP transformation initiative. The selected Journey Partner will provide strategic guidance, program-level support, and hands-on execution throughout the multi-year ERP transformation, supporting the County across the Finance, Human Capital Management (HCM), and Budget domains. Guilford County plans to undertake a strategic, enterprise-level transformation to replace and consolidate its current diverse ERP product portfolio into a more modern ERP product landscape.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=889216aa-8dcc-f111-a05c-001dd80bcb64",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 20,
+   "why": [
+    "Keywords: strategic, consulting"
    ],
    "relevant": true
   },
@@ -5692,6 +6338,259 @@
    "relevant": true
   },
   {
+   "id": "SC-2026-02-Lowcountry Council of Governme",
+   "src": "SC",
+   "title": "RFP FOR PROFESSIONAL BUILDING INSPECTION SERVICES",
+   "sol": "2026-02",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Lowcountry Council of Governments",
+   "office": "",
+   "posted": "2026-10-26T00:00:00-05:00",
+   "due": "2026-11-20T14:00:00-05:00",
+   "snippet": "Lowcountry Council of Governments, Yemassee, SC will contract for the services of a qualified and competent Housing Rehabilitation Specialist to provide general construction management and oversight of all Lowcountry Regional HOME Consortium programs which are",
+   "desc": "Lowcountry Council of Governments, Yemassee, SC will contract for the services of a qualified and competent Housing Rehabilitation Specialist to provide general construction management and oversight of all Lowcountry Regional HOME Consortium programs which are funded through the U.S. Department of Housing and Urban Development (HUD). The rehabilitation specialist will oversee and monitor all rehabilitation construction activity involved in the Housing Programs in the Lowcountry Region.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://www.lowcountrycog.org/solicitations/index.php",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 19,
+   "why": [
+    "Category: Consultant/Professional",
+    "Summary mentions construction"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-RFP 26-1026-Chester County School District",
+   "src": "SC",
+   "title": "RFP 26-1026 Supplemental Assessment Preparation and Standards-Based Instructional Resources",
+   "sol": "RFP 26-1026",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Chester County School District",
+   "office": "",
+   "posted": "2026-10-26T00:00:00-05:00",
+   "due": "2026-11-16T10:00:00-05:00",
+   "snippet": "Chester County School District is seeking proposals from qualified vendors to provide high-quality supplemental instructional resources in English Language Arts (ELA) and Mathematics for grades 3\u20138. Resources must align with current South Carolina College- and",
+   "desc": "Chester County School District is seeking proposals from qualified vendors to provide high-quality supplemental instructional resources in English Language Arts (ELA) and Mathematics for grades 3\u20138. Resources must align with current South Carolina College- and Career-Ready Standards, reinforce classroom instruction, strengthen student mastery, and improve readiness for South Carolina state assessments.",
+   "category": "Services",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://tinyurl.com/mv2bar82",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 19,
+   "why": [
+    "Keywords: assessment"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-5400025277-SFAA Procurement Services",
+   "src": "SC",
+   "title": "STC LAW ENFORCEMENT PSYCH EVALUATIONS",
+   "sol": "5400025277",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "SFAA Procurement Services",
+   "office": "",
+   "posted": "2023-05-04T00:00:00-05:00",
+   "due": "2027-03-31T11:00:00-05:00",
+   "snippet": "STC LAW ENFORCEMENT PSYCH EVALUATIONS",
+   "desc": "STC LAW ENFORCEMENT PSYCH EVALUATIONS",
+   "category": "Services",
+   "naics": [],
+   "set_aside": "",
+   "url": "http://webprod.cio.sc.gov/SCSolicitationWeb/solicitationAttachment.do?solicitnumber=5400025277",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 19,
+   "why": [
+    "Keywords: evaluation"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-274-HCD-FY27-8",
+   "src": "NC",
+   "title": "Surveying Services for Demolitions",
+   "sol": "274-HCD-FY27-8",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "CITY OF RALEIGH",
+   "office": "",
+   "posted": "2026-10-30T00:00:00-05:00",
+   "due": "2026-11-23T15:00:00-05:00",
+   "snippet": "RFQ: The Housing and Community Development \u2013 Code Enforcement Division is seeking Design services from firms (\u201cConsultant\u201d) located in the Raleigh area for residential survey services.",
+   "desc": "RFQ: The Housing and Community Development \u2013 Code Enforcement Division is seeking Design services from firms (\u201cConsultant\u201d) located in the Raleigh area for residential survey services.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=ea2de1f7-5bd4-f111-a05c-001dd8084fd9",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 19,
+   "why": [
+    "Keywords: survey"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-Doc2284435409",
+   "src": "NC",
+   "title": "19-IFB-2284429696-BJL State Emergency Operation Center Augmentation and Evaluation Support Personnel",
+   "sol": "Doc2284435409",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "DEPARTMENT OF PUBLIC SAFETY",
+   "office": "",
+   "posted": "2026-10-14T00:00:00-05:00",
+   "due": "2026-11-17T14:00:00-05:00",
+   "snippet": "The purpose of this Invitation for Bids (IFB) is to seek competitive sealed bids from qualified vendors to provide trained Emergency Response Support Personnel to augment and/or perform evaluation of existing staff. These Response Support Personnel will provid",
+   "desc": "The purpose of this Invitation for Bids (IFB) is to seek competitive sealed bids from qualified vendors to provide trained Emergency Response Support Personnel to augment and/or perform evaluation of existing staff. These Response Support Personnel will provide supplemental assistance/evaluation in all areas of emergency management as required, to include but not limited to the State Emergency Response Team, State Emergency Operations Center (SEOC), supporting coordination facilities, Logistics and Supply, Operations, Planning and Recovery. The Response Support Personnel may be required to perform their assignments at the State Emergency Operations Center (SEOC), alternate support locations, or in the actual impacted areas of the state. NCEM is a government organization that administers state and federal emergency management programs enabled by the Federal Stafford Act and Chapter 166A of the North Carolina General Statutes. Proposals shall be submitted in accordance with the terms and conditions of this Request for Proposal (RFP) and any addenda issued hereto.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=828ce3ff-11c8-f111-aaad-001dd80072e8",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 19,
+   "why": [
+    "Keywords: evaluation"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-281-RFP2738",
+   "src": "NC",
+   "title": "Housing Strategy 2026-27",
+   "sol": "281-RFP2738",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "CITY OF WINSTON-SALEM",
+   "office": "",
+   "posted": "2026-10-13T00:00:00-05:00",
+   "due": "2026-11-10T16:00:00-05:00",
+   "snippet": "The City of Winston-Salem, Office of Housing Development, seeks proposals from qualified organizations, and individuals, to develop a comprehensive Neighborhood Housing Strategy that places residents at the center of identifying housing challenges and creating",
+   "desc": "The City of Winston-Salem, Office of Housing Development, seeks proposals from qualified organizations, and individuals, to develop a comprehensive Neighborhood Housing Strategy that places residents at the center of identifying housing challenges and creating neighborhood-specific solutions. Qualified firms, partnerships, corporations, associations, persons or professional organizations (collectively, \u201cRespondents\u201d) are invited to respond to this Request for Proposal (\u201cRFP\u201d) to develop a comprehensive Affordable Housing Strategy (\u201cPlan\u201d) for the City.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=a67ba32f-44c7-f111-aaae-001dd803db57",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 19,
+   "why": [
+    "Keywords: strategy"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-354-UT27-12",
+   "src": "NC",
+   "title": "Request for Qualifications - Master Plan & Rerating Analysis for North Cary Water Reclamation Facility (NCWRF)",
+   "sol": "354-UT27-12",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "TOWN OF CARY",
+   "office": "",
+   "posted": "2026-09-30T00:00:00-05:00",
+   "due": "2026-11-18T15:00:00-05:00",
+   "snippet": "The Town of Cary is seeking one or more qualified firm to contract for the development of a master plan for the expansion of the North Cary Water Reclamation Facility (NCWRF), including a re-rating analysis to increase capacity from 12.0 to 15.0 million gallon",
+   "desc": "The Town of Cary is seeking one or more qualified firm to contract for the development of a master plan for the expansion of the North Cary Water Reclamation Facility (NCWRF), including a re-rating analysis to increase capacity from 12.0 to 15.0 million gallons per day (MGD). Questions are due October 28, 2026 by EOD. Final submittals are due November 18, 2026 by 3 PM ET.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=b077f2b9-00bd-f111-aaae-001dd80bcb64",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 19,
+   "why": [
+    "Keywords: analysis"
+   ],
+   "relevant": true
+  },
+  {
    "id": "NV-10TCA-S3967",
    "src": "NV",
    "title": "Economic Impact Study",
@@ -5834,6 +6733,368 @@
    "score": 16,
    "why": [
     "Keywords: strategic"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-5400030299-Department of Transportation",
+   "src": "SC",
+   "title": "Fixed Price Right of Way Acquisition",
+   "sol": "5400030299",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Department of Transportation",
+   "office": "",
+   "posted": "2026-10-16T00:00:00-05:00",
+   "due": "2026-11-19T11:00:00-05:00",
+   "snippet": "SCDOT is soliciting for qualified firms to provide right of way acquisition services. The services include acquisition, relocation, exhibits, title work, survey, staking, QA/QC and project management.",
+   "desc": "SCDOT is soliciting for qualified firms to provide right of way acquisition services. The services include acquisition, relocation, exhibits, title work, survey, staking, QA/QC and project management.",
+   "category": "Services",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://apps.sceis.sc.gov/SCSolicitationWeb/solicitationAttachment.do?solicitnumber=5400030299",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 16,
+   "why": [
+    "Keywords: survey"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-354-SW27-20",
+   "src": "NC",
+   "title": "Jordan Lake Rules Compliance (Existing Managed Lands)",
+   "sol": "354-SW27-20",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "TOWN OF CARY",
+   "office": "",
+   "posted": "2026-11-02T00:00:00-05:00",
+   "due": "2026-12-02T15:00:00-05:00",
+   "snippet": "Cary is seeking an objective assessment of the nutrient removal that has been achieved through land development regulations since 2001 in the Jordan Lake Watershed in support of Cary\u2019s future compliance with the Jordan Lake Existing Managed Lands rules.",
+   "desc": "Cary is seeking an objective assessment of the nutrient removal that has been achieved through land development regulations since 2001 in the Jordan Lake Watershed in support of Cary\u2019s future compliance with the Jordan Lake Existing Managed Lands rules.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=bfdec0ef-ecd6-f111-a05c-001dd80bcb64",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 16,
+   "why": [
+    "Keywords: assessment"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-103-103-2627-01",
+   "src": "NC",
+   "title": "Presidential Search",
+   "sol": "103-103-2627-01",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "JAMES SPRUNT COMMUNITY COLLEGE",
+   "office": "",
+   "posted": "2026-10-27T00:00:00-05:00",
+   "due": "2026-11-12T15:00:00-05:00",
+   "snippet": "Presidential Search Consulting Firm for one (1) year Agency Contract",
+   "desc": "Presidential Search Consulting Firm for one (1) year Agency Contract",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=bb536cae-11d2-f111-a05c-001dd803db57",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 16,
+   "why": [
+    "Keywords: consulting"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-8102027-0021",
+   "src": "NC",
+   "title": "RFP# 2027-0021 - Insurance Broker Services",
+   "sol": "8102027-0021",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "COUNTY OF GASTON",
+   "office": "",
+   "posted": "2026-10-26T00:00:00-05:00",
+   "due": "2026-12-14T14:00:00-05:00",
+   "snippet": "Gaston County is soliciting proposals from qualified firms interested in providing professional insurance brokerage services as needed for accessing insurance markets, providing consultative insurance advisory services, and direct support in all areas of risk ",
+   "desc": "Gaston County is soliciting proposals from qualified firms interested in providing professional insurance brokerage services as needed for accessing insurance markets, providing consultative insurance advisory services, and direct support in all areas of risk management. \n\nSealed Proposals will be received by Gaston County until 2:00 P.M., Eastern Time, on December 14, 2026. Proposals received after the stated deadline will not be considered. Proposals are to be labeled \u201cRFP # 2027-0021, INSURANCE BROKER SERVICES\n\nProposers may mail or hand deliver proposals as follows:\n\nRFP # 2027-0021\nINSURANCE BROKER SERVICES\nGaston County Finance\nAttn: Debbie Stone-Muller\n128 West Main Ave.\nGastonia, NC 28052\n\nAn electronic copy of this Request for Proposals, including all attachments, forms, and subsequently issued addenda, may be obtained from the County's official bid posting webpage https://www.gastongov.com/Bids.aspx, and N.C. State Electronic Vendor Portal (eVP) at https://evp.nc.gov/ . Proposers are responsible for monitoring the County's bid posting webpage and/or the N.C. State Electronic Vendor Portal for addenda and other official solicitation information.\n\nQuestions \n\nWritten questions concerning this RFP must be submitted by email to bids@gastongov.com no later than 12:00 P.M., Eastern Time, on November 9, 2026. \n\nThe County will respond to material questions through written addenda posted to the County's official bid posting webpage https://www.gastongov.com/Bids.aspx and N.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=afc928b2-33d1-f111-a05c-001dd80db495",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 16,
+   "why": [
+    "Keywords: advisory"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-63-KGS1173830",
+   "src": "NC",
+   "title": "Natural Gas Transport Services",
+   "sol": "63-KGS1173830",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "NORTH CAROLINA STATE UNIVERSITY",
+   "office": "",
+   "posted": "2026-10-22T00:00:00-05:00",
+   "due": "2026-11-20T14:00:00-05:00",
+   "snippet": "NC State University\u2019s Campus Operations and Maintenance, Energy Management Department (hereafter referred to as \"the University\") seeks formal, sealed proposals from qualified, Enbridge Gas (formerly Dominion Energy)-certified natural gas providers (hereafter ",
+   "desc": "NC State University\u2019s Campus Operations and Maintenance, Energy Management Department (hereafter referred to as \"the University\") seeks formal, sealed proposals from qualified, Enbridge Gas (formerly Dominion Energy)-certified natural gas providers (hereafter referred to as \"the Vendor\") to deliver a firm, full-requirements natural gas supply and transportation service. This procurement ensures the continuous, uninterrupted operation of the University\u2019s critical heating infrastructure, central utility facilities, academic zones, and campus residential sectors in Raleigh, North Carolina.\nAll utility service accounts within this Request for Proposals (RFP) are located behind Enbridge Gas Company\u2019s Local Distribution Company (LDC) physical franchise system and operate under third-party transportation rate rules. The University consumes approximately two (2) million dekatherms (Dth) of natural gas annually across its diverse portfolio of central energy plants and research facilities.\nThe University intends to contract with one (1) single provider for the natural gas Fixed Basis Cost component across all main campus utility accounts. Following contract execution and stabilization of the basis pricing margin, the University intends to purchase fixed-price NYMEX futures strips and short-term monthly market natural gas based on seasonal market trends and the University's buying plans. The University provides no minimum or maximum volume guarantees under any resulting contract.\nThe in",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=12eed358-26ce-f111-a05c-001dd80d92a5",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 16,
+   "why": [
+    "Keywords: research"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-Doc2413542893",
+   "src": "NC",
+   "title": "NCEM SERT Exercise Services",
+   "sol": "Doc2413542893",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "DEPARTMENT OF PUBLIC SAFETY",
+   "office": "",
+   "posted": "2026-10-14T00:00:00-05:00",
+   "due": "2026-11-13T14:00:00-05:00",
+   "snippet": "The North Carolina Emergency Management (NCEM) Exercise Branch requires a contractor with technical knowledge and expertise regarding the design, development, conduct and evaluation of all-hazards discussion-based and operations-based exercises utilizing the H",
+   "desc": "The North Carolina Emergency Management (NCEM) Exercise Branch requires a contractor with technical knowledge and expertise regarding the design, development, conduct and evaluation of all-hazards discussion-based and operations-based exercises utilizing the Homeland Security Exercise and Evaluation Program (HSEEP) and may award multiple vendors in fulfillment of the contract.The contractor(s) should also have technical and operational knowledge of the response capabilities necessary for effective all-hazards response and recovery, and a proven methodology for assessing the 32 core capabilities in all five (5) mission areas of the National Preparedness Goal. The contractor should have the ability to review current local, regional, private, tribal and state plans to develop appropriate and relevant HSEEP consistent exercise scenarios and related exercise planning documents utilizing those plans as the basis for effective evaluation.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=1ff89dc8-02c8-f111-aaad-001dd80072e8",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 16,
+   "why": [
+    "Keywords: evaluation"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-1015TOADRSWMP001",
+   "src": "NC",
+   "title": "Town of Apex Request for Qualifications - Downtown Residential Stormwater Master Plan",
+   "sol": "1015TOADRSWMP001",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "TOWN OF APEX",
+   "office": "",
+   "posted": "2026-10-12T00:00:00-05:00",
+   "due": "2026-11-20T14:00:00-05:00",
+   "snippet": "Town of Apex (Town) requests Statements of Qualifications (SOQs) from qualified engineering firms or consultant teams licensed to provide professional engineering services in North Carolina to develop a comprehensive stormwater Master Plan for the downtown res",
+   "desc": "Town of Apex (Town) requests Statements of Qualifications (SOQs) from qualified engineering firms or consultant teams licensed to provide professional engineering services in North Carolina to develop a comprehensive stormwater Master Plan for the downtown residential core. The selected firm will evaluate existing drainage infrastructure, assess localized flooding vulnerabilities, and identify potential projects to mitigate risks and enhance water quality.\n\nThe Town intends to select one Consultant for the overall project. Services may be authorized in phases, and the Town reserves the right to contract separately for portions of the work. Final scope, schedule, deliverables, and compensation will be established during contract negotiations.\n\nInterested firms are requested to email Jessica Bolin at jessica.bolin@apexnc.org as soon as practicable to indicate their intent to submit. Include the firm name and the primary contact\u2019s name and email address. This notice does not substitute for the required SOQ submission.\n\nPublication Date/Time:\n10/12/2026 12:00 PM\nClosing Date/Time:\n11/20/2026 2:00 PM\nContact Person:\nJessica Bolin, PE, CFM Stormwater Engineering Manager jessica.bolin@apexnc.org\nMiscellaneous:\nDeadline to submit written questions\nFriday, November 6, 2026 by 12:00 p.m. ET\nTown responses to questions (anticipated)\nFriday, November 13, 2026\nStatement of Qualifications Due\nFriday, November 20, 2026 by 2:00 p.m. ET\nEvaluation (anticipated)\nDecember 2026\nInterviews (antic",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=00bd178f-54c6-f111-aaae-001dd803db57",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 16,
+   "why": [
+    "Keywords: evaluation"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-274-533",
+   "src": "NC",
+   "title": "Records Management System",
+   "sol": "274-533",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "CITY OF RALEIGH",
+   "office": "",
+   "posted": "2026-10-06T00:00:00-05:00",
+   "due": "2026-11-20T17:00:00-05:00",
+   "snippet": "Records Management System: The City of Raleigh (COR) is solicitating proposals from one or more firm(s) with which to contract for the \nfollowing services: The Raleigh Fire Department is seeking a comprehensive Records Management \nSystem, with modules that sho",
+   "desc": "Records Management System: The City of Raleigh (COR) is solicitating proposals from one or more firm(s) with which to contract for the \nfollowing services: The Raleigh Fire Department is seeking a comprehensive Records Management \nSystem, with modules that should include at a minimum, functionality for pre-incident planning, \nfire inspections, incident reporting, scheduling, personnel records, community risk reduction, \nhealth and safety, reporting and analytics, Computer-Aided Dispatch (CAD) integration, training, \nfire investigation, command operations, and asset and inventory management",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=6098f8ef-bdc1-f111-aaae-001dd80bcb64",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 16,
+   "why": [
+    "Keywords: analytics"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-677-PL27-01",
+   "src": "NC",
+   "title": "Eastern Wake Microtransit Operations",
+   "sol": "677-PL27-01",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "TOWN OF WENDELL",
+   "office": "",
+   "posted": "2026-10-05T00:00:00-05:00",
+   "due": "2026-11-16T15:00:00-05:00",
+   "snippet": "The Town of Wendell is issuing this Request for Proposals (RFP) to solicit qualified firms to provide microtransit service in Eastern Wake County. Firms are invited to submit proposals for an operational strategy that provides a turnkey approach to implementat",
+   "desc": "The Town of Wendell is issuing this Request for Proposals (RFP) to solicit qualified firms to provide microtransit service in Eastern Wake County. Firms are invited to submit proposals for an operational strategy that provides a turnkey approach to implementation. Responses should include all labor, capital, technology, and administrative capacity needed for a successful microtransit service.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=7c94b743-bdc0-f111-aaae-001dd8084fd9",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 16,
+   "why": [
+    "Keywords: strategy"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-269-2027-038",
+   "src": "NC",
+   "title": "Digital Engagement and Communications Platform",
+   "sol": "269-2027-038",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "CITY OF CHARLOTTE",
+   "office": "",
+   "posted": "2026-11-02T00:00:00-05:00",
+   "due": "2026-12-01T17:00:00-05:00",
+   "snippet": "The City of Charlotte is seeking a qualified vendor to provide an Digital Engagement and Communication Platform. The selected vendor will provide a complete digital engagement and communications solution, including applicable software licensing, configuration,",
+   "desc": "The City of Charlotte is seeking a qualified vendor to provide an Digital Engagement and Communication Platform. The selected vendor will provide a complete digital engagement and communications solution, including applicable software licensing, configuration, implementation, integration, data migration, testing, training, onboarding, support, maintenance and upgrades.\n\nThe platform will support community, customer, employee and organizational initiatives. Representative uses include recurring newsletters and multi-channel communications; public information campaigns; project webpages and digital engagement spaces; surveys and feedback; meetings and events; stakeholder and audience management; and multi-phase initiatives involving online and in-person participation.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=589fa0fd-c8d6-f111-a05a-001dd80072e8",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [
+     "Mentions in-person or on-site"
+    ],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 12,
+   "why": [
+    "Keywords: organizational, survey"
    ],
    "relevant": true
   },
@@ -6793,6 +8054,43 @@
    "score": 0,
    "why": [
     "Category: Non-professional Services - Non-Technology",
+    "Outside your services: hvac"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-323-A/E27-003",
+   "src": "NC",
+   "title": "Assessment, Design, and Administration Services for HVAC System Replacement for Public Works and Transit Campuses",
+   "sol": "323-A/E27-003",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "TOWN OF CHAPEL HILL",
+   "office": "",
+   "posted": "2026-10-21T00:00:00-05:00",
+   "due": "2026-11-19T14:00:00-05:00",
+   "snippet": "The Town of Chapel Hill is seeking written Statements of Qualifications from professional Engineering Firms specializing in Assessment, Design Services, Contract Administration, and Construction Over site for HVAC System Replacements for the Chapel Hill Public",
+   "desc": "The Town of Chapel Hill is seeking written Statements of Qualifications from professional Engineering Firms specializing in Assessment, Design Services, Contract Administration, and Construction Over site for HVAC System Replacements for the Chapel Hill Public Works Campus and the Chapel Hill Transit Operations Campus.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=b71fdbb4-80cd-f111-a05c-001dd80d92a5",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 0,
+   "why": [
+    "Keywords: assessment",
     "Outside your services: hvac"
    ],
    "relevant": true
@@ -9563,6 +10861,639 @@
    "relevant": true
   },
   {
+   "id": "SC-2026-10-02-Town of McBee",
+   "src": "SC",
+   "title": "McBee Chief of Police",
+   "sol": "2026-10-02",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Town of McBee",
+   "office": "",
+   "posted": "2026-10-20T00:00:00-05:00",
+   "due": "2026-11-03T17:00:00-05:00",
+   "snippet": "The Town of McBee is accepting applications for Chief of Police.\r\n\nPlease see the link for additional information and application.\r\n\nFor questions, please call 843-335-8474.",
+   "desc": "The Town of McBee is accepting applications for Chief of Police.\r\n\nPlease see the link for additional information and application.\r\n\nFor questions, please call 843-335-8474.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://www.townofmcbeesc.com/residents/police.php",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-RFQ-2026-004-ADMIN-City of North Augusta",
+   "src": "SC",
+   "title": "City Attorney- Statement of Qualifications",
+   "sol": "RFQ-2026-004-ADMIN",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "City of North Augusta",
+   "office": "",
+   "posted": "2026-10-20T00:00:00-05:00",
+   "due": "2026-11-06T16:00:00-05:00",
+   "snippet": "The City of North Augusta, South Carolina, is soliciting statements of qualifications from qualified law firms and individual attorneys (each, a \"respondent\") to provide City Attorney and general municipal legal services. This Request for Qualifications (RFQ) ",
+   "desc": "The City of North Augusta, South Carolina, is soliciting statements of qualifications from qualified law firms and individual attorneys (each, a \"respondent\") to provide City Attorney and general municipal legal services. This Request for Qualifications (RFQ) is the first phase of a two-step, qualifications-based selection conducted under Section 2-253 of the City's purchasing ordinance.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://www.northaugustasc.gov/Home/Components/RFP/RFP/824/215",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-RC-821-P-26-Richland County",
+   "src": "SC",
+   "title": "Sports and Recreation Tourism Strategic Study",
+   "sol": "RC-821-P-26",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Richland County",
+   "office": "",
+   "posted": "2026-10-08T00:00:00-05:00",
+   "due": "2026-11-06T15:00:00-05:00",
+   "snippet": "Richland County is seeking qualified firms to conduct a Sports and Recreation Tourism Strategic Study to better understand the County\u2019s potential to attract, develop, and capitalize on sports, indoor/outdoor recreation, and leisure tourism as drivers of econom",
+   "desc": "Richland County is seeking qualified firms to conduct a Sports and Recreation Tourism Strategic Study to better understand the County\u2019s potential to attract, develop, and capitalize on sports, indoor/outdoor recreation, and leisure tourism as drivers of economic development.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://procurement.opengov.com/portal/richlandcountysc/projects/313884",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: study, strategic, economic development",
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-RC-822-P-27-Richland County",
+   "src": "SC",
+   "title": "Small Business and Economic Development Strategic Assessment",
+   "sol": "RC-822-P-27",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Richland County",
+   "office": "",
+   "posted": "2026-10-07T00:00:00-05:00",
+   "due": "2026-11-05T15:00:00-05:00",
+   "snippet": "Richland County is seeking qualified firms to conduct a Small Business and Economic Development Strategic Assessment for the purpose of obtaining a better understanding of the County\u2019s economy, consumers, and commercial developments. This data will support the",
+   "desc": "Richland County is seeking qualified firms to conduct a Small Business and Economic Development Strategic Assessment for the purpose of obtaining a better understanding of the County\u2019s economy, consumers, and commercial developments. This data will support the County in taking a more strategic and informed approach to economic development, with a specific focus on developing a retail business assistance program and strategic recruitment opportunities.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://procurement.opengov.com/portal/richlandcountysc/projects/313897",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: strategic, assessment, economic development",
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-n/a-Upstate Forever",
+   "src": "SC",
+   "title": "REQUEST FOR PROPOSALS: GIS Mapping & Modeling Services -- Emerging Contaminants in Small or Disadvantaged Communities Grant Program",
+   "sol": "n/a",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Upstate Forever",
+   "office": "",
+   "posted": "2026-10-07T00:00:00-05:00",
+   "due": "2026-11-06T17:00:00-05:00",
+   "snippet": "UF seeks a consultant to conduct geospatial mapping analyses identifying lands that, if developed, could disproportionately affect water resources and drinking water supplies in small or disadvantaged communities in Upstate SC, and areas with the highest nutri",
+   "desc": "UF seeks a consultant to conduct geospatial mapping analyses identifying lands that, if developed, could disproportionately affect water resources and drinking water supplies in small or disadvantaged communities in Upstate SC, and areas with the highest nutrient (N and P) and sediment exports. UF is collaborating with two drinking water utilities to protect and enhance drinking water quality by evaluating and addressing key indicators and contributors to E. coli and cyanotoxins.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://www.upstateforever.org/news",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-2026-01-City of York",
+   "src": "SC",
+   "title": "RFP - Comprehensive Compensation and Classification Study",
+   "sol": "2026-01",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "City of York",
+   "office": "",
+   "posted": "2026-10-06T00:00:00-05:00",
+   "due": "2026-11-05T14:00:00-05:00",
+   "snippet": "Seeking a consultant with demonstrated public-sector experience to evaluate the City\u2019s current classification and compensation program and provide practical, financially responsible recommendations for implementation",
+   "desc": "Seeking a consultant with demonstrated public-sector experience to evaluate the City\u2019s current classification and compensation program and provide practical, financially responsible recommendations for implementation",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://www.yorksc.gov/capital-program-management/page/bid-opportunities",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: study",
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-CIF27E003-SC Ports Authority",
+   "src": "SC",
+   "title": "SCPA - Wando Welch Terminal, RFP for Engineering Services - Pavement Design",
+   "sol": "CIF27E003",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "SC Ports Authority",
+   "office": "",
+   "posted": "2026-10-06T00:00:00-05:00",
+   "due": "2026-11-06T17:00:00-05:00",
+   "snippet": "The South Carolina Ports Authority (SCPA) is requesting proposals from qualified engineering consultants to provide professional engineering services for the Wando Welch Terminal (WWT) Pavement Program Design. The selected consultant will serve as Engineer of ",
+   "desc": "The South Carolina Ports Authority (SCPA) is requesting proposals from qualified engineering consultants to provide professional engineering services for the Wando Welch Terminal (WWT) Pavement Program Design. The selected consultant will serve as Engineer of Record (EOR) and develop a durable pavement rehabilitation/reconstruction program that can be implemented in sequenced construction packages while maintaining safe and efficient terminal operations.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "http://www.scspa.com/resources/legal/legal-notices/",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-Associated with prior solicitation #2026-0715-York School Dist. One",
+   "src": "SC",
+   "title": "Site Due Diligence Package for Early Childhood Center",
+   "sol": "Associated with prior solicitation #2026-0715",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "York School Dist. One",
+   "office": "",
+   "posted": "2026-10-15T00:00:00-05:00",
+   "due": "2026-11-03T12:00:00-05:00",
+   "snippet": "3rd party inspections. Topographical survey, boundary survey, environmental study, traffic impact analysis.",
+   "desc": "3rd party inspections. Topographical survey, boundary survey, environmental study, traffic impact analysis.",
+   "category": "Services",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://www.york.k12.sc.us/departments/finance/procurement/bids-and-awards",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: study, survey, analysis"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "SC-RFP-SP-593-11-05-2026-Lander University",
+   "src": "SC",
+   "title": "Undergraduate Enrollment Strategy and Operations Discovery",
+   "sol": "RFP-SP-593-11-05-2026",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Lander University",
+   "office": "",
+   "posted": "2026-10-02T00:00:00-05:00",
+   "due": "2026-11-05T15:00:00-05:00",
+   "snippet": "Lander University seeks proposals from qualified firms to provide undergraduate enrollment management consulting, student recruitment and engagement strategy, CRM optimization, staff development, and technology-enabled enrollment support services for on-campus",
+   "desc": "Lander University seeks proposals from qualified firms to provide undergraduate enrollment management consulting, student recruitment and engagement strategy, CRM optimization, staff development, and technology-enabled enrollment support services for on-campus undergraduate student recruitment and enrollment as specified herein.",
+   "category": "Services",
+   "naics": [],
+   "set_aside": "",
+   "url": "http://www.lander.edu/solicitations",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: strategy, management consulting, consulting"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-163-163-10222026TB",
+   "src": "NC",
+   "title": "RFI # 163-10222026TB - Financial Consulting Services",
+   "sol": "163-163-10222026TB",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "CHARLOTTE/MECKLENBURG SCHOOLS",
+   "office": "",
+   "posted": "2026-10-22T00:00:00-05:00",
+   "due": "2026-11-03T14:00:00-05:00",
+   "snippet": "Charlotte-Mecklenburg Schools (CMS) seeks transitional support to backfill both the Chief Financial Officer (CFO) and Assistant Financial Officer of Budget (AFO of Budget). Services must maintain financial routines, support staff, protect the budget, and prese",
+   "desc": "Charlotte-Mecklenburg Schools (CMS) seeks transitional support to backfill both the Chief Financial Officer (CFO) and Assistant Financial Officer of Budget (AFO of Budget). Services must maintain financial routines, support staff, protect the budget, and preserve fiscal integrity.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=872b3b1a-24ce-f111-a05c-001dd80d92a5",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: consulting"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-525-525-GS-11032026",
+   "src": "NC",
+   "title": "RFP for Harnett Area Rural Transit System (HARTS) Transit Center Expansion Feasibility/Assessment Study and Conceptual Design",
+   "sol": "525-525-GS-11032026",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "COUNTY OF HARNETT",
+   "office": "",
+   "posted": "2026-10-15T00:00:00-05:00",
+   "due": "2026-11-03T14:00:00-05:00",
+   "snippet": "The County of Harnett, NC invites proposals from qualified transit center planners/designers to provide a Needs Assessment Study and Conceptual Design for an expansion project at 250 Alexander Dr., Lillington, NC 27546. The conceptual design will include an es",
+   "desc": "The County of Harnett, NC invites proposals from qualified transit center planners/designers to provide a Needs Assessment Study and Conceptual Design for an expansion project at 250 Alexander Dr., Lillington, NC 27546. The conceptual design will include an estimated cost of construction.\n\nThe County desires to complete a needs assessment study and conceptual design under this RFP in order to define a clear path and estimate budget necessary to expand the current transit center facility or recommendations for a future transit center at another site. In the future, the County of Harnett may issue an RFQ for architect/engineer services for the expansion design.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=c0802f12-a9c8-f111-aaad-001dd80072e8",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: study, feasibility, needs assessment, assessment"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-63-DMP1210904",
+   "src": "NC",
+   "title": "Baccalaureate Alumni Survey, printing and mailing",
+   "sol": "63-DMP1210904",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "NORTH CAROLINA STATE UNIVERSITY",
+   "office": "",
+   "posted": "2026-10-14T00:00:00-05:00",
+   "due": "2026-11-04T17:00:00-05:00",
+   "snippet": "NC State University has administered the Baccalaureate Alumni Survey every three years since 2003. The survey provides a unique opportunity to collect information from our recent alumni (graduating 2.5 to 4.5 years prior to the administration of the survey) on",
+   "desc": "NC State University has administered the Baccalaureate Alumni Survey every three years since 2003. The survey provides a unique opportunity to collect information from our recent alumni (graduating 2.5 to 4.5 years prior to the administration of the survey) on a wide range of topics, including their employment; further education; the outcomes of their participation in high impact experiences; the extent to which NC State helped them develop a wide range of academic, professional and personal skills; and more. Survey results provide important data for planning and assessment activities across campus and are used as metrics in the University Strategic Plan. \nThe project uses a \u201cpush-to-web\u201d research design, with a series of letters, postcards, and emails sent to members of the survey population, providing them with a link and login credentials to access an online survey. \nThe project involves printing, stuffing, stamping and mailing 3 separate mailings. The selected vendor will not be responsible for the administration of the actual survey, which will be done in-house by NC State University. See specifications in the RFQ document.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=9881052d-fec7-f111-aaae-001dd80bcb64",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: research, survey, strategic plan, strategic"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-72-PJTH27019",
+   "src": "NC",
+   "title": "All Hazards Preparedness, Planning, and Recovery Related Professional Services",
+   "sol": "72-PJTH27019",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "UNC - WILMINGTON",
+   "office": "",
+   "posted": "2026-10-14T00:00:00-05:00",
+   "due": "2026-11-04T14:00:00-05:00",
+   "snippet": "In preparation for the 2026 Atlantic Hurricane Season and other emergency or non-emergency situations that may arise, the University of North Carolina at Wilmington (UNCW) is seeking proposals from experienced and qualified contractors to provide \u201cAll Hazards ",
+   "desc": "In preparation for the 2026 Atlantic Hurricane Season and other emergency or non-emergency situations that may arise, the University of North Carolina at Wilmington (UNCW) is seeking proposals from experienced and qualified contractors to provide \u201cAll Hazards Preparedness, Planning, and Recovery Related Professional Services\u201d on an as-needed basis. Prospective Vendors should have extensive experience and qualified personnel, particularly in university environments and/or emergency operations, and be able to respond quickly when services are requested. Services may include, but are not limited to, professional planning, consulting, and interim recovery services in the areas of Homeland Security, Emergency Response, Disaster Recovery, and All Hazards Planning.\n\nForecasting the amount of business that may be conducted in any given year is difficult. UNCW cannot commit to any specific funding or volume of services during the contract period. This RFP is being issued based on potential needs only, and UNCW makes no representation that any services or products will be purchased. Any costs incurred by the Vendor in connection with preparing for or performing services under this RFP or any resulting contract shall be the sole responsibility and risk of the Vendor.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=8b64b54d-eac7-f111-aaad-001dd803271d",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: consulting"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-70020349",
+   "src": "NC",
+   "title": "Mortgage-Style Legal Foreclosure Services for Guilford County Tax Department",
+   "sol": "70020349",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "COUNTY OF GUILFORD",
+   "office": "",
+   "posted": "2026-10-13T00:00:00-05:00",
+   "due": "2026-11-06T14:00:00-05:00",
+   "snippet": "The Guilford County Purchasing Department is soliciting proposals from qualified firms for mortgage-style tax foreclosure legal services pursuant to North Carolina General Statue \u00a7 105-374 on behalf of Guilford County and the municipalities it represents. The ",
+   "desc": "The Guilford County Purchasing Department is soliciting proposals from qualified firms for mortgage-style tax foreclosure legal services pursuant to North Carolina General Statue \u00a7 105-374 on behalf of Guilford County and the municipalities it represents. The County reserves the right to award a contract to one, or multiple Providers deemed to be fully qualified and best suited to meet the County\u2019s needs, based on the evaluation factors and criteria set forth in this RFP.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=5f25ec63-21c7-f111-aaae-001dd80bcb64",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: evaluation"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-807202611062",
+   "src": "NC",
+   "title": "RFP for On-Call FEMA Advisory Services",
+   "sol": "807202611062",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "TOWN OF ROLESVILLE",
+   "office": "",
+   "posted": "2026-10-09T00:00:00-05:00",
+   "due": "2026-11-06T16:00:00-05:00",
+   "snippet": "The Town of Rolesville is seeking proposals from established firms for professional services covering all aspects of recovery services as needed following a declared disaster incident, including the administration and management of Federal Public Assistance an",
+   "desc": "The Town of Rolesville is seeking proposals from established firms for professional services covering all aspects of recovery services as needed following a declared disaster incident, including the administration and management of Federal Public Assistance and Mitigation Assistance.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=caf66e80-e1c3-f111-aaae-001dd80e4366",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: advisory"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-345-10/08/2026",
+   "src": "NC",
+   "title": "RFQ - Condition Evaluation for Replacement of Pump Station #33 Shamrock",
+   "sol": "345-10/08/2026",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "CAPE FEAR PUBLIC UTILITY AUTHORITY",
+   "office": "",
+   "posted": "2026-10-08T00:00:00-05:00",
+   "due": "2026-11-05T14:00:00-05:00",
+   "snippet": "Cape Fear Public Utility Authority (CFPUA) requests statements of qualifications (SOQ) from consulting engineering firms for evaluating the existing condition of an existing pump station in the CFPUA system, PS-33 Shamrock.",
+   "desc": "Cape Fear Public Utility Authority (CFPUA) requests statements of qualifications (SOQ) from consulting engineering firms for evaluating the existing condition of an existing pump station in the CFPUA system, PS-33 Shamrock.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=38beda34-10c3-f111-aaae-001dd800c744",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: evaluation, consulting"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-367-OC5490",
+   "src": "NC",
+   "title": "GENERAL ENGINEERING AND ENVIRONMENTAL SERVICES  THE COUNTY OF ORANGE, NORTH CAROLINA",
+   "sol": "367-OC5490",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "COUNTY OF ORANGE",
+   "office": "",
+   "posted": "2026-10-06T00:00:00-05:00",
+   "due": "2026-11-03T14:00:00-05:00",
+   "snippet": "Orange County North Carolina is seeking proposals for its Solid Waste Management Department \n(Department) for multi-disciplined general engineering/solid waste services to be available to support the\nongoing and recurring need for engineering and environmental",
+   "desc": "Orange County North Carolina is seeking proposals for its Solid Waste Management Department \n(Department) for multi-disciplined general engineering/solid waste services to be available to support the\nongoing and recurring need for engineering and environmental consulting services to perform tasks \nbeyond the capacity of the Department.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=2a4c5d90-8fc1-f111-aaae-001dd80bcb64",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: consulting"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-274-2026-Northern-BRT",
+   "src": "NC",
+   "title": "Wake BRT: Northern Corridors Design & NEPA Study",
+   "sol": "274-2026-Northern-BRT",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "CITY OF RALEIGH",
+   "office": "",
+   "posted": "2026-09-21T00:00:00-05:00",
+   "due": "2026-11-06T17:00:00-05:00",
+   "snippet": "The purpose of this solicitation is for the City of Raleigh Transportation Department to secure\nprofessional engineering consulting services for Wake Transit Plan Bus Rapid Transit design\n(30%) for two identified corridors \u2014 Midtown and Capital \u2014 and National ",
+   "desc": "The purpose of this solicitation is for the City of Raleigh Transportation Department to secure\nprofessional engineering consulting services for Wake Transit Plan Bus Rapid Transit design\n(30%) for two identified corridors \u2014 Midtown and Capital \u2014 and National Environmental\nPolicy Act (NEPA) study, with options for contract extension through final design (100%) or\ncontinuation into an alternative construction delivery method. Additional information is\nprovided in Sections 2 and 3. The term \u201csubmittal\u201d herein refers to the written response and\nsupporting materials submitted in reply to this Request for Qualifications.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=329496c6-c7b5-f111-aaac-001dd803db57",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: study, consulting"
+   ],
+   "relevant": true
+  },
+  {
    "id": "NV-31PCSA-S4046",
    "src": "NV",
    "title": "Document Draft, Consulting, and Project Management",
@@ -10075,6 +12006,114 @@
    "why": [
     "Keywords: process improvement",
     "Outside your services: construction"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-379-379-2601",
+   "src": "NC",
+   "title": "Request for Proposals (RFP) Community Project Funding (CPF) Grant Administration and Construction Management Services",
+   "sol": "379-379-2601",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "COUNTY OF LENOIR",
+   "office": "",
+   "posted": "2026-10-14T00:00:00-05:00",
+   "due": "2026-11-06T12:00:00-05:00",
+   "snippet": "Lenoir County, North Carolina, is soliciting sealed proposals from qualified firms to provide comprehensive grant administration and construction management services to support a Community Project Funding (CPF) project funded by the Housing and Urban Developme",
+   "desc": "Lenoir County, North Carolina, is soliciting sealed proposals from qualified firms to provide comprehensive grant administration and construction management services to support a Community Project Funding (CPF) project funded by the Housing and Urban Development (HUD). The County has been awarded $5,182,000 in HUD Economic Development Initiative (EDI) CPF funds, contingent upon execution of the Grant Agreement and satisfaction of all grant conditions.\n\nThe selected firm will assist the County with grant administration and construction management services of the CPF project in compliance with all applicable federal, state, and local requirements, including HUD CDBG requirements, 2 CFR Part 200 procurement, and grant management requirements, applicable civil rights and labor standards requirements, and HUD EDI program requirements.\nThis RFP is intended to comply with the competitive proposal requirements applicable to procurement of grant administration and construction management services under federal grant rules and HUD CPF monitoring expectations.\n\nProject Background\nThe EDI CPF program is administered by the US Department of Housing and Urban Development and funded through directed Congressional appropriation. The funding is intended to provide assistance to Lenoir County for the purposes of installing water and sewer infrastructure, supporting the growth and expansion of economic development opportunity in the County, principally for the benefit low- and moderate-income p",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=f0888f14-e8c7-f111-aaae-001dd803db57",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 0,
+   "why": [
+    "Keywords: economic development",
+    "Outside your services: construction"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-274-2026-RCPAC-16R",
+   "src": "NC",
+   "title": "Request for Qualification for Capital Improvement Project; Food Service for the Raleigh Convention Center Expansion",
+   "sol": "274-2026-RCPAC-16R",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "CITY OF RALEIGH",
+   "office": "",
+   "posted": "2026-10-13T00:00:00-05:00",
+   "due": "2026-11-09T16:00:00-05:00",
+   "snippet": "Professional foodservice design and consulting services for the Raleigh Convention Center Expansion. The City seeks a qualified foodservice consultant to program, design, specify, and prepare bid documents for all commercial foodservice equipment and food/beve",
+   "desc": "Professional foodservice design and consulting services for the Raleigh Convention Center Expansion. The City seeks a qualified foodservice consultant to program, design, specify, and prepare bid documents for all commercial foodservice equipment and food/beverage service areas within the new facility, and to provide coordination and construction-phase services through equipment installation, start-up, and commissioning.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=acb75d82-47c7-f111-aaad-001dd80072e8",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 0,
+   "why": [
+    "Keywords: consulting",
+    "Outside your services: food service"
+   ],
+   "relevant": true
+  },
+  {
+   "id": "NC-10474262-01-27",
+   "src": "NC",
+   "title": "Gymnastics Facility Reroofing",
+   "sol": "10474262-01-27",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "COUNTY OF LEE",
+   "office": "",
+   "posted": "2026-09-29T00:00:00-05:00",
+   "due": "2026-11-03T14:00:00-05:00",
+   "snippet": "Facility Consulting Group will be conducting the bidding process for the Reroofing of Lee County Gymnastics Facility in Sanford, NC. This project consists of the preparation of existing metal roof and application of a fluid-applied restoration system on approx",
+   "desc": "Facility Consulting Group will be conducting the bidding process for the Reroofing of Lee County Gymnastics Facility in Sanford, NC. This project consists of the preparation of existing metal roof and application of a fluid-applied restoration system on approximately 20,000 square feet of an existing pre-engineered metal panel roof. Plans and specifications will be available at the Pre-Bid meeting.\n\nBidders should address all inquiries for this project to:\nFacility Consulting Group\nAttn: Mr. Randy Keel\n147B Dublin Square Rd.\nAsheboro, NC 27203\nrkeel@fcg-usa.com",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=49898eb7-3cbc-f111-aaad-001dd8016f18",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 0,
+   "why": [
+    "Keywords: consulting",
+    "Outside your services: roofing"
    ],
    "relevant": true
   }
