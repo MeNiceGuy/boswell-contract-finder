@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Boswell Contract Finder</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky status bar, rules rail on the left, scored opportunity ledger on the right; one column on phones. */
+:root{
+  --bg:#f5f7f6; --surface:#ffffff; --sunk:#eaefed; --line:#d5dedb; --fg:#15211e; --muted:#5b6b67;
+  --accent:#1d6b56; --accent-ink:#ffffff;
+  --good:#1d6b56; --good-soft:#dcefe8; --warn:#9a6400; --warn-soft:#f8ecd2; --crit:#b3261e; --crit-soft:#f9dedb; --info:#2f5d8a; --info-soft:#e0eaf5;
+  --font-display:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-body:"Public Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-data:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --r:8px; color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0f1715; --surface:#16211e; --sunk:#1c2a26; --line:#2a3b36; --fg:#e4ece9; --muted:#97a9a4;
+  --accent:#5cc4a3; --accent-ink:#06231b;
+  --good:#5cc4a3; --good-soft:#1d3a32; --warn:#e8b45c; --warn-soft:#3a2d14; --crit:#f08a80; --crit-soft:#3d1d1a; --info:#8fb8e3; --info-soft:#1c2c3d;
+  color-scheme:dark}}
+*{box-sizing:border-box}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.5}
+a{color:var(--accent)}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+[hidden]{display:none!important}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.bar{position:sticky;top:0;z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+header.bar .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:10px 20px;padding-block:12px}
+.brand{display:flex;flex-direction:column;min-width:0}
+.brand h1{font-family:var(--font-display);font-size:1.35rem;line-height:1.2;margin:0}
+.brand span{font-size:.8rem;color:var(--muted)}
+.bar-actions{margin-left:auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.status{font-size:.85rem;color:var(--muted)}
+.status b{color:var(--fg)}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:8px 14px;cursor:pointer;font-weight:600;font-size:.9rem;display:inline-flex;align-items:center;gap:6px;text-decoration:none;color:var(--fg)}
+.btn:hover{background:var(--sunk)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.small{padding:5px 10px;font-size:.82rem}
+main.wrap{display:grid;grid-template-columns:300px minmax(0,1fr);gap:24px;padding-block:20px 48px}
+@media (max-width:900px){main.wrap{grid-template-columns:minmax(0,1fr)}}
+aside{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;align-self:start;display:flex;flex-direction:column;gap:14px;font-size:.88rem}
+@media (min-width:901px){aside{position:sticky;top:84px}}
+aside h2,.section-h{font-family:var(--font-display);font-size:1.05rem;margin:0}
+aside ol{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.hint{font-size:.8rem;color:var(--muted);margin:0}
+.notice{border-radius:var(--r);padding:12px 14px;font-size:.9rem;margin-bottom:14px}
+.notice.warn{background:var(--warn-soft)} .notice.crit{background:var(--crit-soft)}
+.notice p{margin:0}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:14px}
+.tab{border:0;background:none;padding:10px 14px;font-weight:600;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tab[aria-selected=true]{color:var(--fg);border-bottom-color:var(--accent)}
+.tab .count{font-family:var(--font-data);font-size:.78rem;background:var(--sunk);border-radius:10px;padding:1px 7px;margin-left:6px}
+.summary{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px}
+.sum{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:10px 14px;min-width:110px;flex:1}
+.sum .n{font-family:var(--font-data);font-size:1.4rem;font-weight:500;font-variant-numeric:tabular-nums}
+.sum .l{font-size:.78rem;color:var(--muted)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;align-items:center}
+.filters input[type=search]{flex:1 1 220px;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:7px 9px;min-width:0}
+.filters select{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:7px 9px}
+.filters label{display:flex;gap:6px;align-items:center;font-size:.86rem}
+.list{display:flex;flex-direction:column;gap:10px}
+.opp{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;display:grid;grid-template-columns:56px minmax(0,1fr);gap:4px 14px}
+.score{grid-row:span 4;display:flex;flex-direction:column;align-items:center;gap:2px;padding-top:2px}
+.score .num{font-family:var(--font-data);font-size:1.3rem;font-weight:500;width:52px;height:52px;border-radius:50%;display:grid;place-items:center}
+.score .tier{font-size:.68rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;text-align:center}
+.t-strong .num{background:var(--good-soft);color:var(--good)} .t-strong .tier{color:var(--good)}
+.t-good .num{background:var(--info-soft);color:var(--info)} .t-good .tier{color:var(--info)}
+.t-long .num{background:var(--warn-soft);color:var(--warn)} .t-long .tier{color:var(--warn)}
+.t-weak .num{background:var(--sunk);color:var(--muted)} .t-weak .tier{color:var(--muted)}
+.t-out .num{background:var(--crit-soft);color:var(--crit)} .t-out .tier{color:var(--crit)}
+.t-unconf .num{background:var(--warn-soft);color:var(--warn);border:1px dashed var(--warn)} .t-unconf .tier{color:var(--warn)}
+.opp.unconf{border-style:dashed}
+.opp h3{font-size:1rem;margin:0;line-height:1.35}
+.opp h3 a{color:var(--fg);text-decoration:none}
+.opp h3 a:hover{text-decoration:underline}
+.meta{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.84rem;color:var(--muted)}
+.mono{font-family:var(--font-data);font-size:.8rem}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:.74rem;font-weight:600;border-radius:4px;padding:2px 7px;background:var(--sunk);color:var(--fg)}
+.chip.src{background:var(--fg);color:var(--bg)}
+.chip.good{background:var(--good-soft);color:var(--good)} .chip.warn{background:var(--warn-soft);color:var(--warn)}
+.chip.crit{background:var(--crit-soft);color:var(--crit)} .chip.info{background:var(--info-soft);color:var(--info)}
+.snip{font-size:.86rem;color:var(--muted);margin:2px 0 0;overflow-wrap:anywhere;grid-column:2}
+.why{grid-column:2;font-size:.8rem;color:var(--muted)}
+.row-actions{grid-column:2;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:6px}
+.row-actions select{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:4px 6px;font-size:.82rem}
+.notes{grid-column:2;width:100%;border:1px solid var(--line);background:var(--bg);border-radius:6px;padding:6px 8px;min-height:54px;font-size:.86rem;margin-top:6px}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--r);padding:28px 20px;text-align:center;color:var(--muted)}
+.empty h3{font-family:var(--font-display);color:var(--fg);margin:0 0 6px}
+.manual{margin-top:22px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.manual-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.portal{border:1px solid var(--line);border-radius:6px;padding:10px 12px;display:flex;flex-direction:column;gap:4px;font-size:.86rem}
+.pipe-group{display:flex;flex-direction:column;gap:10px;margin-bottom:18px}
+.pipe-group h3{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0}
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Boswell Contract Finder</h1>
+      <span>Federal and state opportunities, screened against Boswell Consulting Agency's rules</span>
+    </div>
+    <div class="bar-actions">
+      <div class="status" id="status">Loading results…</div>
+      <a class="btn" id="runLink" href="#" target="_blank" rel="noopener">Run a scan now</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <aside aria-label="Screening rules">
+    <h2>How notices are screened</h2>
+    <ol>
+      <li><b>Paperwork.</b> Flags requests for financial statements, staff resumes or government past performance.</li>
+      <li><b>References.</b> Screens out anything that requires client references or past performance questionnaires.</li>
+      <li><b>No live orals.</b> Passes only when the notice states no oral presentations. Possible, conditional or optional orals, and live meetings, briefings or training in the scope, screen it out.</li>
+    </ol>
+    <p class="hint">Also screened out: set-asides the firm doesn't qualify for, deadlines under 7 days, staff required on site, security clearances, required licensed credentials, and notices on the already-handled list.</p>
+    <p class="hint"><b>Every match is preliminary.</b> The scan reads notice text, not attached RFP documents, where orals, references and staffing rules often sit.</p>
+    <p class="hint"><b>Unconfirmed notices</b> are kept out of Matches: their text has no express no-orals guarantee, or their set-aside eligibility couldn't be confirmed. They are not fits until the attached documents are read. Use the <b>Show unconfirmed</b> filter to review them.</p>
+    <p class="hint"><a id="editLink" href="#" target="_blank" rel="noopener">Edit keywords, NAICS codes or the already-handled list</a></p>
+  </aside>
+
+  <section aria-label="Opportunities">
+    <div id="alerts"></div>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tabMatches" aria-selected="true" type="button">Matches<span class="count" id="countMatches">0</span></button>
+      <button class="tab" role="tab" id="tabPipeline" aria-selected="false" type="button">Pipeline<span class="count" id="countPipeline">0</span></button>
+    </div>
+    <div id="viewMatches">
+      <div class="summary" id="summary"></div>
+      <div class="filters">
+        <input type="search" id="fText" placeholder="Filter by title, agency or solicitation number" aria-label="Filter results">
+        <select id="fTier" aria-label="Fit level">
+          <option value="good">Good fit and above</option>
+          <option value="strong">Strong fit only</option>
+          <option value="long">Long shots and above</option>
+          <option value="all">Everything</option>
+        </select>
+        <select id="fSrc" aria-label="Source">
+          <option value="">All sources</option>
+          <option value="SAM">Federal (SAM.gov)</option>
+          <option value="VA">Virginia</option>
+          <option value="SC">South Carolina</option>
+          <option value="NC">North Carolina</option>
+          <option value="NV">Nevada</option>
+        </select>
+        <select id="fSort" aria-label="Sort">
+          <option value="score">Best fit first</option>
+          <option value="due">Deadline soonest</option>
+          <option value="new">Newest posted</option>
+        </select>
+        <label><input type="checkbox" id="fHideOut" checked> Hide screened out</label>
+        <label><input type="checkbox" id="fShowUnconf"> Show unconfirmed</label>
+      </div>
+      <div class="list" id="list"></div>
+      <div class="manual" id="manual" hidden></div>
+    </div>
+    <div id="viewPipeline" hidden><div id="pipeline"></div></div>
+  </section>
+</main>
+
+<script>
+(() => {
+  const SRC = {SAM:{short:"Federal",link:"SAM.gov"},VA:{short:"VA",link:"eVA"},SC:{short:"SC",link:"SCBO"},NC:{short:"NC",link:"eVP"},NV:{short:"NV",link:"NevadaEPro"}};
+  const TYPE_LABEL = {o:"Solicitation",k:"Combined synopsis/solicitation",r:"Sources sought",p:"Presolicitation"};
+  const STATUSES = ["Watching","Preparing bid","Submitted","Won","Lost","Passed"];
+  const TIER_LABEL = {strong:"Strong",good:"Good",long:"Long shot",weak:"Weak",out:"Screened out",unconf:"Unconfirmed"};
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const daysLeft = iso => { if(!iso) return null; const t = Date.parse(iso); return isNaN(t) ? null : Math.floor((t-Date.now())/86400000); };
+  const fmtDate = iso => { if(!iso) return "No deadline listed"; const d = new Date(iso); return isNaN(d) ? iso : d.toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"}); };
+  const tierOf = it => it.out ? "out" : it.unconfirmed ? "unconf" : it.score>=65 ? "strong" : it.score>=45 ? "good" : it.score>=25 ? "long" : "weak";
+
+  // repo links work for any owner/name this is deployed under
+  const host = location.hostname.split(".")[0], repoName = location.pathname.split("/").filter(Boolean)[0] || "boswell-contract-finder";
+  const repoUrl = host && location.hostname.endsWith("github.io") ? `https://github.com/${host}/${repoName}` : "https://github.com/MeNiceGuy/boswell-contract-finder";
+  $("runLink").href = repoUrl + "/actions/workflows/scan.yml";
+  $("editLink").href = repoUrl + "/edit/main/config/profile.json";
+
+  // pipeline lives in this browser
+  const load = () => { try { return JSON.parse(localStorage.getItem("bcf_pipeline")||"{}"); } catch { return {}; } };
+  const save = p => { try { localStorage.setItem("bcf_pipeline", JSON.stringify(p)); } catch {} };
+  let pipeline = load();
+  let data = {items:[], counts:{}, failures:[], manual_portals:[], min_days:7};
+
+  function card(it, opts={}){
+    const el = document.createElement("article"); el.className = "opp" + (it.unconfirmed && !it.out ? " unconf" : "");
+    const tier = tierOf(it), d = daysLeft(it.due), pi = pipeline[it.id];
+    const dueChip = d===null ? `<span class="chip">No deadline listed</span>` : d < (data.min_days||7) ? `<span class="chip crit">${d<0?"Closed":d+" day"+(d===1?"":"s")+" left"}</span>` : d<=14 ? `<span class="chip warn">${d} days left</span>` : `<span class="chip">${d} days left</span>`;
+    const v = it.view || {fails:[],flags:[]};
+    const gateChips = (v.fails||[]).filter(f=>f!=="Deadline too tight").map(f=>`<span class="chip crit">${esc(f)}</span>`).join("")
+      + (v.flags||[]).map(f=>`<span class="chip warn">${esc(f)}</span>`).join("")
+      + (it.unconfirmed && !it.out ? (v.unconfirmed||[]).map(r=>`<span class="chip warn">${esc(r)}: needs document read</span>`).join("") : (!it.out && v.orals==="guaranteed" ? `<span class="chip good">No orals stated</span>` : ""))
+      + (v.remote ? `<span class="chip good">Remote-friendly</span>` : "");
+    const s = SRC[it.src] || SRC.SAM;
+    el.innerHTML = `
+      <div class="score t-${tier}"><div class="num">${it.score ?? "–"}</div><div class="tier">${TIER_LABEL[tier]}</div></div>
+      <h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>
+      <div class="meta"><span>${esc(it.agency||it.dept)}${it.office?" · "+esc(it.office):""}</span>${it.sol?`<span class="mono">${esc(it.sol)}</span>`:""}<span>Due ${esc(fmtDate(it.due))}</span></div>
+      <div class="chips"><span class="chip src">${esc(s.short)}</span><span class="chip info">${esc(TYPE_LABEL[it.type]||it.category||"Notice")}</span>${dueChip}${(it.naics||[]).slice(0,3).map(c=>`<span class="chip mono">${esc(c)}</span>`).join("")}${gateChips}${pi&&!opts.pipeline?`<span class="chip good">In pipeline: ${esc(pi.status)}</span>`:""}</div>
+      ${it.snippet?`<p class="snip">${esc(it.snippet)}${it.snippet.length>=255?"…":""}</p>`:""}
+      ${it.why?.length?`<div class="why">Why: ${esc(it.why.join(" · "))}</div>`:""}
+      <div class="row-actions">
+        <a class="btn small" href="${esc(it.url)}" target="_blank" rel="noopener">Open on ${esc(s.link)}</a>
+        <select aria-label="Pipeline status"><option value="">${pi?"Remove from pipeline":"Add to pipeline…"}</option>${STATUSES.map(x=>`<option ${pi?.status===x?"selected":""}>${x}</option>`).join("")}</select>
+      </div>
+      ${opts.pipeline?`<textarea class="notes" aria-label="Notes" placeholder="Notes: questions, attachment findings, due dates…">${esc(pi?.notes||"")}</textarea>`:""}`;
+    el.querySelector("select").onchange = e => {
+      const st = e.target.value;
+      if(!st) delete pipeline[it.id];
+      else pipeline[it.id] = {...(pipeline[it.id]||{notes:""}), status:st, item:{...it, desc:undefined}};
+      save(pipeline); render();
+    };
+    const n = el.querySelector(".notes");
+    if(n) n.onchange = () => { if(pipeline[it.id]){ pipeline[it.id].notes = n.value; save(pipeline); } };
+    return el;
+  }
+
+  function render(){
+    const items = data.items || [];
+    const live = items.filter(i=>!i.out && !i.unconfirmed);
+    const unc = items.filter(i=>i.unconfirmed && !i.out);
+    $("countMatches").textContent = live.filter(i=>i.score>=45).length;
+    $("countPipeline").textContent = Object.keys(pipeline).length;
+    const strong = live.filter(i=>i.score>=65).length, good = live.filter(i=>i.score>=45 && i.score<65).length;
+    const noOral = live.filter(i=>i.view?.orals==="guaranteed").length;
+    const soon = live.filter(i=>{ const d=daysLeft(i.due); return i.score>=45 && d!==null && d<=14; }).length;
+    $("summary").innerHTML = items.length ? [[strong,"Strong fits"],[good,"Good fits"],[noOral,"State no orals"],[soon,"Good+ due in 2 weeks"],[unc.length,"Unconfirmed"],[items.length-live.length-unc.length,"Screened out"]].map(([n,l])=>`<div class="sum"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("") : "";
+    const list = $("list"); list.innerHTML = "";
+    if(!items.length){
+      list.innerHTML = `<div class="empty"><h3>No scan results yet</h3><p>The first scan runs on the next weekday morning, or now if you press <b>Run a scan now</b> and then <b>Run workflow</b> on GitHub.</p></div>`;
+    } else {
+      const ft = $("fText").value.trim().toLowerCase(), tierMin = {strong:65,good:45,long:25,all:0}[$("fTier").value], src = $("fSrc").value, so = $("fSort").value, hideOut = $("fHideOut").checked, showUnconf = $("fShowUnconf").checked;
+      let view = items.filter(i => (i.out ? !hideOut : i.unconfirmed ? showUnconf : i.score>=tierMin) && (!src || i.src===src) && (!ft || [i.title,i.agency,i.dept,i.office,i.sol].join(" ").toLowerCase().includes(ft)));
+      const far = 9e15;
+      view.sort(so==="due" ? (a,b)=>(Date.parse(a.due)||far)-(Date.parse(b.due)||far) : so==="new" ? (a,b)=>(Date.parse(b.posted)||0)-(Date.parse(a.posted)||0) : (a,b)=>(a.out-b.out) || ((a.unconfirmed?1:0)-(b.unconfirmed?1:0)) || b.score-a.score || (Date.parse(a.due)||far)-(Date.parse(b.due)||far));
+      if(!view.length) list.innerHTML = `<div class="empty"><h3>Nothing matches these filters</h3><p>Try "Long shots and above" or clear the search box.</p></div>`;
+      view.slice(0,200).forEach(it => list.appendChild(card(it)));
+      if(view.length>200) list.insertAdjacentHTML("beforeend", `<p class="hint">Showing 200 of ${view.length}. Narrow the filters to see the rest.</p>`);
+    }
+    const mp = data.manual_portals || [];
+    $("manual").hidden = !mp.length;
+    $("manual").innerHTML = `<div class="section-h">Check these portals yourself</div><p class="hint">Registered, but these sites can't be scanned automatically.</p><div class="manual-grid">${mp.map(m=>`<div class="portal"><b>${esc(m.name)}</b><span>${esc(m.site)}</span>${m.vendor_id?`<span class="mono" style="user-select:all">Vendor ID ${esc(m.vendor_id)}</span>`:""}<span class="hint">${esc(m.why)}</span><a href="${esc(m.url)}" target="_blank" rel="noopener">Open ${esc(m.name)}'s portal</a></div>`).join("")}</div>`;
+    const pl = $("pipeline"); pl.innerHTML = "";
+    const pitems = Object.entries(pipeline);
+    if(!pitems.length) pl.innerHTML = `<div class="empty"><h3>Your pipeline is empty</h3><p>Use <b>Add to pipeline</b> on any match to track it here. Your pipeline is saved in this browser.</p></div>`;
+    STATUSES.forEach(st => {
+      const group = pitems.filter(([,p])=>p.status===st);
+      if(!group.length) return;
+      const g = document.createElement("div"); g.className = "pipe-group";
+      g.innerHTML = `<h3>${esc(st)} · ${group.length}</h3>`;
+      group.forEach(([id,p]) => { const fresh = items.find(i=>i.id===id); g.appendChild(card(fresh || p.item, {pipeline:true})); });
+      pl.appendChild(g);
+    });
+  }
+
+  ["fText","fTier","fSrc","fSort","fHideOut","fShowUnconf"].forEach(id => $(id).addEventListener(id==="fText"?"input":"change", render));
+  const showTab = w => { $("tabMatches").setAttribute("aria-selected", w==="m"); $("tabPipeline").setAttribute("aria-selected", w==="p"); $("viewMatches").hidden = w!=="m"; $("viewPipeline").hidden = w!=="p"; };
+  $("tabMatches").onclick = () => showTab("m");
+  $("tabPipeline").onclick = () => showTab("p");
+
+  fetch("data/results.json?t=" + Date.now()).then(r => r.json()).then(j => {
+    data = j;
+    const c = j.counts || {};
+    const by = Object.keys(c).map(k => `${(SRC[k]||{short:k}).short} ${c[k]}`).join(" · ");
+    $("status").innerHTML = j.generated_at ? `Last scan <b>${new Date(j.generated_at).toLocaleString(undefined,{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}</b>${by?` · ${esc(by)}`:""}` : "No scan yet";
+    if(j.failures?.length) $("alerts").innerHTML = `<div class="notice warn"><p><b>Some sources didn't load on the last scan.</b> ${j.failures.map(f=>`${esc((SRC[f.source]||{short:f.source}).short)}: ${esc(f.message)}`).join(" ")}</p></div>`;
+    render();
+  }).catch(() => {
+    $("status").textContent = "Couldn't load results";
+    $("alerts").innerHTML = `<div class="notice crit"><p>The results file didn't load. Refresh the page; if it keeps happening, check the latest run on the Actions tab.</p></div>`;
+    render();
+  });
+})();
+</script>
+</body>
+</html>
