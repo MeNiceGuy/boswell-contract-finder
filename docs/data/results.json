@@ -1,0 +1,39 @@
+{
+ "generated_at": null,
+ "company": "Boswell Consulting Agency LLC",
+ "counts": {},
+ "sam_mode": null,
+ "failures": [],
+ "min_days": 7,
+ "set_asides": [
+  "SBA",
+  "SBP"
+ ],
+ "manual_portals": [
+  {
+   "name": "Maryland",
+   "site": "eMaryland Marketplace Advantage (eMMA)",
+   "url": "https://emma.maryland.gov/page.aspx/en/rfp/request_browse_public",
+   "why": "Runs a browser check meant for a person, so the scanner can't read it. Filter Public Solicitations by keyword."
+  },
+  {
+   "name": "West Virginia",
+   "site": "wvOASIS Vendor Self-Service",
+   "url": "https://wvoasis.gov/vss/",
+   "why": "Solicitations sit inside the vendor self-service app. Sign in and search Published Solicitations."
+  },
+  {
+   "name": "Kentucky",
+   "site": "eMARS Vendor Self-Service",
+   "url": "https://eprocurement.ky.gov/",
+   "why": "Solicitations sit inside the eMARS vendor self-service app. Sign in and search Published Solicitations."
+  },
+  {
+   "name": "Maine",
+   "site": "Maine Vendor Self-Service",
+   "url": "https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps",
+   "why": "New Maine solicitations post only in Vendor Self-Service. Sign in to search them."
+  }
+ ],
+ "items": []
+}
