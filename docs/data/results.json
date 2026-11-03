@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T01:04:18.701664+00:00",
+ "generated_at": "2026-11-03T01:46:56.847028+00:00",
  "company": "Boswell Consulting Agency LLC",
  "counts": {
   "SAM": 0,
@@ -44,6 +44,333 @@
    "site": "Maine Vendor Self-Service",
    "url": "https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps",
    "why": "New Maine solicitations post only in Vendor Self-Service. Sign in to search them."
+  }
+ ],
+ "worklist": [
+  {
+   "id": "VA-IV129908",
+   "title": "IFB 161278 - Janitorial Services; Nthn Neck Rsdncy",
+   "src": "VA",
+   "agency": "Virginia Department of Transportation",
+   "due": "2026-11-10T10:00:00Z",
+   "score": 7,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130812",
+   "title": "Snow Removal Services",
+   "src": "VA",
+   "agency": "Rappahannock Area Community Services Board",
+   "due": "2026-11-10T12:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130079",
+   "title": "Request for Proposals - Timber Sale and Management Services",
+   "src": "VA",
+   "agency": "Northumberland County",
+   "due": "2026-11-10T14:00:00Z",
+   "score": 31,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130041",
+   "title": "Local Textbook Adoption for IB History & Psychology",
+   "src": "VA",
+   "agency": "Stafford County Public Schools",
+   "due": "2026-11-10T14:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130586",
+   "title": "IFB 27-2027-3103, Polymer (Residual Operations)",
+   "src": "VA",
+   "agency": "City of Newport News",
+   "due": "2026-11-10T14:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV129356",
+   "title": "CNU Library Fire Alarm Replacement, 242-B4242-016",
+   "src": "VA",
+   "agency": "Christopher Newport University",
+   "due": "2026-11-10T14:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV129140",
+   "title": "ITB - Biosolids Management Services",
+   "src": "VA",
+   "agency": "Western Virginia Water Authority",
+   "due": "2026-11-10T14:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130699",
+   "title": "Informal RFP 4400015274, State Legislative Consultant Services",
+   "src": "VA",
+   "agency": "County of Fairfax",
+   "due": "2026-11-10T14:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV126849",
+   "title": "Outdoor Recreational License Sales and Customer Engagement Solution",
+   "src": "VA",
+   "agency": "VITA eVA Statewide",
+   "due": "2026-11-10T14:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV129532",
+   "title": "Title VI Program Maintenance",
+   "src": "VA",
+   "agency": "City of Fairfax",
+   "due": "2026-11-10T15:00:00Z",
+   "score": 35,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130618",
+   "title": "Request for Information-Paratransit-ADA Origin to Destination-CARE PLUS and Care On Demand Mobility Services Network",
+   "src": "VA",
+   "agency": "Greater Richmond Transit Company",
+   "due": "2026-11-10T15:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130094",
+   "title": "Request for Quotes-Snow Clearing Services",
+   "src": "VA",
+   "agency": "Clarke County",
+   "due": "2026-11-10T15:00:00Z",
+   "score": 19,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV129072",
+   "title": "RFP-26-27-017-Animal Services Mgmt. and Operations Assessment",
+   "src": "VA",
+   "agency": "City of Danville",
+   "due": "2026-11-10T16:00:00Z",
+   "score": 34,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130931",
+   "title": "IFB 161321 - EMER TOWING SERVICES - PAGE COUNTY",
+   "src": "VA",
+   "agency": "Virginia Department of Transportation",
+   "due": "2026-11-10T16:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130989",
+   "title": "Parking Garage Pressure Washing- Tyler Parking Deck (lot 8)",
+   "src": "VA",
+   "agency": "Department of General Services",
+   "due": "2026-11-10T16:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130675",
+   "title": "Melfa, VA - Delivered Catered Lunches, Beverages, and Refreshments - Two days in February2027",
+   "src": "VA",
+   "agency": "Commonwealth's Attorneys' Services Council",
+   "due": "2026-11-10T17:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130673",
+   "title": "Hotel Lodging in Exmore, VA for 10 people Jan 31 & Feb 1, 2027",
+   "src": "VA",
+   "agency": "Commonwealth's Attorneys' Services Council",
+   "due": "2026-11-10T17:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV128385",
+   "title": "301-27-036 Invitation to Submit Pre-Proposals for Virginia Wine Board",
+   "src": "VA",
+   "agency": "Virginia Department of Agriculture and Consumer Services",
+   "due": "2026-11-10T17:00:00Z",
+   "score": 20,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "SC-Proposal No: 2627-11-10-01-City of Spartanburg",
+   "title": "Full-Service Transit Operations and Management of Fixed-Route and Microtransit Services",
+   "src": "SC",
+   "agency": "City of Spartanburg",
+   "due": "2026-11-10T15:00:00-05:00",
+   "score": 27,
+   "url": "https://vrapp.vendorregistry.com/Vendor/Register/Index/spartanburg-sc-vendor-registration",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "NC-281-RFP2738",
+   "title": "Housing Strategy 2026-27",
+   "src": "NC",
+   "agency": "CITY OF WINSTON-SALEM",
+   "due": "2026-11-10T16:00:00-05:00",
+   "score": 19,
+   "url": "https://evp.nc.gov/solicitations/details/?id=a67ba32f-44c7-f111-aaae-001dd803db57",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "SC-n/a-Sri Dasavathara Venkateshwara ",
+   "title": "front door vandalism protection",
+   "src": "SC",
+   "agency": "Sri Dasavathara Venkateshwara Temple",
+   "due": "2026-11-10T17:00:00-05:00",
+   "score": 27,
+   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-02",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV129852",
+   "title": "IFB 26-00423, Portable Toilet Rental and Services",
+   "src": "VA",
+   "agency": "Hampton Roads Transit",
+   "due": "2026-11-11T14:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "SC-2025U03-SF-City of North Augusta",
+   "title": "Tree Canopy Mapping Service",
+   "src": "SC",
+   "agency": "City of North Augusta",
+   "due": "2026-11-12T02:30:00-05:00",
+   "score": 27,
+   "url": "https://www.northaugustasc.gov/Home/Components/RFP/RFP/822/215",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130783",
+   "title": "Hanover County Complex Signage",
+   "src": "VA",
+   "agency": "Hanover County",
+   "due": "2026-11-12T10:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV129543",
+   "title": "RFQ 20261006  WOOD UTILITY POLE INSPECTION",
+   "src": "VA",
+   "agency": "Bristol Virginia Utilities Authority",
+   "due": "2026-11-12T10:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
   }
  ],
  "items": [
