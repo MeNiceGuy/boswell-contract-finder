@@ -95,6 +95,12 @@ aside ol{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
 .empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--r);padding:28px 20px;text-align:center;color:var(--muted)}
 .empty h3{font-family:var(--font-display);color:var(--fg);margin:0 0 6px}
 .manual{margin-top:22px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.worklist{margin-bottom:14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
+.worklist ol{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-direction:column;gap:8px}
+.wl-row{display:flex;flex-wrap:wrap;gap:3px 10px;align-items:baseline;font-size:.9rem}
+.wl-rank{font-family:var(--font-data);color:var(--muted);min-width:2ch;text-align:right}
+.wl-row a{font-weight:600}
+.wl-meta{color:var(--muted);font-size:.86rem}
 .manual-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
 .portal{border:1px solid var(--line);border-radius:6px;padding:10px 12px;display:flex;flex-direction:column;gap:4px;font-size:.86rem}
 .pipe-group{display:flex;flex-direction:column;gap:10px;margin-bottom:18px}
@@ -137,6 +143,7 @@ aside ol{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
     </div>
     <div id="viewMatches">
       <div class="summary" id="summary"></div>
+      <div class="worklist" id="worklist" hidden></div>
       <div class="filters">
         <input type="search" id="fText" placeholder="Filter by title, agency or solicitation number" aria-label="Filter results">
         <select id="fTier" aria-label="Fit level">
@@ -190,7 +197,7 @@ aside ol{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
   const load = () => { try { return JSON.parse(localStorage.getItem("bcf_pipeline")||"{}"); } catch { return {}; } };
   const save = p => { try { localStorage.setItem("bcf_pipeline", JSON.stringify(p)); } catch {} };
   let pipeline = load();
-  let data = {items:[], counts:{}, failures:[], manual_portals:[], min_days:7};
+  let data = {items:[], counts:{}, failures:[], manual_portals:[], min_days:7, worklist:[]};
 
   function card(it, opts={}){
     const el = document.createElement("article"); el.className = "opp" + (it.unconfirmed && !it.out ? " unconf" : "");
@@ -235,6 +242,11 @@ aside ol{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
     const noOral = live.filter(i=>i.view?.orals==="guaranteed").length;
     const soon = live.filter(i=>{ const d=daysLeft(i.due); return i.score>=45 && d!==null && d<=14; }).length;
     $("summary").innerHTML = items.length ? [[strong,"Strong fits"],[good,"Good fits"],[noOral,"State no orals"],[soon,"Good+ due in 2 weeks"],[unc.length,"Unconfirmed"],[items.length-live.length-unc.length,"Screened out"]].map(([n,l])=>`<div class="sum"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("") : "";
+    const wl = data.worklist || [];
+    $("worklist").hidden = !wl.length;
+    $("worklist").innerHTML = wl.length ? `<div class="section-h">Worklist: closest to confirmed</div>
+      <p class="hint">The priority queue: unconfirmed notices nearest to a confirmed match, fewest missing confirmations first, then soonest deadline. Each one needs a read of its attached documents to confirm. This list only orders the unconfirmed notices; it never promotes one into Matches.</p>
+      <ol>${wl.map((w,ix)=>`<li class="wl-row"><span class="wl-rank">${ix+1}</span><a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.title)}</a><span class="wl-meta">${esc(w.agency||"")}${w.agency?" · ":""}Due ${esc(fmtDate(w.due))}</span><span class="chips">${(w.reasons||[]).map(r=>`<span class="chip warn">${esc(r)}: needs document read</span>`).join("")}</span></li>`).join("")}</ol>` : "";
     const list = $("list"); list.innerHTML = "";
     if(!items.length){
       list.innerHTML = `<div class="empty"><h3>No scan results yet</h3><p>The first scan runs on the next weekday morning, or now if you press <b>Run a scan now</b> and then <b>Run workflow</b> on GitHub.</p></div>`;
