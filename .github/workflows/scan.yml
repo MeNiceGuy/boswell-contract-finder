@@ -1,9 +1,11 @@
 name: Daily contract scan
 
 on:
-  schedule:
-    # 12:37 UTC on weekdays = 7:37 AM Eastern Standard Time (8:37 AM during daylight saving)
-    - cron: "37 12 * * 1-5"
+  # Manual only since 2026-11-02: the scheduled run moved to a local
+  # producer on Muse's side, because the SAM.gov leg now runs through
+  # Muse's registered SAM connector (SAM_SOURCE=connector) instead of a
+  # repository API key secret. This workflow stays as a manual fallback;
+  # if a SAM_API_KEY secret is ever added, it can run the full scan here.
   workflow_dispatch: {}
 
 permissions:
