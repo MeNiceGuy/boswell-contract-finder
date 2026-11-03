@@ -1,0 +1,153 @@
+{
+ "company": "Boswell Consulting Agency LLC",
+ "naics": [
+  {
+   "code": "541611",
+   "name": "Administrative Management & General Management Consulting",
+   "tier": "core"
+  },
+  {
+   "code": "541612",
+   "name": "Human Resources Consulting Services",
+   "tier": "core"
+  },
+  {
+   "code": "541618",
+   "name": "Other Management Consulting Services",
+   "tier": "core"
+  },
+  {
+   "code": "541690",
+   "name": "Other Scientific & Technical Consulting Services",
+   "tier": "secondary"
+  }
+ ],
+ "keywords": [
+  "research",
+  "study",
+  "studies",
+  "program evaluation",
+  "evaluation",
+  "policy analysis",
+  "operations analysis",
+  "organizational assessment",
+  "organizational",
+  "feasibility",
+  "market study",
+  "market research",
+  "survey",
+  "statistical",
+  "data analysis",
+  "analytics",
+  "dashboard",
+  "strategic plan",
+  "strategy",
+  "innovation",
+  "needs assessment",
+  "benchmarking",
+  "management consulting",
+  "advisory",
+  "performance management",
+  "process improvement",
+  "home health",
+  "home care",
+  "compliance review",
+  "policies and procedures",
+  "strategic",
+  "assessment",
+  "analysis",
+  "consulting",
+  "economic development",
+  "plan update"
+ ],
+ "federal_searches": [
+  "program evaluation",
+  "feasibility study",
+  "survey design",
+  "policy analysis",
+  "market research study",
+  "organizational assessment"
+ ],
+ "exclude": [
+  "construction",
+  "janitorial",
+  "custodial",
+  "roofing",
+  "hvac",
+  "paving",
+  "dredging",
+  "repair",
+  "fuel",
+  "vehicle",
+  "medical supplies",
+  "pharmaceutical",
+  "food service",
+  "laboratory equipment",
+  "software license",
+  "hardware",
+  "landscaping",
+  "uniforms"
+ ],
+ "set_asides": [
+  "SBA",
+  "SBP"
+ ],
+ "swam": false,
+ "min_days": 7,
+ "notice_types": [
+  "o",
+  "k",
+  "r",
+  "p"
+ ],
+ "sources": [
+  "SAM",
+  "VA",
+  "SC",
+  "NC",
+  "NV"
+ ],
+ "handled": [
+  "DNAPO",
+  "Comprehensive Medical Review",
+  "Scientific Technical Capacity",
+  "Equal Employment Opportunity Services",
+  "CICP Reconsideration",
+  "WWC Online Study Review",
+  "Mentor-Prot",
+  "PA-TAC",
+  "31PCSA-S4046",
+  "GOHSEP",
+  "BPM059595",
+  "30-2026-048-DHB",
+  "Kentucky HCBS",
+  "746-2500000254",
+  "FAA Safety"
+ ],
+ "manual_portals": [
+  {
+   "name": "Maryland",
+   "site": "eMaryland Marketplace Advantage (eMMA)",
+   "url": "https://emma.maryland.gov/page.aspx/en/rfp/request_browse_public",
+   "why": "Runs a browser check meant for a person, so the scanner can't read it. Filter Public Solicitations by keyword."
+  },
+  {
+   "name": "West Virginia",
+   "site": "wvOASIS Vendor Self-Service",
+   "url": "https://wvoasis.gov/vss/",
+   "why": "Solicitations sit inside the vendor self-service app. Sign in and search Published Solicitations."
+  },
+  {
+   "name": "Kentucky",
+   "site": "eMARS Vendor Self-Service",
+   "url": "https://eprocurement.ky.gov/",
+   "why": "Solicitations sit inside the eMARS vendor self-service app. Sign in and search Published Solicitations."
+  },
+  {
+   "name": "Maine",
+   "site": "Maine Vendor Self-Service",
+   "url": "https://www.maine.gov/dafs/bbm/procurementservices/vendors/rfps",
+   "why": "New Maine solicitations post only in Vendor Self-Service. Sign in to search them."
+  }
+ ]
+}
