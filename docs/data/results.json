@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-25T12:39:48.481400+00:00",
+ "generated_at": "2026-11-26T12:39:45.206102+00:00",
  "company": "Boswell Consulting Agency LLC",
  "counts": {
-  "SAM": 77,
-  "VA": 510,
-  "SC": 146,
-  "NC": 245,
+  "SAM": 76,
+  "VA": 517,
+  "SC": 149,
+  "NC": 249,
   "NV": 25,
   "SUBNET": 2,
   "LOCAL": 107,
@@ -64,51 +64,6 @@
    ]
   },
   {
-   "id": "VA-IV131075",
-   "title": "RFQ - Renovate Ewell Hall",
-   "src": "VA",
-   "sol_type": "rfq_quote",
-   "prime": "",
-   "agency": "College of William & Mary",
-   "due": "2026-12-02T16:00:00Z",
-   "score": 16,
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "reasons": [
-    "Orals not confirmed",
-    "Eligibility not confirmed"
-   ]
-  },
-  {
-   "id": "SUBNET-city-san-diego-alvarado-trunk-sewer-phase-iv-water-main-relocations-bid-package",
-   "title": "City of San Diego, Alvarado Trunk Sewer Phase IV and Water Main Relocations Bid Package A",
-   "src": "SUBNET",
-   "sol_type": "subcontract",
-   "prime": "OHLA USA, Inc.",
-   "agency": "OHLA USA, Inc.",
-   "due": "2026-12-03T00:00:00-05:00",
-   "score": 34,
-   "url": "https://legacy.sba.gov/opportunity/city-san-diego-alvarado-trunk-sewer-phase-iv-water-main-relocations-bid-package",
-   "reasons": [
-    "Orals not confirmed",
-    "Eligibility not confirmed"
-   ]
-  },
-  {
-   "id": "VA-IV130664",
-   "title": "RFQ SA 2706 Request for Qualification for Applications Engineering Systems Supplier (AESS) Services",
-   "src": "VA",
-   "sol_type": "rfq_quote",
-   "prime": "",
-   "agency": "Prince William County Service Authority",
-   "due": "2026-12-03T10:00:00Z",
-   "score": 27,
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "reasons": [
-    "Orals not confirmed",
-    "Eligibility not confirmed"
-   ]
-  },
-  {
    "id": "NC-125-2026-11-02",
    "title": "Southwestern Community College Facilities Capital Project List",
    "src": "NC",
@@ -118,6 +73,21 @@
    "due": "2026-12-03T14:00:00-05:00",
    "score": 33,
    "url": "https://evp.nc.gov/solicitations/details/?id=0137bc23-d3e5-f111-84e8-001dd80fedb8",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV130668",
+   "title": "Video Enhanced Therapy (VET) Platform for VDH Tuberculosis program",
+   "src": "VA",
+   "sol_type": "rfq_quote",
+   "prime": "",
+   "agency": "Virginia Department of Health",
+   "due": "2026-12-04T12:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
    "reasons": [
     "Orals not confirmed",
     "Eligibility not confirmed"
@@ -207,7 +177,7 @@
    "agency": "Charleston County",
    "due": "2026-12-09T15:00:00-05:00",
    "score": 7,
-   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-25",
+   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-26",
    "reasons": [
     "Orals not confirmed",
     "Eligibility not confirmed"
@@ -416,6 +386,36 @@
    "prime": "",
    "agency": "Radford University",
    "due": "2027-03-29T00:00:00Z",
+   "score": 31,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV129626",
+   "title": "Service To Provide Pumping, Removing of Grease from Nottoway Correctional Center & Work Center",
+   "src": "VA",
+   "sol_type": "rfq_quote",
+   "prime": "",
+   "agency": "Nottoway Correctional Center",
+   "due": "2027-09-30T00:00:00Z",
+   "score": 27,
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "reasons": [
+    "Orals not confirmed",
+    "Eligibility not confirmed"
+   ]
+  },
+  {
+   "id": "VA-IV131603",
+   "title": "VCCS 2026-2027 Small Purchase Procurement for AE Services (CAT B)",
+   "src": "VA",
+   "sol_type": "rfq_quote",
+   "prime": "",
+   "agency": "Virginia Community College System - System Office",
+   "due": "2027-12-30T17:00:00Z",
    "score": 31,
    "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
    "reasons": [
@@ -794,45 +794,6 @@
    "sol_type": "other"
   },
   {
-   "id": "VA-IV129680",
-   "src": "VA",
-   "title": "RFQual- COVB-27-101721- Annual Services Contract for Public Works Business Consulting Services",
-   "sol": "Request for Pre-qualifications 129680",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "City of Virginia Beach",
-   "office": "Department of Public Works- Virginia Beach ",
-   "posted": "2026-11-13T14:02:32.980Z",
-   "due": "2026-12-02T15:00:00Z",
-   "snippet": "The City of Virginia Beach Department of Public Works seeks a qualified consulting firm to provide professional services on an as-needed, Task Order basis. Services may include engineering and technical studies, asset management, strategic planning, process im",
-   "desc": "The City of Virginia Beach Department of Public Works seeks a qualified consulting firm to provide professional services on an as-needed, Task Order basis. Services may include engineering and technical studies, asset management, strategic planning, process improvement, organizational modernization, technology planning, project management, implementation support, training, data analytics, systems integration, automation, geospatial services, and related consulting. Each Task Order will define the specific scope, schedule, deliverables, staffing, and compensation. Services may support various Public Works divisions and operations. The selected firm shall provide qualified personnel, objective recommendations, and practical solutions that integrate engineering, business, technology, and organizational expertise.",
-   "category": "Professional Services - Construction Related",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 58,
-   "why": [
-    "Keywords: studies, organizational, analytics, strategic plan",
-    "Category: Professional Services - Construction Related"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
    "id": "SAM-b944f5c853cf49fa9c52961a78c27073",
    "src": "SAM",
    "title": "Assistant Criminal Analyst (ACA) Services",
@@ -1079,7 +1040,7 @@
    "sol_type": "other"
   },
   {
-   "id": "SAM-184c2d08a2fd434bb1f0ef681d928f26",
+   "id": "SAM-6d198c212c664339be64af7e2e296a13",
    "src": "SAM",
    "title": "Rope Access Inspection - Devils Kitchen Dam",
    "sol": "W912P927QA009",
@@ -1087,7 +1048,7 @@
    "dept": "DEPT OF DEFENSE",
    "agency": "DEPT OF THE ARMY",
    "office": "W07V ENDIST ST LOUIS",
-   "posted": "2026-11-24",
+   "posted": "2026-11-25",
    "due": "2026-12-04T10:00:00-06:00",
    "snippet": "",
    "desc": "Rope Access Rigging and Supervision for Structural Inspections of concrete at Devils Kitchen Dam to support the U.S. Fish and Wildlife Service.",
@@ -1096,7 +1057,7 @@
    ],
    "set_aside": "SBA",
    "category": "",
-   "url": "https://sam.gov/workspace/contract/opp/184c2d08a2fd434bb1f0ef681d928f26/view",
+   "url": "https://sam.gov/workspace/contract/opp/6d198c212c664339be64af7e2e296a13/view",
    "unconfirmed": true,
    "view": {
     "fails": [],
@@ -1652,7 +1613,7 @@
    "category": "Consultant/Professional",
    "naics": [],
    "set_aside": "",
-   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-25",
+   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-26",
    "unconfirmed": true,
    "view": {
     "fails": [],
@@ -2179,45 +2140,6 @@
    "sol_type": "rfp"
   },
   {
-   "id": "VA-IV131608",
-   "src": "VA",
-   "title": "Employee Benefit Consulting and Broker Services",
-   "sol": "Request for Proposals 131608",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "JAUNT",
-   "office": "Charlottesville",
-   "posted": "2026-11-11T16:04:44.997Z",
-   "due": "2026-12-09T13:00:00Z",
-   "snippet": "Jaunt is seeking written proposals for an insurance brokerage firm or individual to provide Employee Benefit Broker and Consulting Services.",
-   "desc": "Jaunt is seeking written proposals for an insurance brokerage firm or individual to provide Employee Benefit Broker and Consulting Services.",
-   "category": "Professional Services",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 34,
-   "why": [
-    "Keywords: consulting",
-    "Category: Professional Services"
-   ],
-   "relevant": true,
-   "sol_type": "rfp"
-  },
-  {
    "id": "VA-IV131986",
    "src": "VA",
    "title": "RFP: Professional Services for General Reassessment of All Taxable Real Property",
@@ -2330,6 +2252,45 @@
    "why": [
     "Keywords: analysis",
     "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "rfp"
+  },
+  {
+   "id": "VA-IV131608",
+   "src": "VA",
+   "title": "Employee Benefit Consulting and Broker Services",
+   "sol": "Request for Proposals 131608",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "JAUNT",
+   "office": "Charlottesville",
+   "posted": "2026-11-25T15:33:56.630Z",
+   "due": "2026-12-09T13:00:00Z",
+   "snippet": "Jaunt is seeking written proposals for an insurance brokerage firm or individual to provide Employee Benefit Broker and Consulting Services.",
+   "desc": "Jaunt is seeking written proposals for an insurance brokerage firm or individual to provide Employee Benefit Broker and Consulting Services.",
+   "category": "Professional Services",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 34,
+   "why": [
+    "Keywords: consulting",
+    "Category: Professional Services"
    ],
    "relevant": true,
    "sol_type": "rfp"
@@ -2567,44 +2528,6 @@
    "sol_type": "other"
   },
   {
-   "id": "SC-2027-27-Town of Bluffton",
-   "src": "SC",
-   "title": "As-Needed Professional Survey Services FY27-FY31 RFQu",
-   "sol": "2027-27",
-   "type": "",
-   "dept": "South Carolina",
-   "agency": "Town of Bluffton",
-   "office": "",
-   "posted": "2026-11-04T00:00:00-05:00",
-   "due": "2026-12-02T14:00:00-05:00",
-   "snippet": "The Town of Bluffton is seeking statements of qualifications from to provide from Professional Land Surveying firms to provide professional land survey services. The target start date for performing these services is December 2026.\r\nThe Town intends to award m",
-   "desc": "The Town of Bluffton is seeking statements of qualifications from to provide from Professional Land Surveying firms to provide professional land survey services. The target start date for performing these services is December 2026.\r\nThe Town intends to award multiple, non-exclusive Master Services Agreements to qualified firms that present proposals considered to be of the best value to the Town.",
-   "category": "Consultant/Professional",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://www.townofbluffton.sc.gov/248/Purchasing-Center",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 34,
-   "why": [
-    "Keywords: survey",
-    "Category: Consultant/Professional"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
    "id": "SC-3062-York County",
    "src": "SC",
    "title": "Consulting Services for the Development and Implementation of a Dry Weather Screening Program",
@@ -2701,47 +2624,6 @@
    "prime": "Orbis Novitas Solutions, Inc. (ONSI)",
    "start": "2027-01-15T00:00:00-05:00",
    "url": "https://legacy.sba.gov/opportunity/ieua-business-continuity-disaster-recovery-plan-services-otics-resilience-sme-waterwastewater",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 34,
-   "why": [
-    "Secondary NAICS 541690"
-   ],
-   "relevant": true,
-   "sol_type": "subcontract"
-  },
-  {
-   "id": "SUBNET-city-san-diego-alvarado-trunk-sewer-phase-iv-water-main-relocations-bid-package",
-   "src": "SUBNET",
-   "title": "City of San Diego, Alvarado Trunk Sewer Phase IV and Water Main Relocations Bid Package A",
-   "sol": "",
-   "type": "",
-   "dept": "SBA SubNet",
-   "agency": "OHLA USA, Inc.",
-   "office": "California",
-   "posted": "",
-   "due": "2026-12-03T00:00:00-05:00",
-   "snippet": "",
-   "desc": "",
-   "category": "Subcontracting",
-   "naics": [
-    "541690"
-   ],
-   "set_aside": "",
-   "prime": "OHLA USA, Inc.",
-   "start": "2027-01-30T00:00:00-05:00",
-   "url": "https://legacy.sba.gov/opportunity/city-san-diego-alvarado-trunk-sewer-phase-iv-water-main-relocations-bid-package",
    "unconfirmed": true,
    "view": {
     "fails": [],
@@ -3193,45 +3075,6 @@
    "sol_type": "rfp"
   },
   {
-   "id": "VA-IV131243",
-   "src": "VA",
-   "title": "Engineering Services Bridge Inspections & Overweight Permits",
-   "sol": "Request for Proposals 131243",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "City of Suffolk",
-   "office": "Suffolk, VA  23434",
-   "posted": "2026-11-05T14:01:47.167Z",
-   "due": "2026-12-02T15:00:00Z",
-   "snippet": "SCOPE OF WORK \u00e2\u0080\u0093 The City of Suffolk has issued this sealed Request for Proposal (RFP) for the sole purpose of obtaining responsive proposals from VDOT pre-qualified firms to provide engineering services related to the structural inspections of various types ",
-   "desc": "SCOPE OF WORK \u00e2\u0080\u0093 The City of Suffolk has issued this sealed Request for Proposal (RFP) for the sole purpose of obtaining responsive proposals from VDOT pre-qualified firms to provide engineering services related to the structural inspections of various types of bridges for which the City has maintenance responsibility, inspection of traffic control device structures, and the review of Overweight Vehicle Permits as requested by the City. Inspections shall include, but are not limited to, fatigue prone details and fracture critical members utilizing non-destructive evaluation methods, and inspection of any attached ancillary structures (ex. overhead signs).",
-   "category": "Professional Services",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 31,
-   "why": [
-    "Keywords: evaluation",
-    "Category: Professional Services"
-   ],
-   "relevant": true,
-   "sol_type": "rfp"
-  },
-  {
    "id": "VA-IV131470",
    "src": "VA",
    "title": "RFP 26-05 Full Engineering Services with an Emphasis on Civil Engineering Term Contracts",
@@ -3349,22 +3192,22 @@
    "sol_type": "rfp"
   },
   {
-   "id": "SC-5400030350-Department of Transportation",
+   "id": "SC-WRCOG GSATS 2026-1-Waccamaw Regional Council of G",
    "src": "SC",
-   "title": "SCDOT Strategic Plan",
-   "sol": "5400030350",
+   "title": "WRCOG / GSATS 2050 Metropolitan Transportation Plan (MTP)",
+   "sol": "WRCOG GSATS 2026-1",
    "type": "",
    "dept": "South Carolina",
-   "agency": "Department of Transportation",
+   "agency": "Waccamaw Regional Council of Governments",
    "office": "",
-   "posted": "2026-10-20T00:00:00-05:00",
-   "due": "2026-12-02T11:00:00-05:00",
-   "snippet": "The South Carolina Department of Transportation is seeking proposals from qualified consulting firms to develop a comprehensive Agency Strategic Plan. The Department's current strategic framework requires updating to reflect evolving transportation technologie",
-   "desc": "The South Carolina Department of Transportation is seeking proposals from qualified consulting firms to develop a comprehensive Agency Strategic Plan. The Department's current strategic framework requires updating to reflect evolving transportation technologies, federal and state policy priorities, funding realities, and changing travel patterns. Specifically, the new plan needs to integrate the South Carolina Modernization legislation (Act 177) passed in 2026.",
-   "category": "Services",
+   "posted": "2026-11-25T00:00:00-05:00",
+   "due": "2027-01-07T13:00:00-05:00",
+   "snippet": "WRCOG/GSATS is seeking interest to provide NCDOT Work Code 00261 services for the 2050 MTP. Including update of the GSATS travel demand model; ITE code-based land use forecasting, including Williamsburg County; conversion of ITE code-based forecasts to socioec",
+   "desc": "WRCOG/GSATS is seeking interest to provide NCDOT Work Code 00261 services for the 2050 MTP. Including update of the GSATS travel demand model; ITE code-based land use forecasting, including Williamsburg County; conversion of ITE code-based forecasts to socioeconomic forecasts for statewide model inputs; update of the Congestion Management Process (CMP); performance measures; Safety Action Plan update; public involvement; project prioritization; financial planning; and final MTP documentation.",
+   "category": "Consultant/Professional",
    "naics": [],
    "set_aside": "",
-   "url": "https://apps.sceis.sc.gov/SCSolicitationWeb/solicitationAttachment.do?solicitnumber=5400030350",
+   "url": "https://wrcog.org/about_wrcog/solicitations.php",
    "unconfirmed": true,
    "view": {
     "fails": [],
@@ -3378,9 +3221,10 @@
     "eligibility": "unconfirmed"
    },
    "out": false,
-   "score": 30,
+   "score": 31,
    "why": [
-    "Keywords: strategic plan, strategic, consulting"
+    "Keywords: plan update",
+    "Category: Consultant/Professional"
    ],
    "relevant": true,
    "sol_type": "other"
@@ -3878,44 +3722,6 @@
    "sol_type": "rfp"
   },
   {
-   "id": "VA-IV131416",
-   "src": "VA",
-   "title": "IFB 27062-KR Washed Sand",
-   "sol": "Invitation for Bids 131416",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "City of Suffolk",
-   "office": "City of Suffolk",
-   "posted": "2026-11-09T08:56:46.740Z",
-   "due": "2026-12-02T15:00:00Z",
-   "snippet": "The intent of this Invitation for Bid (IFB) is to enter into an agreement with one contractor to furnish and deliver annual requirements of washed sand on an as needed basis. Sand will be used by the Department of Public Works Road Maintenance Division for sno",
-   "desc": "The intent of this Invitation for Bid (IFB) is to enter into an agreement with one contractor to furnish and deliver annual requirements of washed sand on an as needed basis. Sand will be used by the Department of Public Works Road Maintenance Division for snow removal operations. The City anticipates using approximately 8,000 tons per year; however, actual quantities purchased will be determined by local weather conditions.",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 27,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
    "id": "VA-IV131509",
    "src": "VA",
    "title": "INVITATION TO BID:  GRIT/TRASH AND GREASE DUMPSTER REMOVAL/DISPOSAL SERVICES",
@@ -4372,44 +4178,6 @@
    "sol_type": "other"
   },
   {
-   "id": "VA-IV131731",
-   "src": "VA",
-   "title": "TEWLI 3",
-   "sol": "Request for Proposals 131731",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Surry County Public Schools",
-   "office": "Surry County Public Schools",
-   "posted": "2026-11-15T08:23:12.867Z",
-   "due": "2026-12-02T17:00:00Z",
-   "snippet": "Danielson Framework for Teaching Professional Learning, Calibration, and Coaching Certification",
-   "desc": "Danielson Framework for Teaching Professional Learning, Calibration, and Coaching Certification",
-   "category": "Professional Services",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 27,
-   "why": [
-    "Category: Professional Services"
-   ],
-   "relevant": true,
-   "sol_type": "rfp"
-  },
-  {
    "id": "VA-IV129405",
    "src": "VA",
    "title": "Water Treatment Plant Sedimentation Basin Plate Settlers Project RFP (2027004-PU-DB)",
@@ -4802,44 +4570,6 @@
    "due": "2027-01-11T13:00:00Z",
    "snippet": "The purpose of this Invitation to Bid (IFB) is to establish a contract with multiple qualified vendors statewide who can provide work as stated in the Scope of Work, Section V.B. for Building Automation Systems at DMA FacilitiesVENDORS MUST PROVIDE BID ON ATTA",
    "desc": "The purpose of this Invitation to Bid (IFB) is to establish a contract with multiple qualified vendors statewide who can provide work as stated in the Scope of Work, Section V.B. for Building Automation Systems at DMA FacilitiesVENDORS MUST PROVIDE BID ON ATTACHMENT A AND eVA LINE ITEMS.",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 27,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
-   "id": "VA-IV131554",
-   "src": "VA",
-   "title": "SNOW REMOVAL SERVICES",
-   "sol": "Invitation for Bids 131554",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Culpeper County Government",
-   "office": "Culpeper County Virginia",
-   "posted": "2026-11-20T08:57:17.730Z",
-   "due": "2026-12-02T14:00:00Z",
-   "snippet": "The purpose and intent of the Invitation for Bid (IFB) is to establish a firm fixed seasonal retention contract with a single qualified contractor to provide snow removal services from parking areas, sidewalks, pathways, and other County property in various lo",
-   "desc": "The purpose and intent of the Invitation for Bid (IFB) is to establish a firm fixed seasonal retention contract with a single qualified contractor to provide snow removal services from parking areas, sidewalks, pathways, and other County property in various locations throughout Culpeper County in accordance with the terms, conditions and specifications contained herein. This solicitation is issued by the Culpeper County Procurement Department on behalf of the Culpeper County Board of Supervisors, herein referred to as County.",
    "category": "Non-professional Services - Non-Technology",
    "va_small": "",
    "naics": [],
@@ -5550,6 +5280,44 @@
    "sol_type": "other"
   },
   {
+   "id": "VA-IV131450",
+   "src": "VA",
+   "title": "RFP 27-271876/AB PHARMACY ADMINISTRATION PLAN",
+   "sol": "Request for Proposals 131450",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Hampton City Schools",
+   "office": "CITY OF HAMPTON",
+   "posted": "2026-11-24T16:39:26.247Z",
+   "due": "2026-12-07T14:00:00Z",
+   "snippet": "RFP 27-271876/AB PHARMACY ADMINISTRATION PLAN",
+   "desc": "RFP 27-271876/AB PHARMACY ADMINISTRATION PLAN",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "rfp"
+  },
+  {
    "id": "VA-IV132143",
    "src": "VA",
    "title": "IFB#161249 Highway Lighting",
@@ -5664,18 +5432,18 @@
    "sol_type": "other"
   },
   {
-   "id": "VA-IV131339",
+   "id": "VA-IV132241",
    "src": "VA",
-   "title": "RFP No. 26-3019-11JOK - Payable Disbursement Services",
-   "sol": "Request for Proposals 131339",
+   "title": "The City of Bristol, Virginia is seeking proposals from qualified providers for zoning consultant services",
+   "sol": "Request for Proposals 132241",
    "type": "",
    "dept": "Virginia",
-   "agency": "Henrico County Government",
-   "office": "Henrico County, VA",
-   "posted": "2026-11-24T16:25:21.817Z",
-   "due": "2026-12-03T11:00:00Z",
-   "snippet": "The intent and purpose of this Request for Proposal and the resulting contract is to obtain services from a qualified firm to provide payable disbursement services in accordance with the Scope of Services section of the solicitation.",
-   "desc": "The intent and purpose of this Request for Proposal and the resulting contract is to obtain services from a qualified firm to provide payable disbursement services in accordance with the Scope of Services section of the solicitation.",
+   "agency": "City of Bristol",
+   "office": "City of Bristol, Virginia ",
+   "posted": "2026-11-25T11:08:07.117Z",
+   "due": "2027-01-11T14:30:00Z",
+   "snippet": "The City of Bristol, Virginia is seeking proposals from qualified consultants to review and update the City\u00e2\u0080\u0099s Zoning Ordinance and Zoning Map, as described in this Request for Proposal.",
+   "desc": "The City of Bristol, Virginia is seeking proposals from qualified consultants to review and update the City\u00e2\u0080\u0099s Zoning Ordinance and Zoning Map, as described in this Request for Proposal.",
    "category": "Non-professional Services - Non-Technology",
    "va_small": "",
    "naics": [],
@@ -5700,82 +5468,6 @@
    ],
    "relevant": true,
    "sol_type": "rfp"
-  },
-  {
-   "id": "VA-IV131450",
-   "src": "VA",
-   "title": "RFP 27-271876/AB PHARMACY ADMINISTRATION PLAN",
-   "sol": "Request for Proposals 131450",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Hampton City Schools",
-   "office": "CITY OF HAMPTON",
-   "posted": "2026-11-24T16:39:26.247Z",
-   "due": "2026-12-07T14:00:00Z",
-   "snippet": "RFP 27-271876/AB PHARMACY ADMINISTRATION PLAN",
-   "desc": "RFP 27-271876/AB PHARMACY ADMINISTRATION PLAN",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 27,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "rfp"
-  },
-  {
-   "id": "VA-IV130664",
-   "src": "VA",
-   "title": "RFQ SA 2706 Request for Qualification for Applications Engineering Systems Supplier (AESS) Services",
-   "sol": "Request for Pre-qualifications 130664",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Prince William County Service Authority",
-   "office": "Prince William Water ",
-   "posted": "2026-11-24T16:46:53.747Z",
-   "due": "2026-12-03T10:00:00Z",
-   "snippet": "Request for Qualification for Applications Engineering Systems Supplier (AESS) Services",
-   "desc": "Request for Qualification for Applications Engineering Systems Supplier (AESS) Services",
-   "category": "Non-professional Services - Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 27,
-   "why": [
-    "Category: Non-professional Services - Technology"
-   ],
-   "relevant": true,
-   "sol_type": "rfq_quote"
   },
   {
    "id": "VA-IV121672",
@@ -6386,82 +6078,6 @@
    "sol_type": "other"
   },
   {
-   "id": "VA-IV131487",
-   "src": "VA",
-   "title": "71412705 American Society of Civil Engineers Earth and Space Conference 2028, Fund #566730, Arlington, VA, April 18-21, 2028",
-   "sol": "Request for Proposals 131487",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Virginia Polytechnic Institute and State University",
-   "office": "Arlington, VA",
-   "posted": "2026-11-10T10:31:40.300Z",
-   "due": "2026-12-03T00:00:00Z",
-   "snippet": "American Society of Civil Engineers Earth and Space Conference 2028, Fund #566730, Arlington, VA,April 18-21, 2028",
-   "desc": "American Society of Civil Engineers Earth and Space Conference 2028, Fund #566730, Arlington, VA,April 18-21, 2028",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 27,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "rfp"
-  },
-  {
-   "id": "VA-IV131559",
-   "src": "VA",
-   "title": "ITB 27-28/NB HAULING SERVICES",
-   "sol": "Invitation for Bids 131559",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "City of Hampton",
-   "office": "CITY OF HAMPTON",
-   "posted": "2026-11-10T16:25:30.037Z",
-   "due": "2026-12-02T14:30:00Z",
-   "snippet": "THE CITY OF HAMPTON IS SEEKING BIDS FROM QUALIFIED BIDDERS TO PROVIDE ROUTINE AND EMERGENCY ON-CALL HAULING SERVICES FOR THE TRANSPORTATION OF ASPHALT, MILLING, MATERIALS, DIRT, CONCRETE DEBRIS, SALT, STORM DEBRIS AND OTHER MATERIALS TO AND FROM VARIOUS LOCATI",
-   "desc": "THE CITY OF HAMPTON IS SEEKING BIDS FROM QUALIFIED BIDDERS TO PROVIDE ROUTINE AND EMERGENCY ON-CALL HAULING SERVICES FOR THE TRANSPORTATION OF ASPHALT, MILLING, MATERIALS, DIRT, CONCRETE DEBRIS, SALT, STORM DEBRIS AND OTHER MATERIALS TO AND FROM VARIOUS LOCATIONS AS NEEDED.",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 27,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
    "id": "VA-IV131611",
    "src": "VA",
    "title": "LU214-27-008 Enrollment & University Marketing Services",
@@ -6495,44 +6111,6 @@
    "score": 27,
    "why": [
     "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "rfp"
-  },
-  {
-   "id": "VA-IV131621",
-   "src": "VA",
-   "title": "TEWLI Grant",
-   "sol": "Request for Proposals 131621",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Surry County Public Schools",
-   "office": "Surry County Public Schools",
-   "posted": "2026-11-12T10:43:45.390Z",
-   "due": "2026-12-02T17:00:00Z",
-   "snippet": "Tidewater Educator Workforce and Leadership Initiative Grant,",
-   "desc": "Tidewater Educator Workforce and Leadership Initiative Grant,",
-   "category": "Professional Services",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 27,
-   "why": [
-    "Category: Professional Services"
    ],
    "relevant": true,
    "sol_type": "rfp"
@@ -6764,44 +6342,6 @@
    ],
    "relevant": true,
    "sol_type": "rfp"
-  },
-  {
-   "id": "VA-IV131555",
-   "src": "VA",
-   "title": "Lawn Maintenance Trash/Debris Abatement Services - Community Revitalization IFB-26-3024-11JLW",
-   "sol": "Invitation for Bids 131555",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Henrico County Government",
-   "office": "Henrico County",
-   "posted": "2026-11-13T14:31:22.080Z",
-   "due": "2026-12-03T14:00:00Z",
-   "snippet": "The intent and purpose of this IFB, is to establish an annual contract with a qualified suppler to furnish and provide Lawn Maintenance and Trash/Debris Abatement Services to the County of Henrico, Virginia (the \u00e2\u0080\u009cCounty\u00e2\u0080\u009d) Department of Community Revitaliza",
-   "desc": "The intent and purpose of this IFB, is to establish an annual contract with a qualified suppler to furnish and provide Lawn Maintenance and Trash/Debris Abatement Services to the County of Henrico, Virginia (the \u00e2\u0080\u009cCounty\u00e2\u0080\u009d) Department of Community Revitalization in accordance with the Scope of Work/Services section of the solicitation.",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 27,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "other"
   },
   {
    "id": "VA-IV131733",
@@ -7158,44 +6698,6 @@
    "due": "2026-12-04T11:00:00Z",
    "snippet": "The City of Hopewell is seeking sealed bids for grass cutting services to include trimming and edging of selected sites citywide.",
    "desc": "The City of Hopewell is seeking sealed bids for grass cutting services to include trimming and edging of selected sites citywide.",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 27,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
-   "id": "VA-IV131916",
-   "src": "VA",
-   "title": "Decanter Maintenance Services",
-   "sol": "Invitation for Bids 131916",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "City of Norfolk",
-   "office": "City of Norfolk ",
-   "posted": "2026-11-18T14:43:14.803Z",
-   "due": "2026-12-02T14:00:00Z",
-   "snippet": "see solicitation posting here:https://procurement.opengov.com/portal/norfolk/projects/327306",
-   "desc": "see solicitation posting here:https://procurement.opengov.com/portal/norfolk/projects/327306",
    "category": "Non-professional Services - Non-Technology",
    "va_small": "",
    "naics": [],
@@ -7868,44 +7370,6 @@
    "sol_type": "other"
   },
   {
-   "id": "VA-IV131652",
-   "src": "VA",
-   "title": "IFB 161336 - Saltwater Pumping and Disposal",
-   "sol": "Invitation for Bids 131652",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Virginia Department of Transportation",
-   "office": "Various locations within Richmond District IMO (Interstate Management Office). Wastewater will be pumped from holding ponds or storage tanks located in the counties of Prince George and Chesterfield and City of Petersburg.",
-   "posted": "2026-11-24T11:26:30.727Z",
-   "due": "2026-12-07T09:00:00Z",
-   "snippet": "The Virginia Department of Transportation is soliciting bids from qualified firms to provide, load, haul, discharge, and dispose of aqueous wastewater with high salt concentrations (salt pond water) from various locations within Richmond District IMO (Intersta",
-   "desc": "The Virginia Department of Transportation is soliciting bids from qualified firms to provide, load, haul, discharge, and dispose of aqueous wastewater with high salt concentrations (salt pond water) from various locations within Richmond District IMO (Interstate Management Office). Services are to be provided on an as-needed basis. Wastewater will be pumped from holding ponds or storage tanks located in the counties of Prince George and Chesterfield and City of Petersburg.",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 27,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
    "id": "VA-IV131428",
    "src": "VA",
    "title": "IFB 161335 Ground Maintenance Warrenton Res",
@@ -8020,44 +7484,6 @@
    "sol_type": "rfp"
   },
   {
-   "id": "VA-IV132197",
-   "src": "VA",
-   "title": "K00126 - LIBRARY COURIER SERVICES",
-   "sol": "Invitation for Bids 132197",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "City of Staunton",
-   "office": "Staunton, Virginia & Augusta County, Virginia",
-   "posted": "2026-11-24T15:58:59.837Z",
-   "due": "2026-12-08T14:00:00Z",
-   "snippet": "The Cities of Staunton and Waynesboro and the County of Augusta are seeking proposals from qualified firms to provide courier services between their respective libraries",
-   "desc": "The Cities of Staunton and Waynesboro and the County of Augusta are seeking proposals from qualified firms to provide courier services between their respective libraries",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 27,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
    "id": "VA-IV132196",
    "src": "VA",
    "title": "ITB SOL1384 Demolition and Floodplain Restoration - 1941 & 1953 Franklin Rd SW",
@@ -8129,6 +7555,234 @@
    "score": 27,
    "why": [
     "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "rfp"
+  },
+  {
+   "id": "VA-IV131652",
+   "src": "VA",
+   "title": "IFB 161336 - Saltwater Pumping and Disposal",
+   "sol": "Invitation for Bids 131652",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Virginia Department of Transportation",
+   "office": "Various locations within Richmond District IMO (Interstate Management Office). Wastewater will be pumped from holding ponds or storage tanks located in the counties of Prince George and Chesterfield and City of Petersburg.",
+   "posted": "2026-11-25T08:17:37.663Z",
+   "due": "2026-12-07T09:00:00Z",
+   "snippet": "The Virginia Department of Transportation is soliciting bids from qualified firms to provide, load, haul, discharge, and dispose of aqueous wastewater with high salt concentrations (salt pond water) from various locations within Richmond District IMO (Intersta",
+   "desc": "The Virginia Department of Transportation is soliciting bids from qualified firms to provide, load, haul, discharge, and dispose of aqueous wastewater with high salt concentrations (salt pond water) from various locations within Richmond District IMO (Interstate Management Office). Services are to be provided on an as-needed basis. Wastewater will be pumped from holding ponds or storage tanks located in the counties of Prince George and Chesterfield and City of Petersburg.",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
+   "id": "VA-IV130668",
+   "src": "VA",
+   "title": "Video Enhanced Therapy (VET) Platform for VDH Tuberculosis program",
+   "sol": "Quick Quote 130668",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Virginia Department of Health",
+   "office": "(VIRTUAL)Commonwealth of Virginia Department of Health (VDH) Division of Clinical Epidemiology109 Governor Street 4th FloorRichmond, VA 23219-0331 ",
+   "posted": "2026-11-25T14:52:48.820Z",
+   "due": "2026-12-04T12:00:00Z",
+   "snippet": "The Virginia Department of Health (VDH) Tuberculosis Program is seeking a qualified vendor to provide a secure Video Enhanced Therapy (VET) platform to support tuberculosis (TB) treatment and medication adherence activities throughout the Commonwealth of Virgi",
+   "desc": "The Virginia Department of Health (VDH) Tuberculosis Program is seeking a qualified vendor to provide a secure Video Enhanced Therapy (VET) platform to support tuberculosis (TB) treatment and medication adherence activities throughout the Commonwealth of Virginia.",
+   "category": "Non-professional Services - Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Non-professional Services - Technology"
+   ],
+   "relevant": true,
+   "sol_type": "rfq_quote"
+  },
+  {
+   "id": "VA-IV131555",
+   "src": "VA",
+   "title": "Lawn Maintenance Trash/Debris Abatement Services - Community Revitalization IFB-26-3024-11JLW",
+   "sol": "Invitation for Bids 131555",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Henrico County Government",
+   "office": "Henrico County",
+   "posted": "2026-11-25T14:07:25.373Z",
+   "due": "2026-12-03T14:00:00Z",
+   "snippet": "The intent and purpose of this IFB, is to establish an annual contract with a qualified suppler to furnish and provide Lawn Maintenance and Trash/Debris Abatement Services to the County of Henrico, Virginia (the \u00e2\u0080\u009cCounty\u00e2\u0080\u009d) Department of Community Revitaliza",
+   "desc": "The intent and purpose of this IFB, is to establish an annual contract with a qualified suppler to furnish and provide Lawn Maintenance and Trash/Debris Abatement Services to the County of Henrico, Virginia (the \u00e2\u0080\u009cCounty\u00e2\u0080\u009d) Department of Community Revitalization in accordance with the Scope of Work/Services section of the solicitation.",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
+   "id": "VA-IV132248",
+   "src": "VA",
+   "title": "RFP No. 26-3033-11JL - Annual Contract for Mechanical, Electrical, And Plumbing (MEP) Design and Engineering Services for Henrico County Public Schools",
+   "sol": "Request for Proposals 132248",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Henrico County Government",
+   "office": "County of Henrico, VA",
+   "posted": "2026-11-25T12:31:08.373Z",
+   "due": "2027-01-12T11:00:00Z",
+   "snippet": "The intent and purpose of this Request for Proposal (\u00e2\u0080\u009cRFP\u00e2\u0080\u009d), and the resulting contract, is to obtain services from qualified architectural firms to provide Mechanical, Electrical, And Plumbing (MEP) Design and Engineering Services in accordance with the S",
+   "desc": "The intent and purpose of this Request for Proposal (\u00e2\u0080\u009cRFP\u00e2\u0080\u009d), and the resulting contract, is to obtain services from qualified architectural firms to provide Mechanical, Electrical, And Plumbing (MEP) Design and Engineering Services in accordance with the Scope of Services section of the solicitation.",
+   "category": "Professional Services",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Professional Services"
+   ],
+   "relevant": true,
+   "sol_type": "rfp"
+  },
+  {
+   "id": "VA-IV132197",
+   "src": "VA",
+   "title": "K00126 - LIBRARY COURIER SERVICES",
+   "sol": "Invitation for Bids 132197",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "City of Staunton",
+   "office": "Staunton, Virginia & Augusta County, Virginia",
+   "posted": "2026-11-25T11:39:34.140Z",
+   "due": "2026-12-08T14:00:00Z",
+   "snippet": "The Cities of Staunton and Waynesboro and the County of Augusta are seeking proposals from qualified firms to provide courier services between their respective libraries",
+   "desc": "The Cities of Staunton and Waynesboro and the County of Augusta are seeking proposals from qualified firms to provide courier services between their respective libraries",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
+   "id": "VA-IV132256",
+   "src": "VA",
+   "title": "RFP 26-00430, On-Demand/Microtransit Service",
+   "sol": "Request for Proposals 132256",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Hampton Roads Transit",
+   "office": "Hampton Roads, Virginia",
+   "posted": "2026-11-25T19:47:53.053Z",
+   "due": "2026-12-30T14:00:00Z",
+   "snippet": "To provide on-demand/microtransit service.",
+   "desc": "To provide on-demand/microtransit service.",
+   "category": "Non-professional Services - Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 27,
+   "why": [
+    "Category: Non-professional Services - Technology"
    ],
    "relevant": true,
    "sol_type": "rfp"
@@ -8223,7 +7877,7 @@
    "category": "Consultant/Professional",
    "naics": [],
    "set_aside": "",
-   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-25",
+   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-26",
    "unconfirmed": true,
    "view": {
     "fails": [],
@@ -8260,7 +7914,7 @@
    "category": "Consultant/Professional",
    "naics": [],
    "set_aside": "",
-   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-25",
+   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-26",
    "unconfirmed": true,
    "view": {
     "fails": [],
@@ -8297,7 +7951,7 @@
    "category": "Consultant/Professional",
    "naics": [],
    "set_aside": "",
-   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-25",
+   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-26",
    "unconfirmed": true,
    "view": {
     "fails": [],
@@ -8371,7 +8025,7 @@
    "category": "Consultant/Professional",
    "naics": [],
    "set_aside": "",
-   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-25",
+   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-26",
    "unconfirmed": true,
    "view": {
     "fails": [],
@@ -8428,43 +8082,6 @@
    ],
    "relevant": true,
    "sol_type": "rfq_quote"
-  },
-  {
-   "id": "SC-SRC0000027-Department of Transportation",
-   "src": "SC",
-   "title": "Agency Strategic Plan",
-   "sol": "SRC0000027",
-   "type": "",
-   "dept": "South Carolina",
-   "agency": "Department of Transportation",
-   "office": "",
-   "posted": "2026-11-09T00:00:00-05:00",
-   "due": "2026-12-02T16:00:00-05:00",
-   "snippet": "Agency Strategic Plan",
-   "desc": "Agency Strategic Plan",
-   "category": "Services",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://scpro.sc.gov/page.aspx/en/bpm/process_manage_extranet/        43",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 26,
-   "why": [
-    "Keywords: strategic plan, strategic"
-   ],
-   "relevant": true,
-   "sol_type": "other"
   },
   {
    "id": "NC-298-FY27-CAM-RFQ-SolarFeasibilityStudy",
@@ -9048,45 +8665,6 @@
    "sol_type": "other"
   },
   {
-   "id": "VA-IV131923",
-   "src": "VA",
-   "title": "WEST ANNANDALE VOLUNTEER FIRE STATION",
-   "sol": "Invitation for Bids 131923",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "County of Fairfax",
-   "office": "Fairfax, VA",
-   "posted": "2026-11-18T16:08:09.460Z",
-   "due": "2027-01-12T14:00:00Z",
-   "snippet": "Sealed bids are hereby solicited for construction of West Annandale Volunteer Fire Station.The project scope includes demolition of the existing building and construction of a new14,285 square foot (SF) single-story facility,",
-   "desc": "Sealed bids are hereby solicited for construction of West Annandale Volunteer Fire Station.The project scope includes demolition of the existing building and construction of a new14,285 square foot (SF) single-story facility,",
-   "category": "Professional Services",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 19,
-   "why": [
-    "Category: Professional Services",
-    "Summary mentions construction"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
    "id": "VA-IV131466",
    "src": "VA",
    "title": "27-14-3372NS - ASHLAND WWTP EQ LAGOON AERATION SYSTEM REPLACEMENT",
@@ -9283,6 +8861,45 @@
    "sol_type": "rfp"
   },
   {
+   "id": "VA-IV131923",
+   "src": "VA",
+   "title": "WEST ANNANDALE VOLUNTEER FIRE STATION",
+   "sol": "Invitation for Bids 131923",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "County of Fairfax",
+   "office": "Fairfax, VA",
+   "posted": "2026-11-25T10:31:59.133Z",
+   "due": "2027-01-12T14:00:00Z",
+   "snippet": "Sealed bids are hereby solicited for construction of West Annandale Volunteer Fire Station.The project scope includes demolition of the existing building and construction of a new14,285 square foot (SF) single-story facility,",
+   "desc": "Sealed bids are hereby solicited for construction of West Annandale Volunteer Fire Station.The project scope includes demolition of the existing building and construction of a new14,285 square foot (SF) single-story facility,",
+   "category": "Professional Services",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 19,
+   "why": [
+    "Category: Professional Services",
+    "Summary mentions construction"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
    "id": "VA-IV131672",
    "src": "VA",
    "title": "Overnight Unarmed Security Services SMV-2739",
@@ -9441,6 +9058,44 @@
    "sol_type": "rfq_quote"
   },
   {
+   "id": "VA-IV132237",
+   "src": "VA",
+   "title": "Replace Fisheries Science Research Building",
+   "sol": "Construction Management 132237",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Virginia Institute of Marine Science",
+   "office": "Gloucester Point, VA",
+   "posted": "2026-11-25T11:15:51.543Z",
+   "due": "2027-01-13T16:00:00Z",
+   "snippet": "Construct a new 42,350 square-foot state-of-the-art Fisheries Science Research Building, replacing the existing Nunnally/Fisheries Science Laboratory. To view IFB, attachments, and any Addendums, and submission of bids, follow link to the W&M Portal: https://b",
+   "desc": "Construct a new 42,350 square-foot state-of-the-art Fisheries Science Research Building, replacing the existing Nunnally/Fisheries Science Laboratory. To view IFB, attachments, and any Addendums, and submission of bids, follow link to the W&M Portal: https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=WilliamMary",
+   "category": "Construction",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 19,
+   "why": [
+    "Keywords: research"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
    "id": "VA-IV132202",
    "src": "VA",
    "title": "ITB SOL1383 Jefferson & Luck Drainage, Pedestrian and Traffic Signal Improvements",
@@ -9480,6 +9135,44 @@
    "sol_type": "other"
   },
   {
+   "id": "SC-2027-TET-000000391-RFP-T1-College of Charleston",
+   "src": "SC",
+   "title": "Campus Architectural Design Guidelines",
+   "sol": "2027-TET-000000391-RFP-T1",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "College of Charleston",
+   "office": "",
+   "posted": "2026-11-25T00:00:00-05:00",
+   "due": "2026-12-15T09:00:00-05:00",
+   "snippet": "The College of Charleston seeks a qualified consultant to develop Campus Design Guidelines for future construction, renovation, and major capital projects per the scope of work stated with the Prerequisite tab of our Ebid system.",
+   "desc": "The College of Charleston seeks a qualified consultant to develop Campus Design Guidelines for future construction, renovation, and major capital projects per the scope of work stated with the Prerequisite tab of our Ebid system.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://ebid.cofc.edu",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 19,
+   "why": [
+    "Category: Consultant/Professional",
+    "Summary mentions construction"
+   ],
+   "relevant": true,
+   "sol_type": "rfp"
+  },
+  {
    "id": "SC-SRC0000087-Department of Education",
    "src": "SC",
    "title": "4K/5K Readiness Assessments",
@@ -9496,43 +9189,6 @@
    "naics": [],
    "set_aside": "",
    "url": "https://scpro.sc.gov/page.aspx/en/bpm/process_manage_extranet/       108",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 19,
-   "why": [
-    "Keywords: assessment"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
-   "id": "SC-FY27-1202-Orangeburg County",
-   "src": "SC",
-   "title": "Mass Appraisal and Assessment Support Services",
-   "sol": "FY27-1202",
-   "type": "",
-   "dept": "South Carolina",
-   "agency": "Orangeburg County",
-   "office": "",
-   "posted": "2026-11-18T00:00:00-05:00",
-   "due": "2026-12-02T14:00:00-05:00",
-   "snippet": "Orangeburg County seeks proposals from qualified firm to provide mass appraisal and assessment support services. Interested parties may obtain the bid document from at https://sc-orangeburgcounty.civicplus.com/Bids.aspx or www.bidnetdirect.com/south-carolina/o",
-   "desc": "Orangeburg County seeks proposals from qualified firm to provide mass appraisal and assessment support services. Interested parties may obtain the bid document from at https://sc-orangeburgcounty.civicplus.com/Bids.aspx or www.bidnetdirect.com/south-carolina/orangeburgcounty. Sealed proposals will be received until the date and time specified in the solicitation. Late bids will not be accepted. Orangeburg County reserves the right to accept/reject any or all proposals.",
-   "category": "Services",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://www.bidnetdirect.com/south-carolina/orangeburgcounty",
    "unconfirmed": true,
    "view": {
     "fails": [],
@@ -9928,19 +9584,19 @@
    "sol_type": "other"
   },
   {
-   "id": "VA-IV131075",
+   "id": "VA-IV132229",
    "src": "VA",
-   "title": "RFQ - Renovate Ewell Hall",
-   "sol": "2 Step IFB 131075",
+   "title": "Wireless Access Point Replacement",
+   "sol": "Request for Proposals 132229",
    "type": "",
    "dept": "Virginia",
-   "agency": "College of William & Mary",
-   "office": "The College of William & Mary in Virginia",
-   "posted": "2026-11-02T14:14:33.040Z",
-   "due": "2026-12-02T16:00:00Z",
-   "snippet": "The university is undertaking major renovations at the historic Ewell Hall on campus in Williamsburg, VA. The comprehensive renovations will update life safety systems, ensure full accessibility, replace building systems which have exceeded life expectancies, ",
-   "desc": "The university is undertaking major renovations at the historic Ewell Hall on campus in Williamsburg, VA. The comprehensive renovations will update life safety systems, ensure full accessibility, replace building systems which have exceeded life expectancies, and reconfigure the interior to suit future use while also improving circulation by connecting two structurally separated building massings. These programs include specialized laboratory spaces, instructional spaces, clinical research spaces, a metabolic kitchen, and administrative spaces. To see all documents of RFQ go to the following link: https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=WilliamMary",
-   "category": "Construction",
+   "agency": "Newport News Public Schools",
+   "office": "Newport News, VA",
+   "posted": "2026-11-25T10:44:41.850Z",
+   "due": "2027-01-04T14:00:00Z",
+   "snippet": "The purpose of this RFP is to solicit sealed proposals from qualified service providers for the turnkey, one-for-one replacement of its existing wireless access points at up to 44 E-Rate eligible entities. The project includes new access points, five years of ",
+   "desc": "The purpose of this RFP is to solicit sealed proposals from qualified service providers for the turnkey, one-for-one replacement of its existing wireless access points at up to 44 E-Rate eligible entities. The project includes new access points, five years of cloud management and support licensing, receiving and staging, installation, testing and validation, and project management. Optional wireless site surveys are requested as a separately priced, per-entity item.",
+   "category": "Equipment - Technology",
    "va_small": "",
    "naics": [],
    "set_aside": "",
@@ -9960,10 +9616,10 @@
    "out": false,
    "score": 16,
    "why": [
-    "Keywords: research"
+    "Keywords: survey"
    ],
    "relevant": true,
-   "sol_type": "rfq_quote"
+   "sol_type": "rfp"
   },
   {
    "id": "VA-IV129697",
@@ -10226,43 +9882,6 @@
    "sol_type": "other"
   },
   {
-   "id": "NC-99-MP26013",
-   "src": "NC",
-   "title": "Academic Scheduling and Curriculum Management Platform",
-   "sol": "99-MP26013",
-   "type": "",
-   "dept": "North Carolina",
-   "agency": "GUILFORD TECHNICAL COMMUNITY COLLEGE",
-   "office": "",
-   "posted": "2026-11-09T00:00:00-05:00",
-   "due": "2026-12-14T15:00:00-05:00",
-   "snippet": "Guilford Technical Community College (GTCC) seeks proposals for a comprehensive, cloud-based academic operations platform. The solution should support academic scheduling, curriculum management, catalog administration, faculty workload management, enrollment f",
-   "desc": "Guilford Technical Community College (GTCC) seeks proposals for a comprehensive, cloud-based academic operations platform. The solution should support academic scheduling, curriculum management, catalog administration, faculty workload management, enrollment forecasting, event and space scheduling, reporting, and analytics.\nThe objective of this procurement is to provide GTCC with a modern, integrated solution that can replace disparate systems, reduce manual processes, improve data accuracy, enhance collaboration, and support informed decision-making. The selected solution should provide workflow automation, reporting and analytics capabilities, and integration with Ellucian Colleague and other commonly used higher education systems.\nGTCC's goal is to improve operational efficiency, strengthen curriculum governance, support student success initiatives, enhance resource utilization, and improve the overall experience for students, faculty, staff, and administrators.",
-   "category": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://evp.nc.gov/solicitations/details/?id=a2ad7127-45dc-f111-84e8-001dd80fedb8",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 16,
-   "why": [
-    "Keywords: analytics"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
    "id": "NC-Doc2467922169",
    "src": "NC",
    "title": "LIDAR Quality Control Services",
@@ -10332,43 +9951,6 @@
    "score": 16,
    "why": [
     "Keywords: survey"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
-   "id": "NC-354-SW27-20",
-   "src": "NC",
-   "title": "Jordan Lake Rules Compliance (Existing Managed Lands)",
-   "sol": "354-SW27-20",
-   "type": "",
-   "dept": "North Carolina",
-   "agency": "TOWN OF CARY",
-   "office": "",
-   "posted": "2026-11-02T00:00:00-05:00",
-   "due": "2026-12-02T15:00:00-05:00",
-   "snippet": "Cary is seeking an objective assessment of the nutrient removal that has been achieved through land development regulations since 2001 in the Jordan Lake Watershed in support of Cary\u2019s future compliance with the Jordan Lake Existing Managed Lands rules.",
-   "desc": "Cary is seeking an objective assessment of the nutrient removal that has been achieved through land development regulations since 2001 in the Jordan Lake Watershed in support of Cary\u2019s future compliance with the Jordan Lake Existing Managed Lands rules.",
-   "category": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://evp.nc.gov/solicitations/details/?id=bfdec0ef-ecd6-f111-a05c-001dd80bcb64",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 16,
-   "why": [
-    "Keywords: assessment"
    ],
    "relevant": true,
    "sol_type": "other"
@@ -10526,45 +10108,6 @@
    "sol_type": "other"
   },
   {
-   "id": "VA-IV130827",
-   "src": "VA",
-   "title": "IFB#79-27-YE LIGHT AND MEDIUM VEHICLE PREVENTIVE MAINTENANCE AND REPAIR SERVICES (REPOST)",
-   "sol": "Invitation for Bids 130827",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "City of Portsmouth",
-   "office": "CITY OF PORTSMOUTH ",
-   "posted": "2026-11-19T13:42:09.203Z",
-   "due": "2026-12-02T14:00:00Z",
-   "snippet": "LIGHT AND MEDIUM DUTY VEHICLE PREVENTIVE MAINTENANCE AND REPAIR SERVICES (REPOST)",
-   "desc": "LIGHT AND MEDIUM DUTY VEHICLE PREVENTIVE MAINTENANCE AND REPAIR SERVICES (REPOST)",
-   "category": "Non-professional Services - Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": true,
-   "view": {
-    "fails": [],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [
-     "Orals not confirmed",
-     "Eligibility not confirmed"
-    ],
-    "eligibility": "unconfirmed"
-   },
-   "out": false,
-   "score": 7,
-   "why": [
-    "Category: Non-professional Services - Technology",
-    "Outside your services: repair"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
    "id": "VA-IV132118",
    "src": "VA",
    "title": "RFP # SOL1382, Construction Engineering & Inspection for Federal Aid Projects",
@@ -10638,6 +10181,45 @@
    "why": [
     "Category: Non-professional Services - Non-Technology",
     "Outside your services: food service"
+   ],
+   "relevant": true,
+   "sol_type": "rfp"
+  },
+  {
+   "id": "VA-IV132255",
+   "src": "VA",
+   "title": "RFP-COVB-27-101748 Custodial Services for Libraries and Additional Facilities",
+   "sol": "Request for Proposals 132255",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "City of Virginia Beach",
+   "office": "Virginia Beach, VA",
+   "posted": "2026-11-25T16:27:37.420Z",
+   "due": "2027-01-27T15:00:00Z",
+   "snippet": "Custodial Services for Libraries and Additional Facilities",
+   "desc": "Custodial Services for Libraries and Additional Facilities",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 7,
+   "why": [
+    "Category: Non-professional Services - Non-Technology",
+    "Outside your services: custodial"
    ],
    "relevant": true,
    "sol_type": "rfp"
@@ -11189,6 +10771,45 @@
    "sol_type": "other"
   },
   {
+   "id": "VA-IV132236",
+   "src": "VA",
+   "title": "Western Albemarle High School HVAC Replacement",
+   "sol": "Invitation for Bids 132236",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Albemarle County",
+   "office": "Western Albemarle High School- 5941 Rockfish Gap Turnpike, Crozet, VA 22932)",
+   "posted": "2026-11-25T11:12:50.170Z",
+   "due": "2027-01-05T14:00:00Z",
+   "snippet": "Western Albemarle High School HVAC Replacement- The project is generally described as the replacement of existing HVAC AirHandling Units with new, including ductwork, electrical work, piping, and Controls.",
+   "desc": "Western Albemarle High School HVAC Replacement- The project is generally described as the replacement of existing HVAC AirHandling Units with new, including ductwork, electrical work, piping, and Controls.",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": true,
+   "view": {
+    "fails": [],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [
+     "Orals not confirmed",
+     "Eligibility not confirmed"
+    ],
+    "eligibility": "unconfirmed"
+   },
+   "out": false,
+   "score": 7,
+   "why": [
+    "Category: Non-professional Services - Non-Technology",
+    "Outside your services: hvac"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
    "id": "SC-RFQ No. 6241-27C-Charleston County",
    "src": "SC",
    "title": "IDC - Construction Engineering & Inspection Services (CE&I) for Public Works on an As-Needed-Basis",
@@ -11204,7 +10825,7 @@
    "category": "Consultant/Professional",
    "naics": [],
    "set_aside": "",
-   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-25",
+   "url": "https://scbo.sc.gov/online-edition?c=4-2026-11-26",
    "unconfirmed": true,
    "view": {
     "fails": [],
@@ -11339,6 +10960,46 @@
     "Outside your services: repair"
    ],
    "relevant": true,
+   "sol_type": "other"
+  },
+  {
+   "id": "SAM-3c81ba2247564253bb04b94848b58cb4",
+   "src": "SAM",
+   "title": "IHS Evaluation Services IDIQ",
+   "sol": "7571PS27Q00030",
+   "type": "k",
+   "dept": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+   "agency": "OFFICE OF THE ASSISTANT SECRETARY FOR FINANCIAL RESOURCES (ASFR)",
+   "office": "OMAS STRATEGIC BUYING CENTER - PROFESSIONAL SERVICES",
+   "posted": "2026-11-25",
+   "due": "2026-12-08T12:00:00-05:00",
+   "snippet": "",
+   "desc": "Plese see attached documentation.\n\n ------------------------------------------------------------------------\n\n Amendment 1 posted, please see attached documentation.",
+   "naics": [
+    "541611"
+   ],
+   "set_aside": "BICiv",
+   "category": "",
+   "url": "https://sam.gov/workspace/contract/opp/3c81ba2247564253bb04b94848b58cb4/view",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "BICiv set-aside you don't qualify for"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "failed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Core NAICS 541611",
+    "Keywords: evaluation"
+   ],
+   "relevant": true,
+   "screened": "full notice",
    "sol_type": "other"
   },
   {
@@ -11531,46 +11192,6 @@
     "Core NAICS 541611"
    ],
    "relevant": true,
-   "sol_type": "other"
-  },
-  {
-   "id": "SAM-c0c466b4a7504d0e8473cfbf8e248de1",
-   "src": "SAM",
-   "title": "IHS Evaluation Services IDIQ",
-   "sol": "7571PS27Q00030",
-   "type": "k",
-   "dept": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
-   "agency": "OFFICE OF THE ASSISTANT SECRETARY FOR FINANCIAL RESOURCES (ASFR)",
-   "office": "OMAS STRATEGIC BUYING CENTER - PROFESSIONAL SERVICES",
-   "posted": "2026-11-19",
-   "due": "2026-12-08T12:00:00-05:00",
-   "snippet": "",
-   "desc": "Plese see attached documentation.",
-   "naics": [
-    "541611"
-   ],
-   "set_aside": "BICiv",
-   "category": "",
-   "url": "https://sam.gov/workspace/contract/opp/c0c466b4a7504d0e8473cfbf8e248de1/view",
-   "unconfirmed": false,
-   "view": {
-    "fails": [
-     "BICiv set-aside you don't qualify for"
-    ],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [],
-    "eligibility": "failed"
-   },
-   "out": true,
-   "score": 15,
-   "why": [
-    "Core NAICS 541611",
-    "Keywords: evaluation"
-   ],
-   "relevant": true,
-   "screened": "full notice",
    "sol_type": "other"
   },
   {
@@ -12011,7 +11632,7 @@
    "posted": "2026-11-18",
    "due": "2026-12-02T17:00:00-07:00",
    "snippet": "",
-   "desc": "U.S. Department of Commerce | NOAA | Acquisition and Grants Office\n\n REQUEST FOR INFORMATION\n\n U.S. Seafood Supply-Chain Mapping, Risk Analysis, and Re-Import Analysis\n\n Issue date: November 18, 2026\n\nResponses due: December 2, 2026, at 7:00 p.m. EST / 5:00 p.m. MST\n\nQuestions requested by: November 24, 2026, at 2:00 p.m. EST / noon MST\n\nResponses and questions: Email both contacts below.\n\nKyle Shaffer, Contracting Officer | kyle.shaffer@noaa.gov\n\nNicholas Brown, Contract Specialist | nicholas.g.brown@noaa.gov\n\nIssuing office: NOAA Acquisition and Grants Office, Western Acquisition Division - Boulder\n\n 1. Purpose and acquisition status\n\n NOAA seeks information from firms capable of performing seafood supply-chain mapping, risk analysis, and complex data analysis for the National Marine Fisheries Service (NMFS), Office of International Affairs, Trade, and Commerce (IATC). Responses will help NOAA refine the requirement, assess available expertise, identify data and access needs, inform budget planning and the independent Government cost estimate (IGCE), and determine an acquisition approach.\n\n This notice is for market research only. It is not a solicitation. NOAA does not intend to award a contract based on this RFI and will not pay for the information requested or response preparation. Responses are information only, not quotations or offers. NOAA may or may not issue a solicitation. A response is not required to participate in a future competition.\n\n Responses are welcome f",
+   "desc": "",
    "naics": [
     "541690"
    ],
@@ -12021,11 +11642,9 @@
    "unconfirmed": false,
    "view": {
     "fails": [
-     "Security clearance required"
+     "Deadline too tight"
     ],
-    "flags": [
-     "Asks for financials, resumes or past performance"
-    ],
+    "flags": [],
     "orals": "unconfirmed",
     "remote": false,
     "unconfirmed": [],
@@ -12035,10 +11654,9 @@
    "score": 15,
    "why": [
     "Secondary NAICS 541690",
-    "Keywords: research, feasibility, market research, data analysis"
+    "Keywords: analysis"
    ],
    "relevant": true,
-   "screened": "full notice",
    "sol_type": "other"
   },
   {
@@ -12270,6 +11888,43 @@
    "sol_type": "rfp"
   },
   {
+   "id": "VA-IV131075",
+   "src": "VA",
+   "title": "RFQ - Renovate Ewell Hall",
+   "sol": "2 Step IFB 131075",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "College of William & Mary",
+   "office": "The College of William & Mary in Virginia",
+   "posted": "2026-11-02T14:14:33.040Z",
+   "due": "2026-12-02T16:00:00Z",
+   "snippet": "The university is undertaking major renovations at the historic Ewell Hall on campus in Williamsburg, VA. The comprehensive renovations will update life safety systems, ensure full accessibility, replace building systems which have exceeded life expectancies, ",
+   "desc": "The university is undertaking major renovations at the historic Ewell Hall on campus in Williamsburg, VA. The comprehensive renovations will update life safety systems, ensure full accessibility, replace building systems which have exceeded life expectancies, and reconfigure the interior to suit future use while also improving circulation by connecting two structurally separated building massings. These programs include specialized laboratory spaces, instructional spaces, clinical research spaces, a metabolic kitchen, and administrative spaces. To see all documents of RFQ go to the following link: https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=WilliamMary",
+   "category": "Construction",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: research"
+   ],
+   "relevant": true,
+   "sol_type": "rfq_quote"
+  },
+  {
    "id": "VA-IV131025",
    "src": "VA",
    "title": "Request for Qualifications (RFQ) Mechanical, Electrical and Plumbing (MEP) Engineering Basic Ordering Agreement Professional Services (Re-advertisement)",
@@ -12417,6 +12072,43 @@
    ],
    "relevant": true,
    "sol_type": "rfp"
+  },
+  {
+   "id": "VA-IV131416",
+   "src": "VA",
+   "title": "IFB 27062-KR Washed Sand",
+   "sol": "Invitation for Bids 131416",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "City of Suffolk",
+   "office": "City of Suffolk",
+   "posted": "2026-11-09T08:56:46.740Z",
+   "due": "2026-12-02T15:00:00Z",
+   "snippet": "The intent of this Invitation for Bid (IFB) is to enter into an agreement with one contractor to furnish and deliver annual requirements of washed sand on an as needed basis. Sand will be used by the Department of Public Works Road Maintenance Division for sno",
+   "desc": "The intent of this Invitation for Bid (IFB) is to enter into an agreement with one contractor to furnish and deliver annual requirements of washed sand on an as needed basis. Sand will be used by the Department of Public Works Road Maintenance Division for snow removal operations. The City anticipates using approximately 8,000 tons per year; however, actual quantities purchased will be determined by local weather conditions.",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "other"
   },
   {
    "id": "VA-IV128826",
@@ -12567,6 +12259,43 @@
    "sol_type": "other"
   },
   {
+   "id": "VA-IV131731",
+   "src": "VA",
+   "title": "TEWLI 3",
+   "sol": "Request for Proposals 131731",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Surry County Public Schools",
+   "office": "Surry County Public Schools",
+   "posted": "2026-11-15T08:23:12.867Z",
+   "due": "2026-12-02T17:00:00Z",
+   "snippet": "Danielson Framework for Teaching Professional Learning, Calibration, and Coaching Certification",
+   "desc": "Danielson Framework for Teaching Professional Learning, Calibration, and Coaching Certification",
+   "category": "Professional Services",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Professional Services"
+   ],
+   "relevant": true,
+   "sol_type": "rfp"
+  },
+  {
    "id": "VA-IV130880",
    "src": "VA",
    "title": "RRHA-IFB-2026-37 Exterior Doors for Whitcomb",
@@ -12715,80 +12444,6 @@
    "sol_type": "other"
   },
   {
-   "id": "VA-IV130226",
-   "src": "VA",
-   "title": "408381 - Insurance Broker Services",
-   "sol": "Request for Proposals 130226",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Hampton Roads Sanitation District",
-   "office": "HRSD",
-   "posted": "2026-11-17T17:32:07.680Z",
-   "due": "2026-11-25T14:30:00Z",
-   "snippet": "This Solicitation is for advertisement purposes ONLY \u00e2\u0080\u0093 Do Not Respond in eVA. TO SUBMIT A BID, you must be a Registered Supplier with HRSD. Suppliers must be fully registered in our ERP system prior to submitting a response. Please allow sufficient time for ",
-   "desc": "This Solicitation is for advertisement purposes ONLY \u00e2\u0080\u0093 Do Not Respond in eVA. TO SUBMIT A BID, you must be a Registered Supplier with HRSD. Suppliers must be fully registered in our ERP system prior to submitting a response. Please allow sufficient time for registration and approval, as incomplete or late registrations may prevent participation. To register (new), see attached: How to Register with HRSD. To log in (existing) OR for Technical Assistance, contact the HRSD Help Desk at erphelp@hrsd.com. Please DO NOT contact the Buyer listed for additional Solicitation documents. You will be redirected to the HRSD Help Desk.",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": false,
-   "view": {
-    "fails": [
-     "Deadline too tight"
-    ],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [],
-    "eligibility": "unconfirmed"
-   },
-   "out": true,
-   "score": 15,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "rfp"
-  },
-  {
-   "id": "VA-IV131870",
-   "src": "VA",
-   "title": "Quick Quote, Seasonal Planting and Mulch Installation",
-   "sol": "Quick Quote 131870",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Capital Region Airport Commission",
-   "office": "Capital Region Airport Commission1 Richard E. Byrd Terminal DriveRichmond International Airport, VA 23250-2400",
-   "posted": "2026-11-18T08:58:38.973Z",
-   "due": "2026-11-27T00:00:00Z",
-   "snippet": "The Capital Region Airport Commission is seeking quotes to furnish and install 750 six-inch mixed pansies, with colors approved by the Commission, and 20 cubic yards of double-shredded brown mulch at Richmond International Airport. Locations include Commercial",
-   "desc": "The Capital Region Airport Commission is seeking quotes to furnish and install 750 six-inch mixed pansies, with colors approved by the Commission, and 20 cubic yards of double-shredded brown mulch at Richmond International Airport. Locations include Commercial Lane, A Lot, B Lot, Dog Lot, and Massey. The Commission will remove existing flowers. Work hours are 7:00 a.m.\u00e2\u0080\u00937:00 p.m., with completion required within five working days of the coordinated start date. Airport badging is not required; contractor personnel and vehicles must be clearly identified. Pricing shall include all materials, labor, equipment, delivery, installation, and cleanup.",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": false,
-   "view": {
-    "fails": [
-     "Deadline too tight"
-    ],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [],
-    "eligibility": "unconfirmed"
-   },
-   "out": true,
-   "score": 15,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "rfq_quote"
-  },
-  {
    "id": "VA-IV130911",
    "src": "VA",
    "title": "WIIN24-02_W&WA- Well Installation and Well Abandonment in Lynchburg, VA, 24503",
@@ -12904,6 +12559,43 @@
    "sol_type": "rfq_quote"
   },
   {
+   "id": "VA-IV131554",
+   "src": "VA",
+   "title": "SNOW REMOVAL SERVICES",
+   "sol": "Invitation for Bids 131554",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Culpeper County Government",
+   "office": "Culpeper County Virginia",
+   "posted": "2026-11-20T08:57:17.730Z",
+   "due": "2026-12-02T14:00:00Z",
+   "snippet": "The purpose and intent of the Invitation for Bid (IFB) is to establish a firm fixed seasonal retention contract with a single qualified contractor to provide snow removal services from parking areas, sidewalks, pathways, and other County property in various lo",
+   "desc": "The purpose and intent of the Invitation for Bid (IFB) is to establish a firm fixed seasonal retention contract with a single qualified contractor to provide snow removal services from parking areas, sidewalks, pathways, and other County property in various locations throughout Culpeper County in accordance with the terms, conditions and specifications contained herein. This solicitation is issued by the Culpeper County Procurement Department on behalf of the Culpeper County Board of Supervisors, herein referred to as County.",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
    "id": "VA-IV130399",
    "src": "VA",
    "title": "Environmental Management Services",
@@ -13015,6 +12707,43 @@
    "sol_type": "rfq_quote"
   },
   {
+   "id": "VA-IV130664",
+   "src": "VA",
+   "title": "RFQ SA 2706 Request for Qualification for Applications Engineering Systems Supplier (AESS) Services",
+   "sol": "Request for Pre-qualifications 130664",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Prince William County Service Authority",
+   "office": "Prince William Water ",
+   "posted": "2026-11-24T16:46:53.747Z",
+   "due": "2026-12-03T10:00:00Z",
+   "snippet": "Request for Qualification for Applications Engineering Systems Supplier (AESS) Services",
+   "desc": "Request for Qualification for Applications Engineering Systems Supplier (AESS) Services",
+   "category": "Non-professional Services - Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Non-professional Services - Technology"
+   ],
+   "relevant": true,
+   "sol_type": "rfq_quote"
+  },
+  {
    "id": "VA-IV131715",
    "src": "VA",
    "title": "RFP 2027 - 003 Audit Services",
@@ -13052,6 +12781,80 @@
    ],
    "relevant": true,
    "sol_type": "rfp"
+  },
+  {
+   "id": "VA-IV131339",
+   "src": "VA",
+   "title": "RFP No. 26-3019-11JOK - Payable Disbursement Services",
+   "sol": "Request for Proposals 131339",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Henrico County Government",
+   "office": "Henrico County, VA",
+   "posted": "2026-11-24T16:25:21.817Z",
+   "due": "2026-12-03T11:00:00Z",
+   "snippet": "The intent and purpose of this Request for Proposal and the resulting contract is to obtain services from a qualified firm to provide payable disbursement services in accordance with the Scope of Services section of the solicitation.",
+   "desc": "The intent and purpose of this Request for Proposal and the resulting contract is to obtain services from a qualified firm to provide payable disbursement services in accordance with the Scope of Services section of the solicitation.",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "rfp"
+  },
+  {
+   "id": "VA-IV131870",
+   "src": "VA",
+   "title": "Quick Quote, Seasonal Planting and Mulch Installation",
+   "sol": "Quick Quote 131870",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Capital Region Airport Commission",
+   "office": "Capital Region Airport Commission1 Richard E. Byrd Terminal DriveRichmond International Airport, VA 23250-2400",
+   "posted": "2026-11-25T09:41:23.087Z",
+   "due": "2026-11-27T16:00:00Z",
+   "snippet": "The Capital Region Airport Commission is seeking quotes to furnish and install 750 six-inch mixed pansies, with colors approved by the Commission, and 20 cubic yards of double-shredded brown mulch at Richmond International Airport. Locations include Commercial",
+   "desc": "The Capital Region Airport Commission is seeking quotes to furnish and install 750 six-inch mixed pansies, with colors approved by the Commission, and 20 cubic yards of double-shredded brown mulch at Richmond International Airport. Locations include Commercial Lane, A Lot, B Lot, Dog Lot, and Massey. The Commission will remove existing flowers. Work hours are 7:00 a.m.\u00e2\u0080\u00937:00 p.m., with completion required within five working days of the coordinated start date. Airport badging is not required; contractor personnel and vehicles must be clearly identified. Pricing shall include all materials, labor, equipment, delivery, installation, and cleanup.",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "rfq_quote"
   },
   {
    "id": "VA-IV129913",
@@ -13166,6 +12969,44 @@
    ],
    "relevant": true,
    "sol_type": "other"
+  },
+  {
+   "id": "VA-IV131243",
+   "src": "VA",
+   "title": "Engineering Services Bridge Inspections & Overweight Permits",
+   "sol": "Request for Proposals 131243",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "City of Suffolk",
+   "office": "Suffolk, VA  23434",
+   "posted": "2026-11-05T14:01:47.167Z",
+   "due": "2026-12-02T15:00:00Z",
+   "snippet": "SCOPE OF WORK \u00e2\u0080\u0093 The City of Suffolk has issued this sealed Request for Proposal (RFP) for the sole purpose of obtaining responsive proposals from VDOT pre-qualified firms to provide engineering services related to the structural inspections of various types ",
+   "desc": "SCOPE OF WORK \u00e2\u0080\u0093 The City of Suffolk has issued this sealed Request for Proposal (RFP) for the sole purpose of obtaining responsive proposals from VDOT pre-qualified firms to provide engineering services related to the structural inspections of various types of bridges for which the City has maintenance responsibility, inspection of traffic control device structures, and the review of Overweight Vehicle Permits as requested by the City. Inspections shall include, but are not limited to, fatigue prone details and fracture critical members utilizing non-destructive evaluation methods, and inspection of any attached ancillary structures (ex. overhead signs).",
+   "category": "Professional Services",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: evaluation",
+    "Category: Professional Services"
+   ],
+   "relevant": true,
+   "sol_type": "rfp"
   },
   {
    "id": "VA-IV131244",
@@ -13311,6 +13152,117 @@
    "score": 15,
    "why": [
     "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "rfp"
+  },
+  {
+   "id": "VA-IV131487",
+   "src": "VA",
+   "title": "71412705 American Society of Civil Engineers Earth and Space Conference 2028, Fund #566730, Arlington, VA, April 18-21, 2028",
+   "sol": "Request for Proposals 131487",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Virginia Polytechnic Institute and State University",
+   "office": "Arlington, VA",
+   "posted": "2026-11-10T10:31:40.300Z",
+   "due": "2026-12-03T00:00:00Z",
+   "snippet": "American Society of Civil Engineers Earth and Space Conference 2028, Fund #566730, Arlington, VA,April 18-21, 2028",
+   "desc": "American Society of Civil Engineers Earth and Space Conference 2028, Fund #566730, Arlington, VA,April 18-21, 2028",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "rfp"
+  },
+  {
+   "id": "VA-IV131559",
+   "src": "VA",
+   "title": "ITB 27-28/NB HAULING SERVICES",
+   "sol": "Invitation for Bids 131559",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "City of Hampton",
+   "office": "CITY OF HAMPTON",
+   "posted": "2026-11-10T16:25:30.037Z",
+   "due": "2026-12-02T14:30:00Z",
+   "snippet": "THE CITY OF HAMPTON IS SEEKING BIDS FROM QUALIFIED BIDDERS TO PROVIDE ROUTINE AND EMERGENCY ON-CALL HAULING SERVICES FOR THE TRANSPORTATION OF ASPHALT, MILLING, MATERIALS, DIRT, CONCRETE DEBRIS, SALT, STORM DEBRIS AND OTHER MATERIALS TO AND FROM VARIOUS LOCATI",
+   "desc": "THE CITY OF HAMPTON IS SEEKING BIDS FROM QUALIFIED BIDDERS TO PROVIDE ROUTINE AND EMERGENCY ON-CALL HAULING SERVICES FOR THE TRANSPORTATION OF ASPHALT, MILLING, MATERIALS, DIRT, CONCRETE DEBRIS, SALT, STORM DEBRIS AND OTHER MATERIALS TO AND FROM VARIOUS LOCATIONS AS NEEDED.",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
+   "id": "VA-IV131621",
+   "src": "VA",
+   "title": "TEWLI Grant",
+   "sol": "Request for Proposals 131621",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Surry County Public Schools",
+   "office": "Surry County Public Schools",
+   "posted": "2026-11-12T10:43:45.390Z",
+   "due": "2026-12-02T17:00:00Z",
+   "snippet": "Tidewater Educator Workforce and Leadership Initiative Grant,",
+   "desc": "Tidewater Educator Workforce and Leadership Initiative Grant,",
+   "category": "Professional Services",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Professional Services"
    ],
    "relevant": true,
    "sol_type": "rfp"
@@ -13464,6 +13416,44 @@
    "sol_type": "rfp"
   },
   {
+   "id": "VA-IV129680",
+   "src": "VA",
+   "title": "RFQual- COVB-27-101721- Annual Services Contract for Public Works Business Consulting Services",
+   "sol": "Request for Pre-qualifications 129680",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "City of Virginia Beach",
+   "office": "Department of Public Works- Virginia Beach ",
+   "posted": "2026-11-13T14:02:32.980Z",
+   "due": "2026-12-02T15:00:00Z",
+   "snippet": "The City of Virginia Beach Department of Public Works seeks a qualified consulting firm to provide professional services on an as-needed, Task Order basis. Services may include engineering and technical studies, asset management, strategic planning, process im",
+   "desc": "The City of Virginia Beach Department of Public Works seeks a qualified consulting firm to provide professional services on an as-needed, Task Order basis. Services may include engineering and technical studies, asset management, strategic planning, process improvement, organizational modernization, technology planning, project management, implementation support, training, data analytics, systems integration, automation, geospatial services, and related consulting. Each Task Order will define the specific scope, schedule, deliverables, staffing, and compensation. Services may support various Public Works divisions and operations. The selected firm shall provide qualified personnel, objective recommendations, and practical solutions that integrate engineering, business, technology, and organizational expertise.",
+   "category": "Professional Services - Construction Related",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: studies, organizational, analytics, strategic plan",
+    "Category: Professional Services - Construction Related"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
    "id": "VA-IV131801",
    "src": "VA",
    "title": "Strategy and Performance Management Software",
@@ -13514,6 +13504,43 @@
    "due": "2026-11-30T14:00:00Z",
    "snippet": "DOC-27-037, Outpatient Substance Use Disorder Tx Services for the Western Region: Danville District 14, Martinsville District 22, and Rocky Mount District 37",
    "desc": "DOC-27-037, Outpatient Substance Use Disorder Tx Services for the Western Region: Danville District 14, Martinsville District 22, and Rocky Mount District 37",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
+   "id": "VA-IV131916",
+   "src": "VA",
+   "title": "Decanter Maintenance Services",
+   "sol": "Invitation for Bids 131916",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "City of Norfolk",
+   "office": "City of Norfolk ",
+   "posted": "2026-11-18T14:43:14.803Z",
+   "due": "2026-12-02T14:00:00Z",
+   "snippet": "see solicitation posting here:https://procurement.opengov.com/portal/norfolk/projects/327306",
+   "desc": "see solicitation posting here:https://procurement.opengov.com/portal/norfolk/projects/327306",
    "category": "Non-professional Services - Non-Technology",
    "va_small": "",
    "naics": [],
@@ -13613,43 +13640,6 @@
    "sol_type": "rfp"
   },
   {
-   "id": "VA-IV130714",
-   "src": "VA",
-   "title": "TOU-26-81043 Mural Artist Services",
-   "sol": "Request for Proposals 130714",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Town of Culpeper",
-   "office": "Town of Culpeper",
-   "posted": "2026-11-19T12:18:46.817Z",
-   "due": "2026-12-01T14:00:00Z",
-   "snippet": "Town of Culpeper is seeking proposals from qualified artists for six mural commissions to be undertaken in conjunction with the 2027 Culpeper Arts Festival scheduled for May 1-2, 2027.",
-   "desc": "Town of Culpeper is seeking proposals from qualified artists for six mural commissions to be undertaken in conjunction with the 2027 Culpeper Arts Festival scheduled for May 1-2, 2027.",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": false,
-   "view": {
-    "fails": [
-     "Deadline too tight"
-    ],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [],
-    "eligibility": "unconfirmed"
-   },
-   "out": true,
-   "score": 15,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "rfp"
-  },
-  {
    "id": "VA-IV131008",
    "src": "VA",
    "title": "WIIN25_Luray_PBP-Central -  Central Bundled Well Projects",
@@ -13724,43 +13714,6 @@
    ],
    "relevant": true,
    "sol_type": "other"
-  },
-  {
-   "id": "VA-IV131975",
-   "src": "VA",
-   "title": "QQ-Trenton Refrigeration Condensing Unit",
-   "sol": "Quick Quote 131975",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Southwest Virginia Regional Jail Authority",
-   "office": "SWVRJ- Duffield, 1037 Boone Trail Road, Duffield VA 24244",
-   "posted": "2026-11-19T14:38:54.133Z",
-   "due": "2026-11-25T14:00:00Z",
-   "snippet": "The Southwest Virginia Regional Jail Authority is needing to purchase a Trenton Refrigeration Condensing Unit for our Duffield VA location",
-   "desc": "The Southwest Virginia Regional Jail Authority is needing to purchase a Trenton Refrigeration Condensing Unit for our Duffield VA location",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": false,
-   "view": {
-    "fails": [
-     "Deadline too tight"
-    ],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [],
-    "eligibility": "unconfirmed"
-   },
-   "out": true,
-   "score": 15,
-   "why": [
-    "Category: Non-professional Services - Non-Technology"
-   ],
-   "relevant": true,
-   "sol_type": "rfq_quote"
   },
   {
    "id": "VA-IV132028",
@@ -13973,7 +13926,8 @@
    "unconfirmed": false,
    "view": {
     "fails": [
-     "Virginia Small Priority needs SWaM certification"
+     "Virginia Small Priority needs SWaM certification",
+     "Deadline too tight"
     ],
     "flags": [],
     "orals": "unconfirmed",
@@ -13988,6 +13942,43 @@
    ],
    "relevant": true,
    "sol_type": "rfq_quote"
+  },
+  {
+   "id": "VA-IV130714",
+   "src": "VA",
+   "title": "TOU-26-81043 Mural Artist Services",
+   "sol": "Request for Proposals 130714",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Town of Culpeper",
+   "office": "Town of Culpeper",
+   "posted": "2026-11-25T09:21:47.857Z",
+   "due": "2026-12-01T14:00:00Z",
+   "snippet": "Town of Culpeper is seeking proposals from qualified artists for six mural commissions to be undertaken in conjunction with the 2027 Culpeper Arts Festival scheduled for May 1-2, 2027.",
+   "desc": "Town of Culpeper is seeking proposals from qualified artists for six mural commissions to be undertaken in conjunction with the 2027 Culpeper Arts Festival scheduled for May 1-2, 2027.",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Category: Non-professional Services - Non-Technology"
+   ],
+   "relevant": true,
+   "sol_type": "rfp"
   },
   {
    "id": "SC-WU-RFI-1-Winthrop University",
@@ -14020,6 +14011,43 @@
    "out": true,
    "score": 15,
    "why": [
+    "Category: Consultant/Professional"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
+   "id": "SC-2027-27-Town of Bluffton",
+   "src": "SC",
+   "title": "As-Needed Professional Survey Services FY27-FY31 RFQu",
+   "sol": "2027-27",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Town of Bluffton",
+   "office": "",
+   "posted": "2026-11-04T00:00:00-05:00",
+   "due": "2026-12-02T14:00:00-05:00",
+   "snippet": "The Town of Bluffton is seeking statements of qualifications from to provide from Professional Land Surveying firms to provide professional land survey services. The target start date for performing these services is December 2026.\r\nThe Town intends to award m",
+   "desc": "The Town of Bluffton is seeking statements of qualifications from to provide from Professional Land Surveying firms to provide professional land survey services. The target start date for performing these services is December 2026.\r\nThe Town intends to award multiple, non-exclusive Master Services Agreements to qualified firms that present proposals considered to be of the best value to the Town.",
+   "category": "Consultant/Professional",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://www.townofbluffton.sc.gov/248/Purchasing-Center",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: survey",
     "Category: Consultant/Professional"
    ],
    "relevant": true,
@@ -14098,6 +14126,114 @@
    "sol_type": "other"
   },
   {
+   "id": "SC-FY27-1202-Orangeburg County",
+   "src": "SC",
+   "title": "Mass Appraisal and Assessment Support Services",
+   "sol": "FY27-1202",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Orangeburg County",
+   "office": "",
+   "posted": "2026-11-18T00:00:00-05:00",
+   "due": "2026-12-02T14:00:00-05:00",
+   "snippet": "Orangeburg County seeks proposals from qualified firm to provide mass appraisal and assessment support services. Interested parties may obtain the bid document from at https://sc-orangeburgcounty.civicplus.com/Bids.aspx or www.bidnetdirect.com/south-carolina/o",
+   "desc": "Orangeburg County seeks proposals from qualified firm to provide mass appraisal and assessment support services. Interested parties may obtain the bid document from at https://sc-orangeburgcounty.civicplus.com/Bids.aspx or www.bidnetdirect.com/south-carolina/orangeburgcounty. Sealed proposals will be received until the date and time specified in the solicitation. Late bids will not be accepted. Orangeburg County reserves the right to accept/reject any or all proposals.",
+   "category": "Services",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://www.bidnetdirect.com/south-carolina/orangeburgcounty",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: assessment"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
+   "id": "SC-SRC0000027-Department of Transportation",
+   "src": "SC",
+   "title": "Agency Strategic Plan",
+   "sol": "SRC0000027",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Department of Transportation",
+   "office": "",
+   "posted": "2026-11-09T00:00:00-05:00",
+   "due": "2026-12-02T16:00:00-05:00",
+   "snippet": "Agency Strategic Plan",
+   "desc": "Agency Strategic Plan",
+   "category": "Services",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://scpro.sc.gov/page.aspx/en/bpm/process_manage_extranet/        43",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: strategic plan, strategic"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
+   "id": "SC-5400030350-Department of Transportation",
+   "src": "SC",
+   "title": "SCDOT Strategic Plan",
+   "sol": "5400030350",
+   "type": "",
+   "dept": "South Carolina",
+   "agency": "Department of Transportation",
+   "office": "",
+   "posted": "2026-10-20T00:00:00-05:00",
+   "due": "2026-12-02T11:00:00-05:00",
+   "snippet": "The South Carolina Department of Transportation is seeking proposals from qualified consulting firms to develop a comprehensive Agency Strategic Plan. The Department's current strategic framework requires updating to reflect evolving transportation technologie",
+   "desc": "The South Carolina Department of Transportation is seeking proposals from qualified consulting firms to develop a comprehensive Agency Strategic Plan. The Department's current strategic framework requires updating to reflect evolving transportation technologies, federal and state policy priorities, funding realities, and changing travel patterns. Specifically, the new plan needs to integrate the South Carolina Modernization legislation (Act 177) passed in 2026.",
+   "category": "Services",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://apps.sceis.sc.gov/SCSolicitationWeb/solicitationAttachment.do?solicitnumber=5400030350",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: strategic plan, strategic, consulting"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
    "id": "NC-704-704-704-11232026",
    "src": "NC",
    "title": "Whitakers Proposed Community Center",
@@ -14168,6 +14304,82 @@
    ],
    "relevant": true,
    "sol_type": "other"
+  },
+  {
+   "id": "NC-354-SW27-20",
+   "src": "NC",
+   "title": "Jordan Lake Rules Compliance (Existing Managed Lands)",
+   "sol": "354-SW27-20",
+   "type": "",
+   "dept": "North Carolina",
+   "agency": "TOWN OF CARY",
+   "office": "",
+   "posted": "2026-11-02T00:00:00-05:00",
+   "due": "2026-12-02T15:00:00-05:00",
+   "snippet": "Cary is seeking an objective assessment of the nutrient removal that has been achieved through land development regulations since 2001 in the Jordan Lake Watershed in support of Cary\u2019s future compliance with the Jordan Lake Existing Managed Lands rules.",
+   "desc": "Cary is seeking an objective assessment of the nutrient removal that has been achieved through land development regulations since 2001 in the Jordan Lake Watershed in support of Cary\u2019s future compliance with the Jordan Lake Existing Managed Lands rules.",
+   "category": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://evp.nc.gov/solicitations/details/?id=bfdec0ef-ecd6-f111-a05c-001dd80bcb64",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Keywords: assessment"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
+   "id": "SUBNET-city-san-diego-alvarado-trunk-sewer-phase-iv-water-main-relocations-bid-package",
+   "src": "SUBNET",
+   "title": "City of San Diego, Alvarado Trunk Sewer Phase IV and Water Main Relocations Bid Package A",
+   "sol": "",
+   "type": "",
+   "dept": "SBA SubNet",
+   "agency": "OHLA USA, Inc.",
+   "office": "California",
+   "posted": "",
+   "due": "2026-12-03T00:00:00-05:00",
+   "snippet": "",
+   "desc": "",
+   "category": "Subcontracting",
+   "naics": [
+    "541690"
+   ],
+   "set_aside": "",
+   "prime": "OHLA USA, Inc.",
+   "start": "2027-01-30T00:00:00-05:00",
+   "url": "https://legacy.sba.gov/opportunity/city-san-diego-alvarado-trunk-sewer-phase-iv-water-main-relocations-bid-package",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 15,
+   "why": [
+    "Secondary NAICS 541690"
+   ],
+   "relevant": true,
+   "sol_type": "subcontract"
   },
   {
    "id": "VA-IV130966",
@@ -14285,6 +14497,44 @@
    "sol_type": "rfq_quote"
   },
   {
+   "id": "VA-IV130827",
+   "src": "VA",
+   "title": "IFB#79-27-YE LIGHT AND MEDIUM VEHICLE PREVENTIVE MAINTENANCE AND REPAIR SERVICES (REPOST)",
+   "sol": "Invitation for Bids 130827",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "City of Portsmouth",
+   "office": "CITY OF PORTSMOUTH ",
+   "posted": "2026-11-19T13:42:09.203Z",
+   "due": "2026-12-02T14:00:00Z",
+   "snippet": "LIGHT AND MEDIUM DUTY VEHICLE PREVENTIVE MAINTENANCE AND REPAIR SERVICES (REPOST)",
+   "desc": "LIGHT AND MEDIUM DUTY VEHICLE PREVENTIVE MAINTENANCE AND REPAIR SERVICES (REPOST)",
+   "category": "Non-professional Services - Technology",
+   "va_small": "",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "unconfirmed"
+   },
+   "out": true,
+   "score": 7,
+   "why": [
+    "Category: Non-professional Services - Technology",
+    "Outside your services: repair"
+   ],
+   "relevant": true,
+   "sol_type": "other"
+  },
+  {
    "id": "VA-IV131099",
    "src": "VA",
    "title": "Janitorial Services Contract - ABTP",
@@ -14323,45 +14573,6 @@
    "sol_type": "rfq_quote"
   },
   {
-   "id": "VA-IV131500",
-   "src": "VA",
-   "title": "Janitorial Services- Division of Pharmacy Services",
-   "sol": "Invitation for Bids 131500",
-   "type": "",
-   "dept": "Virginia",
-   "agency": "Virginia Department of Health",
-   "office": "7870 Villa Park Drive, Suite 300, Henrico VA 23228",
-   "posted": "2026-11-10T11:44:03.313Z",
-   "due": "2026-11-30T14:00:00Z",
-   "snippet": "The Virginia Department of Health, herein referred to as VDH is soliciting bids from qualified firms to furnish janitorial services for the VDH- Division of Pharmacy Services located at 7870 Villa Park Drive, Suite 300, Henrico VA 23228, in accordance with thi",
-   "desc": "The Virginia Department of Health, herein referred to as VDH is soliciting bids from qualified firms to furnish janitorial services for the VDH- Division of Pharmacy Services located at 7870 Villa Park Drive, Suite 300, Henrico VA 23228, in accordance with this invitation for bids.",
-   "category": "Non-professional Services - Non-Technology",
-   "va_small": "Small Priority",
-   "naics": [],
-   "set_aside": "",
-   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
-   "unconfirmed": false,
-   "view": {
-    "fails": [
-     "Virginia Small Priority needs SWaM certification",
-     "Deadline too tight"
-    ],
-    "flags": [],
-    "orals": "unconfirmed",
-    "remote": false,
-    "unconfirmed": [],
-    "eligibility": "failed"
-   },
-   "out": true,
-   "score": 7,
-   "why": [
-    "Category: Non-professional Services - Non-Technology",
-    "Outside your services: janitorial"
-   ],
-   "relevant": true,
-   "sol_type": "other"
-  },
-  {
    "id": "VA-IV132056",
    "src": "VA",
    "title": "DOC-27-042 Puckett Greenhouse Repairs - Deerfield Correctional Center",
@@ -14398,6 +14609,45 @@
    ],
    "relevant": true,
    "sol_type": "rfq_quote"
+  },
+  {
+   "id": "VA-IV131500",
+   "src": "VA",
+   "title": "Janitorial Services- Division of Pharmacy Services",
+   "sol": "Invitation for Bids 131500",
+   "type": "",
+   "dept": "Virginia",
+   "agency": "Virginia Department of Health",
+   "office": "7870 Villa Park Drive, Suite 300, Henrico VA 23228",
+   "posted": "2026-11-25T15:55:47.980Z",
+   "due": "2026-11-30T14:00:00Z",
+   "snippet": "The Virginia Department of Health, herein referred to as VDH is soliciting bids from qualified firms to furnish janitorial services for the VDH- Division of Pharmacy Services located at 7870 Villa Park Drive, Suite 300, Henrico VA 23228, in accordance with thi",
+   "desc": "The Virginia Department of Health, herein referred to as VDH is soliciting bids from qualified firms to furnish janitorial services for the VDH- Division of Pharmacy Services located at 7870 Villa Park Drive, Suite 300, Henrico VA 23228, in accordance with this invitation for bids.",
+   "category": "Non-professional Services - Non-Technology",
+   "va_small": "Small Priority",
+   "naics": [],
+   "set_aside": "",
+   "url": "https://mvendor.cgieva.com/Vendor/public/AllOpportunities.jsp",
+   "unconfirmed": false,
+   "view": {
+    "fails": [
+     "Virginia Small Priority needs SWaM certification",
+     "Deadline too tight"
+    ],
+    "flags": [],
+    "orals": "unconfirmed",
+    "remote": false,
+    "unconfirmed": [],
+    "eligibility": "failed"
+   },
+   "out": true,
+   "score": 7,
+   "why": [
+    "Category: Non-professional Services - Non-Technology",
+    "Outside your services: janitorial"
+   ],
+   "relevant": true,
+   "sol_type": "other"
   },
   {
    "id": "VA-IV130482",
